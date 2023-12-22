@@ -1,0 +1,878 @@
+2023-12-20 20:41:56.260382 INFO::Writing function arguments to log file
+2023-12-20 20:41:56.2647 DEBUG::Function arguments
+2023-12-20 20:41:56.268112 DEBUG::Output folder: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model
+2023-12-20 20:41:56.268319 DEBUG::Min Abundance: 0.000000
+2023-12-20 20:41:56.268473 DEBUG::Min Prevalence: 0.120000
+2023-12-20 20:41:56.268611 DEBUG::Normalization: CLR
+2023-12-20 20:41:56.268744 DEBUG::Transform: NONE
+2023-12-20 20:41:56.268873 DEBUG::Analysis method: LM
+2023-12-20 20:41:56.269003 DEBUG::Max significance: 0.050000
+2023-12-20 20:41:56.269141 DEBUG::Random effects: mouse_id
+2023-12-20 20:41:56.269275 DEBUG::Fixed effects: genotype,timepoint
+2023-12-20 20:41:56.269408 DEBUG::Correction method: BH
+2023-12-20 20:41:56.269642 DEBUG::Standardize: TRUE
+2023-12-20 20:41:56.269814 DEBUG::Cores: 1
+2023-12-20 20:41:56.269964 INFO::Verifying options selected are valid
+2023-12-20 20:41:56.288558 INFO::Determining format of input files
+2023-12-20 20:41:56.289157 INFO::Input format is data samples as rows and metadata samples as rows
+2023-12-20 20:41:56.290011 DEBUG::A total of 86 samples were found in both the data and metadata
+2023-12-20 20:41:56.290152 DEBUG::Reordering data/metadata to use same sample ordering
+2023-12-20 20:41:56.292448 INFO::Formula for random effects: expr ~ (1 | mouse_id)
+2023-12-20 20:41:56.293124 INFO::Formula for fixed effects: expr ~  genotype + timepoint
+2023-12-20 20:41:56.293769 INFO::Filter data based on min abundance and min prevalence
+2023-12-20 20:41:56.294133 INFO::Total samples in data: 86
+2023-12-20 20:41:56.294471 INFO::Min samples required with min abundance for a feature not to be filtered: 10.320000
+2023-12-20 20:41:56.297966 INFO::Total filtered features: 202
+2023-12-20 20:41:56.29865 INFO::Filtered feature names from abundance and prevalence filtering: ASV173, ASV214, ASV248, ASV252, ASV255, ASV282, ASV291, ASV296, ASV311, ASV314, ASV323, ASV326, ASV329, ASV332, ASV335, ASV336, ASV343, ASV344, ASV349, ASV350, ASV352, ASV359, ASV366, ASV370, ASV373, ASV376, ASV378, ASV382, ASV388, ASV389, ASV392, ASV395, ASV398, ASV401, ASV403, ASV405, ASV406, ASV409, ASV410, ASV411, ASV415, ASV417, ASV418, ASV421, ASV422, ASV423, ASV424, ASV425, ASV426, ASV427, ASV432, ASV434, ASV435, ASV436, ASV437, ASV438, ASV444, ASV446, ASV448, ASV450, ASV451, ASV452, ASV453, ASV454, ASV456, ASV457, ASV458, ASV459, ASV462, ASV464, ASV467, ASV469, ASV470, ASV471, ASV472, ASV473, ASV477, ASV478, ASV479, ASV480, ASV481, ASV482, ASV485, ASV488, ASV489, ASV490, ASV492, ASV494, ASV495, ASV497, ASV499, ASV500, ASV501, ASV502, ASV505, ASV506, ASV507, ASV508, ASV510, ASV511, ASV512, ASV513, ASV514, ASV516, ASV518, ASV519, ASV521, ASV522, ASV523, ASV524, ASV525, ASV526, ASV527, ASV528, ASV531, ASV535, ASV536, ASV537, ASV538, ASV539, ASV541, ASV543, ASV544, ASV545, ASV546, ASV547, ASV550, ASV551, ASV552, ASV554, ASV555, ASV556, ASV557, ASV559, ASV562, ASV563, ASV565, ASV566, ASV567, ASV568, ASV570, ASV571, ASV572, ASV574, ASV575, ASV576, ASV578, ASV579, ASV580, ASV583, ASV585, ASV586, ASV587, ASV589, ASV590, ASV591, ASV592, ASV593, ASV594, ASV595, ASV596, ASV597, ASV598, ASV600, ASV601, ASV602, ASV603, ASV604, ASV606, ASV611, ASV612, ASV615, ASV617, ASV618, ASV619, ASV620, ASV621, ASV622, ASV625, ASV627, ASV628, ASV629, ASV630, ASV633, ASV640, ASV643, ASV644, ASV647, ASV649, ASV654, ASV660, ASV662, ASV663, ASV664, ASV666, ASV670, ASV674, ASV679, ASV694, ASV711, ASV718, ASV724
+2023-12-20 20:41:56.303202 INFO::Total filtered features with variance filtering: 0
+2023-12-20 20:41:56.303859 INFO::Filtered feature names from variance filtering:
+2023-12-20 20:41:56.304219 INFO::Running selected normalization method: CLR
+2023-12-20 20:41:56.355263 INFO::Applying z-score to standardize continuous metadata
+2023-12-20 20:41:56.557125 INFO::Running selected transform method: NONE
+2023-12-20 20:41:56.557771 INFO::Running selected analysis method: LM
+2023-12-20 20:41:56.649189 INFO::Fitting model to feature number 1, ASV1
+2023-12-20 20:41:56.717175 INFO::Fitting model to feature number 2, ASV2
+2023-12-20 20:41:56.752471 INFO::Fitting model to feature number 3, ASV3
+2023-12-20 20:41:56.775193 INFO::Fitting model to feature number 4, ASV4
+2023-12-20 20:41:56.801969 INFO::Fitting model to feature number 5, ASV5
+2023-12-20 20:41:56.82536 INFO::Fitting model to feature number 6, ASV6
+2023-12-20 20:41:56.847668 INFO::Fitting model to feature number 7, ASV7
+2023-12-20 20:41:56.871051 INFO::Fitting model to feature number 8, ASV8
+2023-12-20 20:41:56.892852 INFO::Fitting model to feature number 9, ASV9
+2023-12-20 20:41:56.914628 INFO::Fitting model to feature number 10, ASV10
+2023-12-20 20:41:56.941705 INFO::Fitting model to feature number 11, ASV11
+2023-12-20 20:41:56.961228 INFO::Fitting model to feature number 12, ASV12
+2023-12-20 20:41:56.979943 INFO::Fitting model to feature number 13, ASV13
+2023-12-20 20:41:56.999014 INFO::Fitting model to feature number 14, ASV14
+2023-12-20 20:41:57.018573 INFO::Fitting model to feature number 15, ASV15
+2023-12-20 20:41:57.038174 INFO::Fitting model to feature number 16, ASV16
+2023-12-20 20:41:57.057022 INFO::Fitting model to feature number 17, ASV17
+2023-12-20 20:41:57.081904 INFO::Fitting model to feature number 18, ASV18
+2023-12-20 20:41:57.102035 INFO::Fitting model to feature number 19, ASV19
+2023-12-20 20:41:57.121144 INFO::Fitting model to feature number 20, ASV20
+2023-12-20 20:41:57.140799 INFO::Fitting model to feature number 21, ASV21
+2023-12-20 20:41:57.161347 INFO::Fitting model to feature number 22, ASV22
+2023-12-20 20:41:57.180861 INFO::Fitting model to feature number 23, ASV23
+2023-12-20 20:41:57.199837 INFO::Fitting model to feature number 24, ASV24
+2023-12-20 20:41:57.225485 INFO::Fitting model to feature number 25, ASV25
+2023-12-20 20:41:57.245267 INFO::Fitting model to feature number 26, ASV26
+2023-12-20 20:41:57.264023 INFO::Fitting model to feature number 27, ASV27
+2023-12-20 20:41:57.283414 INFO::Fitting model to feature number 28, ASV28
+2023-12-20 20:41:57.302955 INFO::Fitting model to feature number 29, ASV29
+2023-12-20 20:41:57.323869 INFO::Fitting model to feature number 30, ASV30
+2023-12-20 20:41:57.343496 INFO::Fitting model to feature number 31, ASV31
+2023-12-20 20:41:57.369053 INFO::Fitting model to feature number 32, ASV32
+2023-12-20 20:41:57.38849 INFO::Fitting model to feature number 33, ASV33
+2023-12-20 20:41:57.407823 INFO::Fitting model to feature number 34, ASV34
+2023-12-20 20:41:57.427206 INFO::Fitting model to feature number 35, ASV35
+2023-12-20 20:41:57.446622 INFO::Fitting model to feature number 36, ASV36
+2023-12-20 20:41:57.466313 INFO::Fitting model to feature number 37, ASV37
+2023-12-20 20:41:57.485931 INFO::Fitting model to feature number 38, ASV38
+2023-12-20 20:41:57.511303 INFO::Fitting model to feature number 39, ASV39
+2023-12-20 20:41:57.530261 INFO::Fitting model to feature number 40, ASV40
+2023-12-20 20:41:57.549212 INFO::Fitting model to feature number 41, ASV41
+2023-12-20 20:41:57.568308 INFO::Fitting model to feature number 42, ASV42
+2023-12-20 20:41:57.587749 INFO::Fitting model to feature number 43, ASV43
+2023-12-20 20:41:57.607644 INFO::Fitting model to feature number 44, ASV44
+2023-12-20 20:41:57.626457 INFO::Fitting model to feature number 45, ASV45
+2023-12-20 20:41:57.645664 INFO::Fitting model to feature number 46, ASV46
+2023-12-20 20:41:57.671311 INFO::Fitting model to feature number 47, ASV47
+2023-12-20 20:41:57.692 INFO::Fitting model to feature number 48, ASV48
+2023-12-20 20:41:57.710902 INFO::Fitting model to feature number 49, ASV49
+2023-12-20 20:41:57.729955 INFO::Fitting model to feature number 50, ASV50
+2023-12-20 20:41:57.750663 INFO::Fitting model to feature number 51, ASV51
+2023-12-20 20:41:57.770619 INFO::Fitting model to feature number 52, ASV52
+2023-12-20 20:41:57.790122 INFO::Fitting model to feature number 53, ASV53
+2023-12-20 20:41:57.815951 INFO::Fitting model to feature number 54, ASV54
+2023-12-20 20:41:57.834727 INFO::Fitting model to feature number 55, ASV55
+2023-12-20 20:41:57.85441 INFO::Fitting model to feature number 56, ASV56
+2023-12-20 20:41:57.874523 INFO::Fitting model to feature number 57, ASV57
+2023-12-20 20:41:57.893353 INFO::Fitting model to feature number 58, ASV58
+2023-12-20 20:41:57.9128 INFO::Fitting model to feature number 59, ASV59
+2023-12-20 20:41:57.93311 INFO::Fitting model to feature number 60, ASV60
+2023-12-20 20:41:57.963954 INFO::Fitting model to feature number 61, ASV61
+2023-12-20 20:41:57.983534 INFO::Fitting model to feature number 62, ASV62
+2023-12-20 20:41:58.003377 INFO::Fitting model to feature number 63, ASV63
+2023-12-20 20:41:58.024633 INFO::Fitting model to feature number 64, ASV64
+2023-12-20 20:41:58.043435 INFO::Fitting model to feature number 65, ASV65
+2023-12-20 20:41:58.063328 INFO::Fitting model to feature number 66, ASV66
+2023-12-20 20:41:58.082689 INFO::Fitting model to feature number 67, ASV67
+2023-12-20 20:41:58.108072 INFO::Fitting model to feature number 68, ASV68
+2023-12-20 20:41:58.126573 INFO::Fitting model to feature number 69, ASV69
+2023-12-20 20:41:58.146553 INFO::Fitting model to feature number 70, ASV70
+2023-12-20 20:41:58.166779 INFO::Fitting model to feature number 71, ASV71
+2023-12-20 20:41:58.186151 INFO::Fitting model to feature number 72, ASV72
+2023-12-20 20:41:58.204965 INFO::Fitting model to feature number 73, ASV73
+2023-12-20 20:41:58.224947 INFO::Fitting model to feature number 74, ASV74
+2023-12-20 20:41:58.2502 INFO::Fitting model to feature number 75, ASV75
+2023-12-20 20:41:58.271464 INFO::Fitting model to feature number 76, ASV76
+2023-12-20 20:41:58.29068 INFO::Fitting model to feature number 77, ASV77
+2023-12-20 20:41:58.310199 INFO::Fitting model to feature number 78, ASV78
+2023-12-20 20:41:58.329869 INFO::Fitting model to feature number 79, ASV79
+2023-12-20 20:41:58.34912 INFO::Fitting model to feature number 80, ASV80
+2023-12-20 20:41:58.368156 INFO::Fitting model to feature number 81, ASV81
+2023-12-20 20:41:58.393622 INFO::Fitting model to feature number 82, ASV82
+2023-12-20 20:41:58.413656 INFO::Fitting model to feature number 83, ASV83
+2023-12-20 20:41:58.433313 INFO::Fitting model to feature number 84, ASV84
+2023-12-20 20:41:58.45289 INFO::Fitting model to feature number 85, ASV85
+2023-12-20 20:41:58.472362 INFO::Fitting model to feature number 86, ASV86
+2023-12-20 20:41:58.490916 INFO::Fitting model to feature number 87, ASV87
+2023-12-20 20:41:58.510289 INFO::Fitting model to feature number 88, ASV88
+2023-12-20 20:41:58.529819 INFO::Fitting model to feature number 89, ASV89
+2023-12-20 20:41:58.555181 INFO::Fitting model to feature number 90, ASV90
+2023-12-20 20:41:58.574556 INFO::Fitting model to feature number 91, ASV91
+2023-12-20 20:41:58.593642 INFO::Fitting model to feature number 92, ASV92
+2023-12-20 20:41:58.614163 INFO::Fitting model to feature number 93, ASV93
+2023-12-20 20:41:58.63386 INFO::Fitting model to feature number 94, ASV94
+2023-12-20 20:41:58.65355 INFO::Fitting model to feature number 95, ASV95
+2023-12-20 20:41:58.6732 INFO::Fitting model to feature number 96, ASV96
+2023-12-20 20:41:58.69776 INFO::Fitting model to feature number 97, ASV97
+2023-12-20 20:41:58.716582 INFO::Fitting model to feature number 98, ASV98
+2023-12-20 20:41:58.736118 INFO::Fitting model to feature number 99, ASV99
+2023-12-20 20:41:58.755583 INFO::Fitting model to feature number 100, ASV100
+2023-12-20 20:41:58.775554 INFO::Fitting model to feature number 101, ASV101
+2023-12-20 20:41:58.794752 INFO::Fitting model to feature number 102, ASV102
+2023-12-20 20:41:58.814727 INFO::Fitting model to feature number 103, ASV103
+2023-12-20 20:41:58.839826 INFO::Fitting model to feature number 104, ASV104
+2023-12-20 20:41:58.859118 INFO::Fitting model to feature number 105, ASV105
+2023-12-20 20:41:58.879602 INFO::Fitting model to feature number 106, ASV106
+2023-12-20 20:41:58.899391 INFO::Fitting model to feature number 107, ASV107
+2023-12-20 20:41:58.919609 INFO::Fitting model to feature number 108, ASV108
+2023-12-20 20:41:58.946391 INFO::Fitting model to feature number 109, ASV109
+2023-12-20 20:41:58.966 INFO::Fitting model to feature number 110, ASV110
+2023-12-20 20:41:58.991515 INFO::Fitting model to feature number 111, ASV111
+2023-12-20 20:41:59.011084 INFO::Fitting model to feature number 112, ASV112
+2023-12-20 20:41:59.030667 INFO::Fitting model to feature number 113, ASV113
+2023-12-20 20:41:59.050464 INFO::Fitting model to feature number 114, ASV114
+2023-12-20 20:41:59.069984 INFO::Fitting model to feature number 115, ASV115
+2023-12-20 20:41:59.089626 INFO::Fitting model to feature number 116, ASV116
+2023-12-20 20:41:59.109054 INFO::Fitting model to feature number 117, ASV117
+2023-12-20 20:41:59.136477 INFO::Fitting model to feature number 118, ASV118
+2023-12-20 20:41:59.155474 INFO::Fitting model to feature number 119, ASV119
+2023-12-20 20:41:59.17519 INFO::Fitting model to feature number 120, ASV120
+2023-12-20 20:41:59.194177 INFO::Fitting model to feature number 121, ASV121
+2023-12-20 20:41:59.213533 INFO::Fitting model to feature number 122, ASV122
+2023-12-20 20:41:59.233253 INFO::Fitting model to feature number 123, ASV123
+2023-12-20 20:41:59.252842 INFO::Fitting model to feature number 124, ASV124
+2023-12-20 20:41:59.277329 INFO::Fitting model to feature number 125, ASV125
+2023-12-20 20:41:59.297639 INFO::Fitting model to feature number 126, ASV126
+2023-12-20 20:41:59.317903 INFO::Fitting model to feature number 127, ASV127
+2023-12-20 20:41:59.337389 INFO::Fitting model to feature number 128, ASV128
+2023-12-20 20:41:59.357207 INFO::Fitting model to feature number 129, ASV129
+2023-12-20 20:41:59.377737 INFO::Fitting model to feature number 130, ASV130
+2023-12-20 20:41:59.397169 INFO::Fitting model to feature number 131, ASV131
+2023-12-20 20:41:59.422647 INFO::Fitting model to feature number 132, ASV132
+2023-12-20 20:41:59.443049 INFO::Fitting model to feature number 133, ASV133
+2023-12-20 20:41:59.462465 INFO::Fitting model to feature number 134, ASV134
+2023-12-20 20:41:59.482194 INFO::Fitting model to feature number 135, ASV135
+2023-12-20 20:41:59.502249 INFO::Fitting model to feature number 136, ASV136
+2023-12-20 20:41:59.523468 INFO::Fitting model to feature number 137, ASV137
+2023-12-20 20:41:59.54448 INFO::Fitting model to feature number 138, ASV138
+2023-12-20 20:41:59.57112 INFO::Fitting model to feature number 139, ASV139
+2023-12-20 20:41:59.590502 INFO::Fitting model to feature number 140, ASV140
+2023-12-20 20:41:59.610591 INFO::Fitting model to feature number 141, ASV141
+2023-12-20 20:41:59.630339 INFO::Fitting model to feature number 142, ASV142
+2023-12-20 20:41:59.650296 INFO::Fitting model to feature number 143, ASV143
+2023-12-20 20:41:59.671603 INFO::Fitting model to feature number 144, ASV144
+2023-12-20 20:41:59.690822 INFO::Fitting model to feature number 145, ASV145
+2023-12-20 20:41:59.710898 INFO::Fitting model to feature number 146, ASV146
+2023-12-20 20:41:59.748959 INFO::Fitting model to feature number 147, ASV147
+2023-12-20 20:41:59.770602 INFO::Fitting model to feature number 148, ASV148
+2023-12-20 20:41:59.795068 INFO::Fitting model to feature number 149, ASV149
+2023-12-20 20:41:59.818414 INFO::Fitting model to feature number 150, ASV150
+2023-12-20 20:41:59.839116 INFO::Fitting model to feature number 151, ASV151
+2023-12-20 20:41:59.860969 INFO::Fitting model to feature number 152, ASV152
+2023-12-20 20:41:59.882246 INFO::Fitting model to feature number 153, ASV153
+2023-12-20 20:41:59.911243 INFO::Fitting model to feature number 154, ASV154
+2023-12-20 20:41:59.937022 INFO::Fitting model to feature number 155, ASV155
+2023-12-20 20:41:59.956775 INFO::Fitting model to feature number 156, ASV156
+2023-12-20 20:41:59.977791 INFO::Fitting model to feature number 157, ASV157
+2023-12-20 20:41:59.997775 INFO::Fitting model to feature number 158, ASV158
+2023-12-20 20:42:00.017991 INFO::Fitting model to feature number 159, ASV159
+2023-12-20 20:42:00.037588 INFO::Fitting model to feature number 160, ASV160
+2023-12-20 20:42:00.065708 INFO::Fitting model to feature number 161, ASV161
+2023-12-20 20:42:00.086255 INFO::Fitting model to feature number 162, ASV162
+2023-12-20 20:42:00.106245 INFO::Fitting model to feature number 163, ASV163
+2023-12-20 20:42:00.124859 INFO::Fitting model to feature number 164, ASV164
+2023-12-20 20:42:00.144338 INFO::Fitting model to feature number 165, ASV165
+2023-12-20 20:42:00.165891 INFO::Fitting model to feature number 166, ASV166
+2023-12-20 20:42:00.185496 INFO::Fitting model to feature number 167, ASV167
+2023-12-20 20:42:00.218093 INFO::Fitting model to feature number 168, ASV168
+2023-12-20 20:42:00.239861 INFO::Fitting model to feature number 169, ASV169
+2023-12-20 20:42:00.261303 INFO::Fitting model to feature number 170, ASV170
+2023-12-20 20:42:00.282233 INFO::Fitting model to feature number 171, ASV171
+2023-12-20 20:42:00.303165 INFO::Fitting model to feature number 172, ASV172
+2023-12-20 20:42:00.324022 INFO::Fitting model to feature number 173, ASV174
+2023-12-20 20:42:00.344891 INFO::Fitting model to feature number 174, ASV175
+2023-12-20 20:42:00.371106 INFO::Fitting model to feature number 175, ASV176
+2023-12-20 20:42:00.389858 INFO::Fitting model to feature number 176, ASV177
+2023-12-20 20:42:00.409673 INFO::Fitting model to feature number 177, ASV178
+2023-12-20 20:42:00.429196 INFO::Fitting model to feature number 178, ASV179
+2023-12-20 20:42:00.448741 INFO::Fitting model to feature number 179, ASV180
+2023-12-20 20:42:00.468549 INFO::Fitting model to feature number 180, ASV181
+2023-12-20 20:42:00.487336 INFO::Fitting model to feature number 181, ASV182
+2023-12-20 20:42:00.507416 INFO::Fitting model to feature number 182, ASV183
+2023-12-20 20:42:00.532928 INFO::Fitting model to feature number 183, ASV184
+2023-12-20 20:42:00.552799 INFO::Fitting model to feature number 184, ASV185
+2023-12-20 20:42:00.571134 INFO::Fitting model to feature number 185, ASV186
+2023-12-20 20:42:00.590558 INFO::Fitting model to feature number 186, ASV187
+2023-12-20 20:42:00.610102 INFO::Fitting model to feature number 187, ASV188
+2023-12-20 20:42:00.629261 INFO::Fitting model to feature number 188, ASV189
+2023-12-20 20:42:00.649777 INFO::Fitting model to feature number 189, ASV190
+2023-12-20 20:42:00.679103 INFO::Fitting model to feature number 190, ASV191
+2023-12-20 20:42:00.701691 INFO::Fitting model to feature number 191, ASV192
+2023-12-20 20:42:00.722804 INFO::Fitting model to feature number 192, ASV193
+2023-12-20 20:42:00.749644 INFO::Fitting model to feature number 193, ASV194
+2023-12-20 20:42:00.770409 INFO::Fitting model to feature number 194, ASV195
+2023-12-20 20:42:00.790763 INFO::Fitting model to feature number 195, ASV196
+2023-12-20 20:42:00.811318 INFO::Fitting model to feature number 196, ASV197
+2023-12-20 20:42:00.837978 INFO::Fitting model to feature number 197, ASV198
+2023-12-20 20:42:00.857837 INFO::Fitting model to feature number 198, ASV199
+2023-12-20 20:42:00.878512 INFO::Fitting model to feature number 199, ASV200
+2023-12-20 20:42:00.898334 INFO::Fitting model to feature number 200, ASV201
+2023-12-20 20:42:00.917969 INFO::Fitting model to feature number 201, ASV202
+2023-12-20 20:42:00.938197 INFO::Fitting model to feature number 202, ASV203
+2023-12-20 20:42:00.957447 INFO::Fitting model to feature number 203, ASV204
+2023-12-20 20:42:00.983786 INFO::Fitting model to feature number 204, ASV205
+2023-12-20 20:42:01.00348 INFO::Fitting model to feature number 205, ASV206
+2023-12-20 20:42:01.023222 INFO::Fitting model to feature number 206, ASV207
+2023-12-20 20:42:01.041842 INFO::Fitting model to feature number 207, ASV208
+2023-12-20 20:42:01.06156 INFO::Fitting model to feature number 208, ASV209
+2023-12-20 20:42:01.081341 INFO::Fitting model to feature number 209, ASV210
+2023-12-20 20:42:01.101837 INFO::Fitting model to feature number 210, ASV211
+2023-12-20 20:42:01.129046 INFO::Fitting model to feature number 211, ASV212
+2023-12-20 20:42:01.148177 INFO::Fitting model to feature number 212, ASV213
+2023-12-20 20:42:01.167374 INFO::Fitting model to feature number 213, ASV215
+2023-12-20 20:42:01.187037 INFO::Fitting model to feature number 214, ASV216
+2023-12-20 20:42:01.207333 INFO::Fitting model to feature number 215, ASV217
+2023-12-20 20:42:01.227086 INFO::Fitting model to feature number 216, ASV218
+2023-12-20 20:42:01.246535 INFO::Fitting model to feature number 217, ASV219
+2023-12-20 20:42:01.275908 INFO::Fitting model to feature number 218, ASV220
+2023-12-20 20:42:01.296761 INFO::Fitting model to feature number 219, ASV221
+2023-12-20 20:42:01.317961 INFO::Fitting model to feature number 220, ASV222
+2023-12-20 20:42:01.33871 INFO::Fitting model to feature number 221, ASV223
+2023-12-20 20:42:01.357854 INFO::Fitting model to feature number 222, ASV224
+2023-12-20 20:42:01.377055 INFO::Fitting model to feature number 223, ASV225
+2023-12-20 20:42:01.39666 INFO::Fitting model to feature number 224, ASV226
+2023-12-20 20:42:01.422457 INFO::Fitting model to feature number 225, ASV227
+2023-12-20 20:42:01.442705 INFO::Fitting model to feature number 226, ASV228
+2023-12-20 20:42:01.462286 INFO::Fitting model to feature number 227, ASV229
+2023-12-20 20:42:01.481633 INFO::Fitting model to feature number 228, ASV230
+2023-12-20 20:42:01.500605 INFO::Fitting model to feature number 229, ASV231
+2023-12-20 20:42:01.520793 INFO::Fitting model to feature number 230, ASV232
+2023-12-20 20:42:01.541065 INFO::Fitting model to feature number 231, ASV233
+2023-12-20 20:42:01.561378 INFO::Fitting model to feature number 232, ASV234
+2023-12-20 20:42:01.586548 INFO::Fitting model to feature number 233, ASV235
+2023-12-20 20:42:01.605445 INFO::Fitting model to feature number 234, ASV236
+2023-12-20 20:42:01.624652 INFO::Fitting model to feature number 235, ASV237
+2023-12-20 20:42:01.6444 INFO::Fitting model to feature number 236, ASV238
+2023-12-20 20:42:01.664275 INFO::Fitting model to feature number 237, ASV239
+2023-12-20 20:42:01.685617 INFO::Fitting model to feature number 238, ASV240
+2023-12-20 20:42:01.705881 INFO::Fitting model to feature number 239, ASV241
+2023-12-20 20:42:01.732394 INFO::Fitting model to feature number 240, ASV242
+2023-12-20 20:42:01.752105 INFO::Fitting model to feature number 241, ASV243
+2023-12-20 20:42:01.770934 INFO::Fitting model to feature number 242, ASV244
+2023-12-20 20:42:01.790755 INFO::Fitting model to feature number 243, ASV245
+2023-12-20 20:42:01.810641 INFO::Fitting model to feature number 244, ASV246
+2023-12-20 20:42:01.830449 INFO::Fitting model to feature number 245, ASV247
+2023-12-20 20:42:01.850427 INFO::Fitting model to feature number 246, ASV249
+2023-12-20 20:42:01.876839 INFO::Fitting model to feature number 247, ASV250
+2023-12-20 20:42:01.895642 INFO::Fitting model to feature number 248, ASV251
+2023-12-20 20:42:01.916506 INFO::Fitting model to feature number 249, ASV253
+2023-12-20 20:42:01.942271 INFO::Fitting model to feature number 250, ASV254
+2023-12-20 20:42:01.962401 INFO::Fitting model to feature number 251, ASV256
+2023-12-20 20:42:01.982231 INFO::Fitting model to feature number 252, ASV257
+2023-12-20 20:42:02.003525 INFO::Fitting model to feature number 253, ASV258
+2023-12-20 20:42:02.030735 INFO::Fitting model to feature number 254, ASV259
+2023-12-20 20:42:02.049734 INFO::Fitting model to feature number 255, ASV260
+2023-12-20 20:42:02.070367 INFO::Fitting model to feature number 256, ASV261
+2023-12-20 20:42:02.091296 INFO::Fitting model to feature number 257, ASV262
+2023-12-20 20:42:02.110689 INFO::Fitting model to feature number 258, ASV263
+2023-12-20 20:42:02.130652 INFO::Fitting model to feature number 259, ASV264
+2023-12-20 20:42:02.149852 INFO::Fitting model to feature number 260, ASV265
+2023-12-20 20:42:02.177468 INFO::Fitting model to feature number 261, ASV266
+2023-12-20 20:42:02.197768 INFO::Fitting model to feature number 262, ASV267
+2023-12-20 20:42:02.217446 INFO::Fitting model to feature number 263, ASV268
+2023-12-20 20:42:02.235848 INFO::Fitting model to feature number 264, ASV269
+2023-12-20 20:42:02.255424 INFO::Fitting model to feature number 265, ASV270
+2023-12-20 20:42:02.275316 INFO::Fitting model to feature number 266, ASV271
+2023-12-20 20:42:02.29491 INFO::Fitting model to feature number 267, ASV272
+2023-12-20 20:42:02.321952 INFO::Fitting model to feature number 268, ASV273
+2023-12-20 20:42:02.341936 INFO::Fitting model to feature number 269, ASV274
+2023-12-20 20:42:02.361965 INFO::Fitting model to feature number 270, ASV275
+2023-12-20 20:42:02.38142 INFO::Fitting model to feature number 271, ASV276
+2023-12-20 20:42:02.401416 INFO::Fitting model to feature number 272, ASV277
+2023-12-20 20:42:02.420488 INFO::Fitting model to feature number 273, ASV278
+2023-12-20 20:42:02.441233 INFO::Fitting model to feature number 274, ASV279
+2023-12-20 20:42:02.469071 INFO::Fitting model to feature number 275, ASV280
+2023-12-20 20:42:02.48908 INFO::Fitting model to feature number 276, ASV281
+2023-12-20 20:42:02.507916 INFO::Fitting model to feature number 277, ASV283
+2023-12-20 20:42:02.530321 INFO::Fitting model to feature number 278, ASV284
+2023-12-20 20:42:02.550673 INFO::Fitting model to feature number 279, ASV285
+2023-12-20 20:42:02.571109 INFO::Fitting model to feature number 280, ASV286
+2023-12-20 20:42:02.590598 INFO::Fitting model to feature number 281, ASV287
+2023-12-20 20:42:02.618044 INFO::Fitting model to feature number 282, ASV288
+2023-12-20 20:42:02.638263 INFO::Fitting model to feature number 283, ASV289
+2023-12-20 20:42:02.657396 INFO::Fitting model to feature number 284, ASV290
+2023-12-20 20:42:02.67672 INFO::Fitting model to feature number 285, ASV292
+2023-12-20 20:42:02.696347 INFO::Fitting model to feature number 286, ASV293
+2023-12-20 20:42:02.71531 INFO::Fitting model to feature number 287, ASV294
+2023-12-20 20:42:02.734872 INFO::Fitting model to feature number 288, ASV295
+2023-12-20 20:42:02.761565 INFO::Fitting model to feature number 289, ASV297
+2023-12-20 20:42:02.780948 INFO::Fitting model to feature number 290, ASV298
+2023-12-20 20:42:02.801979 INFO::Fitting model to feature number 291, ASV299
+2023-12-20 20:42:02.821898 INFO::Fitting model to feature number 292, ASV300
+2023-12-20 20:42:02.841344 INFO::Fitting model to feature number 293, ASV301
+2023-12-20 20:42:02.861671 INFO::Fitting model to feature number 294, ASV302
+2023-12-20 20:42:02.881983 INFO::Fitting model to feature number 295, ASV303
+2023-12-20 20:42:02.903227 INFO::Fitting model to feature number 296, ASV304
+2023-12-20 20:42:02.93417 INFO::Fitting model to feature number 297, ASV305
+2023-12-20 20:42:02.954412 INFO::Fitting model to feature number 298, ASV306
+2023-12-20 20:42:02.976667 INFO::Fitting model to feature number 299, ASV307
+2023-12-20 20:42:02.999995 INFO::Fitting model to feature number 300, ASV308
+2023-12-20 20:42:03.023765 INFO::Fitting model to feature number 301, ASV309
+2023-12-20 20:42:03.04526 INFO::Fitting model to feature number 302, ASV310
+2023-12-20 20:42:03.06609 INFO::Fitting model to feature number 303, ASV312
+2023-12-20 20:42:03.094803 INFO::Fitting model to feature number 304, ASV313
+2023-12-20 20:42:03.114962 INFO::Fitting model to feature number 305, ASV315
+2023-12-20 20:42:03.133676 INFO::Fitting model to feature number 306, ASV316
+2023-12-20 20:42:03.152996 INFO::Fitting model to feature number 307, ASV317
+2023-12-20 20:42:03.172525 INFO::Fitting model to feature number 308, ASV318
+2023-12-20 20:42:03.192763 INFO::Fitting model to feature number 309, ASV319
+2023-12-20 20:42:03.212767 INFO::Fitting model to feature number 310, ASV320
+2023-12-20 20:42:03.241286 INFO::Fitting model to feature number 311, ASV321
+2023-12-20 20:42:03.261343 INFO::Fitting model to feature number 312, ASV322
+2023-12-20 20:42:03.281036 INFO::Fitting model to feature number 313, ASV324
+2023-12-20 20:42:03.299807 INFO::Fitting model to feature number 314, ASV325
+2023-12-20 20:42:03.319227 INFO::Fitting model to feature number 315, ASV327
+2023-12-20 20:42:03.339079 INFO::Fitting model to feature number 316, ASV328
+2023-12-20 20:42:03.359138 INFO::Fitting model to feature number 317, ASV330
+2023-12-20 20:42:03.385849 INFO::Fitting model to feature number 318, ASV331
+2023-12-20 20:42:03.406716 INFO::Fitting model to feature number 319, ASV333
+2023-12-20 20:42:03.426222 INFO::Fitting model to feature number 320, ASV334
+2023-12-20 20:42:03.445431 INFO::Fitting model to feature number 321, ASV337
+2023-12-20 20:42:03.465108 INFO::Fitting model to feature number 322, ASV338
+2023-12-20 20:42:03.484965 INFO::Fitting model to feature number 323, ASV339
+2023-12-20 20:42:03.505309 INFO::Fitting model to feature number 324, ASV340
+2023-12-20 20:42:03.533897 INFO::Fitting model to feature number 325, ASV341
+2023-12-20 20:42:03.555632 INFO::Fitting model to feature number 326, ASV342
+2023-12-20 20:42:03.575965 INFO::Fitting model to feature number 327, ASV345
+2023-12-20 20:42:03.596149 INFO::Fitting model to feature number 328, ASV346
+2023-12-20 20:42:03.616815 INFO::Fitting model to feature number 329, ASV347
+2023-12-20 20:42:03.637706 INFO::Fitting model to feature number 330, ASV348
+2023-12-20 20:42:03.659509 INFO::Fitting model to feature number 331, ASV351
+2023-12-20 20:42:03.687333 INFO::Fitting model to feature number 332, ASV353
+2023-12-20 20:42:03.707277 INFO::Fitting model to feature number 333, ASV354
+2023-12-20 20:42:03.725903 INFO::Fitting model to feature number 334, ASV355
+2023-12-20 20:42:03.744922 INFO::Fitting model to feature number 335, ASV356
+2023-12-20 20:42:03.764139 INFO::Fitting model to feature number 336, ASV357
+2023-12-20 20:42:03.784335 INFO::Fitting model to feature number 337, ASV358
+2023-12-20 20:42:03.804431 INFO::Fitting model to feature number 338, ASV360
+2023-12-20 20:42:03.823745 INFO::Fitting model to feature number 339, ASV361
+2023-12-20 20:42:03.851552 INFO::Fitting model to feature number 340, ASV362
+2023-12-20 20:42:03.872017 INFO::Fitting model to feature number 341, ASV363
+2023-12-20 20:42:03.891933 INFO::Fitting model to feature number 342, ASV364
+2023-12-20 20:42:03.918996 INFO::Fitting model to feature number 343, ASV365
+2023-12-20 20:42:03.942781 INFO::Fitting model to feature number 344, ASV367
+2023-12-20 20:42:03.963615 INFO::Fitting model to feature number 345, ASV368
+2023-12-20 20:42:03.984185 INFO::Fitting model to feature number 346, ASV369
+2023-12-20 20:42:04.010982 INFO::Fitting model to feature number 347, ASV371
+2023-12-20 20:42:04.0308 INFO::Fitting model to feature number 348, ASV372
+2023-12-20 20:42:04.051502 INFO::Fitting model to feature number 349, ASV374
+2023-12-20 20:42:04.071227 INFO::Fitting model to feature number 350, ASV375
+2023-12-20 20:42:04.090652 INFO::Fitting model to feature number 351, ASV377
+2023-12-20 20:42:04.110989 INFO::Fitting model to feature number 352, ASV379
+2023-12-20 20:42:04.131575 INFO::Fitting model to feature number 353, ASV380
+2023-12-20 20:42:04.160273 INFO::Fitting model to feature number 354, ASV381
+2023-12-20 20:42:04.179882 INFO::Fitting model to feature number 355, ASV383
+2023-12-20 20:42:04.200597 INFO::Fitting model to feature number 356, ASV384
+2023-12-20 20:42:04.221098 INFO::Fitting model to feature number 357, ASV385
+2023-12-20 20:42:04.242132 INFO::Fitting model to feature number 358, ASV386
+2023-12-20 20:42:04.262941 INFO::Fitting model to feature number 359, ASV387
+2023-12-20 20:42:04.283672 INFO::Fitting model to feature number 360, ASV390
+2023-12-20 20:42:04.31381 INFO::Fitting model to feature number 361, ASV391
+2023-12-20 20:42:04.334941 INFO::Fitting model to feature number 362, ASV393
+2023-12-20 20:42:04.355405 INFO::Fitting model to feature number 363, ASV396
+2023-12-20 20:42:04.375334 INFO::Fitting model to feature number 364, ASV397
+2023-12-20 20:42:04.395774 INFO::Fitting model to feature number 365, ASV399
+2023-12-20 20:42:04.415465 INFO::Fitting model to feature number 366, ASV400
+2023-12-20 20:42:04.435596 INFO::Fitting model to feature number 367, ASV404
+2023-12-20 20:42:04.464161 INFO::Fitting model to feature number 368, ASV407
+2023-12-20 20:42:04.484189 INFO::Fitting model to feature number 369, ASV408
+2023-12-20 20:42:04.504417 INFO::Fitting model to feature number 370, ASV412
+2023-12-20 20:42:04.525117 INFO::Fitting model to feature number 371, ASV414
+2023-12-20 20:42:04.545899 INFO::Fitting model to feature number 372, ASV416
+2023-12-20 20:42:04.566383 INFO::Fitting model to feature number 373, ASV419
+2023-12-20 20:42:04.587448 INFO::Fitting model to feature number 374, ASV420
+2023-12-20 20:42:04.614922 INFO::Fitting model to feature number 375, ASV428
+2023-12-20 20:42:04.634704 INFO::Fitting model to feature number 376, ASV429
+2023-12-20 20:42:04.655912 INFO::Fitting model to feature number 377, ASV430
+2023-12-20 20:42:04.675749 INFO::Fitting model to feature number 378, ASV431
+2023-12-20 20:42:04.696719 INFO::Fitting model to feature number 379, ASV433
+2023-12-20 20:42:04.716801 INFO::Fitting model to feature number 380, ASV439
+2023-12-20 20:42:04.743171 INFO::Fitting model to feature number 381, ASV440
+2023-12-20 20:42:04.775113 INFO::Fitting model to feature number 382, ASV441
+2023-12-20 20:42:04.79515 INFO::Fitting model to feature number 383, ASV442
+2023-12-20 20:42:04.815211 INFO::Fitting model to feature number 384, ASV443
+2023-12-20 20:42:04.83549 INFO::Fitting model to feature number 385, ASV445
+2023-12-20 20:42:04.855197 INFO::Fitting model to feature number 386, ASV447
+2023-12-20 20:42:04.875616 INFO::Fitting model to feature number 387, ASV449
+2023-12-20 20:42:04.895504 INFO::Fitting model to feature number 388, ASV455
+2023-12-20 20:42:04.923099 INFO::Fitting model to feature number 389, ASV460
+2023-12-20 20:42:04.943438 INFO::Fitting model to feature number 390, ASV461
+2023-12-20 20:42:04.96365 INFO::Fitting model to feature number 391, ASV463
+2023-12-20 20:42:04.982622 INFO::Fitting model to feature number 392, ASV474
+2023-12-20 20:42:05.002542 INFO::Fitting model to feature number 393, ASV475
+2023-12-20 20:42:05.02654 INFO::Fitting model to feature number 394, ASV476
+2023-12-20 20:42:05.047411 INFO::Fitting model to feature number 395, ASV483
+2023-12-20 20:42:05.067288 INFO::Fitting model to feature number 396, ASV486
+2023-12-20 20:42:05.097633 INFO::Fitting model to feature number 397, ASV491
+2023-12-20 20:42:05.118331 INFO::Fitting model to feature number 398, ASV493
+2023-12-20 20:42:05.144633 INFO::Fitting model to feature number 399, ASV496
+2023-12-20 20:42:05.164779 INFO::Fitting model to feature number 400, ASV498
+2023-12-20 20:42:05.185133 INFO::Fitting model to feature number 401, ASV503
+2023-12-20 20:42:05.205732 INFO::Fitting model to feature number 402, ASV504
+2023-12-20 20:42:05.226547 INFO::Fitting model to feature number 403, ASV509
+2023-12-20 20:42:05.254448 INFO::Fitting model to feature number 404, ASV529
+2023-12-20 20:42:05.274397 INFO::Fitting model to feature number 405, ASV530
+2023-12-20 20:42:05.295046 INFO::Fitting model to feature number 406, ASV534
+2023-12-20 20:42:05.314719 INFO::Fitting model to feature number 407, ASV540
+2023-12-20 20:42:05.33417 INFO::Fitting model to feature number 408, ASV549
+2023-12-20 20:42:05.35382 INFO::Fitting model to feature number 409, ASV553
+2023-12-20 20:42:05.374789 INFO::Fitting model to feature number 410, ASV564
+2023-12-20 20:42:05.435851 INFO::Counting total values for each feature
+2023-12-20 20:42:05.454385 INFO::Writing filtered data to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/features/filtered_data.tsv
+2023-12-20 20:42:05.463047 INFO::Writing filtered, normalized data to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/features/filtered_data_norm.tsv
+2023-12-20 20:42:05.484058 INFO::Writing filtered, normalized, transformed data to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/features/filtered_data_norm_transformed.tsv
+2023-12-20 20:42:05.505021 WARNING::Deleting existing residuals file: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/residuals.rds
+2023-12-20 20:42:05.505842 INFO::Writing residuals to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/residuals.rds
+2023-12-20 20:42:05.516353 WARNING::Deleting existing fitted file: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/fitted.rds
+2023-12-20 20:42:05.51716 INFO::Writing fitted values to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/fitted.rds
+2023-12-20 20:42:05.525965 WARNING::Deleting existing ranef file: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/ranef.rds
+2023-12-20 20:42:05.526736 INFO::Writing extracted random effects to file outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/fits/ranef.rds
+2023-12-20 20:42:05.530294 INFO::Writing all results to file (ordered by increasing q-values): outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/all_results.tsv
+2023-12-20 20:42:05.536341 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/significant_results.tsv
+2023-12-20 20:42:05.541072 INFO::Writing heatmap of significant results to file: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model/heatmap.pdf
+2023-12-20 20:42:05.619147 INFO::Writing association plots (one for each significant association) to output folder: outputs/differential_abundance_16S_ASVs/lmm_maaslin2/ASVs/complete_model
+2023-12-20 20:42:05.62263 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-12-20 20:42:05.623278 INFO::Plotting data for metadata number 1, timepoint
+2023-12-20 20:42:05.624451 INFO::Creating boxplot for categorical data, timepoint vs ASV49
+2023-12-20 20:42:05.754764 INFO::Creating boxplot for categorical data, timepoint vs ASV82
+2023-12-20 20:42:05.829818 INFO::Creating boxplot for categorical data, timepoint vs ASV156
+2023-12-20 20:42:05.894596 INFO::Creating boxplot for categorical data, timepoint vs ASV5
+2023-12-20 20:42:05.970535 INFO::Creating boxplot for categorical data, timepoint vs ASV50
+2023-12-20 20:42:06.03516 INFO::Creating boxplot for categorical data, timepoint vs ASV119
+2023-12-20 20:42:06.107071 INFO::Creating boxplot for categorical data, timepoint vs ASV48
+2023-12-20 20:42:06.189981 INFO::Creating boxplot for categorical data, timepoint vs ASV268
+2023-12-20 20:42:06.252998 INFO::Creating boxplot for categorical data, timepoint vs ASV11
+2023-12-20 20:42:06.324897 INFO::Creating boxplot for categorical data, timepoint vs ASV44
+2023-12-20 20:42:06.388227 INFO::Creating boxplot for categorical data, timepoint vs ASV47
+2023-12-20 20:42:06.462866 INFO::Creating boxplot for categorical data, timepoint vs ASV163
+2023-12-20 20:42:06.53451 INFO::Creating boxplot for categorical data, timepoint vs ASV97
+2023-12-20 20:42:06.598187 INFO::Creating boxplot for categorical data, timepoint vs ASV130
+2023-12-20 20:42:06.670669 INFO::Creating boxplot for categorical data, timepoint vs ASV334
+2023-12-20 20:42:06.731783 INFO::Creating boxplot for categorical data, timepoint vs ASV77
+2023-12-20 20:42:06.804291 INFO::Creating boxplot for categorical data, timepoint vs ASV163
+2023-12-20 20:42:06.875259 INFO::Creating boxplot for categorical data, timepoint vs ASV68
+2023-12-20 20:42:06.938772 INFO::Creating boxplot for categorical data, timepoint vs ASV307
+2023-12-20 20:42:07.010147 INFO::Creating boxplot for categorical data, timepoint vs ASV21
+2023-12-20 20:42:07.07318 INFO::Creating boxplot for categorical data, timepoint vs ASV54
+2023-12-20 20:42:07.145547 INFO::Creating boxplot for categorical data, timepoint vs ASV239
+2023-12-20 20:42:07.216136 INFO::Creating boxplot for categorical data, timepoint vs ASV117
+2023-12-20 20:42:07.279234 INFO::Creating boxplot for categorical data, timepoint vs ASV3
+2023-12-20 20:42:07.350969 INFO::Creating boxplot for categorical data, timepoint vs ASV109
+2023-12-20 20:42:07.42152 INFO::Creating boxplot for categorical data, timepoint vs ASV30
+2023-12-20 20:42:07.483963 INFO::Creating boxplot for categorical data, timepoint vs ASV40
+2023-12-20 20:42:07.554785 INFO::Creating boxplot for categorical data, timepoint vs ASV25
+2023-12-20 20:42:07.625178 INFO::Creating boxplot for categorical data, timepoint vs ASV174
+2023-12-20 20:42:07.688477 INFO::Creating boxplot for categorical data, timepoint vs ASV11
+2023-12-20 20:42:07.75912 INFO::Creating boxplot for categorical data, timepoint vs ASV130
+2023-12-20 20:42:07.83115 INFO::Creating boxplot for categorical data, timepoint vs ASV52
+2023-12-20 20:42:07.896012 INFO::Creating boxplot for categorical data, timepoint vs ASV97
+2023-12-20 20:42:07.968841 INFO::Creating boxplot for categorical data, timepoint vs ASV234
+2023-12-20 20:42:08.041058 INFO::Creating boxplot for categorical data, timepoint vs ASV123
+2023-12-20 20:42:08.106432 INFO::Creating boxplot for categorical data, timepoint vs ASV75
+2023-12-20 20:42:08.178723 INFO::Creating boxplot for categorical data, timepoint vs ASV160
+2023-12-20 20:42:08.251193 INFO::Creating boxplot for categorical data, timepoint vs ASV91
+2023-12-20 20:42:08.316132 INFO::Creating boxplot for categorical data, timepoint vs ASV54
+2023-12-20 20:42:08.389507 INFO::Creating boxplot for categorical data, timepoint vs ASV340
+2023-12-20 20:42:08.484125 INFO::Creating boxplot for categorical data, timepoint vs ASV47
+2023-12-20 20:42:08.550044 INFO::Creating boxplot for categorical data, timepoint vs ASV70
+2023-12-20 20:42:08.628611 INFO::Creating boxplot for categorical data, timepoint vs ASV316
+2023-12-20 20:42:08.702722 INFO::Creating boxplot for categorical data, timepoint vs ASV156
+2023-12-20 20:42:08.772976 INFO::Creating boxplot for categorical data, timepoint vs ASV83
+2023-12-20 20:42:08.851806 INFO::Creating boxplot for categorical data, timepoint vs ASV65
+2023-12-20 20:42:08.916595 INFO::Creating boxplot for categorical data, timepoint vs ASV439
+2023-12-20 20:42:08.996044 INFO::Creating boxplot for categorical data, timepoint vs ASV91
+2023-12-20 20:42:09.070102 INFO::Creating boxplot for categorical data, timepoint vs ASV46
+2023-12-20 20:42:09.144107 INFO::Creating boxplot for categorical data, timepoint vs ASV317
+2023-12-20 20:42:09.221743 INFO::Creating boxplot for categorical data, timepoint vs ASV95
+2023-12-20 20:42:09.286708 INFO::Creating boxplot for categorical data, timepoint vs ASV7
+2023-12-20 20:42:09.364526 INFO::Creating boxplot for categorical data, timepoint vs ASV59
+2023-12-20 20:42:09.442686 INFO::Creating boxplot for categorical data, timepoint vs ASV57
+2023-12-20 20:42:09.508632 INFO::Creating boxplot for categorical data, timepoint vs ASV174
+2023-12-20 20:42:09.585883 INFO::Creating boxplot for categorical data, timepoint vs ASV380
+2023-12-20 20:42:09.658604 INFO::Creating boxplot for categorical data, timepoint vs ASV78
+2023-12-20 20:42:09.728411 INFO::Creating boxplot for categorical data, timepoint vs ASV17
+2023-12-20 20:42:09.80644 INFO::Creating boxplot for categorical data, timepoint vs ASV62
+2023-12-20 20:42:09.872112 INFO::Creating boxplot for categorical data, timepoint vs ASV61
+2023-12-20 20:42:09.949469 INFO::Creating boxplot for categorical data, timepoint vs ASV63
+2023-12-20 20:42:10.026086 INFO::Creating boxplot for categorical data, timepoint vs ASV285
+2023-12-20 20:42:10.091768 INFO::Creating boxplot for categorical data, timepoint vs ASV195
+2023-12-20 20:42:10.169134 INFO::Creating boxplot for categorical data, timepoint vs ASV66
+2023-12-20 20:42:10.24571 INFO::Creating boxplot for categorical data, timepoint vs ASV312
+2023-12-20 20:42:10.31015 INFO::Creating boxplot for categorical data, timepoint vs ASV12
+2023-12-20 20:42:10.387182 INFO::Creating boxplot for categorical data, timepoint vs ASV148
+2023-12-20 20:42:10.463795 INFO::Creating boxplot for categorical data, timepoint vs ASV328
+2023-12-20 20:42:10.537345 INFO::Creating boxplot for categorical data, timepoint vs ASV278
+2023-12-20 20:42:10.603837 INFO::Creating boxplot for categorical data, timepoint vs ASV209
+2023-12-20 20:42:10.681117 INFO::Creating boxplot for categorical data, timepoint vs ASV44
+2023-12-20 20:42:10.757679 INFO::Creating boxplot for categorical data, timepoint vs ASV228
+2023-12-20 20:42:10.822166 INFO::Creating boxplot for categorical data, timepoint vs ASV358
+2023-12-20 20:42:11.099259 INFO::Creating boxplot for categorical data, timepoint vs ASV124
+2023-12-20 20:42:11.162485 INFO::Creating boxplot for categorical data, timepoint vs ASV404
+2023-12-20 20:42:11.231475 INFO::Creating boxplot for categorical data, timepoint vs ASV25
+2023-12-20 20:42:11.302126 INFO::Creating boxplot for categorical data, timepoint vs ASV300
+2023-12-20 20:42:11.375378 INFO::Creating boxplot for categorical data, timepoint vs ASV51
+2023-12-20 20:42:11.445725 INFO::Creating boxplot for categorical data, timepoint vs ASV111
+2023-12-20 20:42:11.509178 INFO::Creating boxplot for categorical data, timepoint vs ASV171
+2023-12-20 20:42:11.574981 INFO::Creating boxplot for categorical data, timepoint vs ASV50
+2023-12-20 20:42:11.640997 INFO::Creating boxplot for categorical data, timepoint vs ASV228
+2023-12-20 20:42:11.708241 INFO::Creating boxplot for categorical data, timepoint vs ASV218
+2023-12-20 20:42:11.790923 INFO::Creating boxplot for categorical data, timepoint vs ASV3
+2023-12-20 20:42:11.853574 INFO::Creating boxplot for categorical data, timepoint vs ASV249
+2023-12-20 20:42:11.919511 INFO::Creating boxplot for categorical data, timepoint vs ASV142
+2023-12-20 20:42:11.987417 INFO::Creating boxplot for categorical data, timepoint vs ASV61
+2023-12-20 20:42:12.064003 INFO::Creating boxplot for categorical data, timepoint vs ASV15
+2023-12-20 20:42:12.126228 INFO::Creating boxplot for categorical data, timepoint vs ASV49
+2023-12-20 20:42:12.188799 INFO::Creating boxplot for categorical data, timepoint vs ASV60
+2023-12-20 20:42:12.251564 INFO::Creating boxplot for categorical data, timepoint vs ASV339
+2023-12-20 20:42:12.315703 INFO::Creating boxplot for categorical data, timepoint vs ASV132
+2023-12-20 20:42:12.389078 INFO::Creating boxplot for categorical data, timepoint vs ASV145
+2023-12-20 20:42:12.450463 INFO::Creating boxplot for categorical data, timepoint vs ASV322
+2023-12-20 20:42:12.513816 INFO::Creating boxplot for categorical data, timepoint vs ASV143
+2023-12-20 20:42:12.582555 INFO::Creating boxplot for categorical data, timepoint vs ASV73
+2023-12-20 20:42:12.647578 INFO::Creating boxplot for categorical data, timepoint vs ASV43
+2023-12-20 20:42:12.716432 INFO::Creating boxplot for categorical data, timepoint vs ASV195
+2023-12-20 20:42:12.779895 INFO::Creating boxplot for categorical data, timepoint vs ASV142
+2023-12-20 20:42:12.844797 INFO::Creating boxplot for categorical data, timepoint vs ASV42
+2023-12-20 20:42:12.908851 INFO::Creating boxplot for categorical data, timepoint vs ASV229
+2023-12-20 20:42:12.974438 INFO::Creating boxplot for categorical data, timepoint vs ASV441
+2023-12-20 20:42:13.046692 INFO::Creating boxplot for categorical data, timepoint vs ASV87
+2023-12-20 20:42:13.109566 INFO::Creating boxplot for categorical data, timepoint vs ASV39
+2023-12-20 20:42:13.172744 INFO::Creating boxplot for categorical data, timepoint vs ASV13
+2023-12-20 20:42:13.235047 INFO::Creating boxplot for categorical data, timepoint vs ASV177
+2023-12-20 20:42:13.298215 INFO::Creating boxplot for categorical data, timepoint vs ASV339
+2023-12-20 20:42:13.367561 INFO::Creating boxplot for categorical data, timepoint vs ASV31
+2023-12-20 20:42:13.430704 INFO::Creating boxplot for categorical data, timepoint vs ASV404
+2023-12-20 20:42:13.493614 INFO::Creating boxplot for categorical data, timepoint vs ASV131
+2023-12-20 20:42:13.555629 INFO::Creating boxplot for categorical data, timepoint vs ASV135
+2023-12-20 20:42:13.61855 INFO::Creating boxplot for categorical data, timepoint vs ASV106
+2023-12-20 20:42:13.687998 INFO::Creating boxplot for categorical data, timepoint vs ASV21
+2023-12-20 20:42:13.755509 INFO::Creating boxplot for categorical data, timepoint vs ASV59
+2023-12-20 20:42:13.818693 INFO::Creating boxplot for categorical data, timepoint vs ASV313
+2023-12-20 20:42:13.883655 INFO::Creating boxplot for categorical data, timepoint vs ASV414
+2023-12-20 20:42:13.947062 INFO::Creating boxplot for categorical data, timepoint vs ASV99
+2023-12-20 20:42:14.016545 INFO::Creating boxplot for categorical data, timepoint vs ASV183
+2023-12-20 20:42:14.079072 INFO::Creating boxplot for categorical data, timepoint vs ASV168
+2023-12-20 20:42:14.141985 INFO::Creating boxplot for categorical data, timepoint vs ASV161
+2023-12-20 20:42:14.203595 INFO::Creating boxplot for categorical data, timepoint vs ASV178
+2023-12-20 20:42:14.267543 INFO::Creating boxplot for categorical data, timepoint vs ASV64
+2023-12-20 20:42:14.336712 INFO::Creating boxplot for categorical data, timepoint vs ASV143
+2023-12-20 20:42:14.3997 INFO::Creating boxplot for categorical data, timepoint vs ASV278
+2023-12-20 20:42:14.462871 INFO::Creating boxplot for categorical data, timepoint vs ASV103
+2023-12-20 20:42:14.525076 INFO::Creating boxplot for categorical data, timepoint vs ASV92
+2023-12-20 20:42:14.588348 INFO::Creating boxplot for categorical data, timepoint vs ASV110
+2023-12-20 20:42:14.657844 INFO::Creating boxplot for categorical data, timepoint vs ASV367
+2023-12-20 20:42:14.720823 INFO::Creating boxplot for categorical data, timepoint vs ASV125
+2023-12-20 20:42:14.783813 INFO::Creating boxplot for categorical data, timepoint vs ASV32
+2023-12-20 20:42:14.8469 INFO::Creating boxplot for categorical data, timepoint vs ASV134
+2023-12-20 20:42:14.924548 INFO::Creating boxplot for categorical data, timepoint vs ASV33
+2023-12-20 20:42:14.988167 INFO::Creating boxplot for categorical data, timepoint vs ASV181
+2023-12-20 20:42:15.051918 INFO::Creating boxplot for categorical data, timepoint vs ASV232
+2023-12-20 20:42:15.116092 INFO::Creating boxplot for categorical data, timepoint vs ASV77
+2023-12-20 20:42:15.180369 INFO::Creating boxplot for categorical data, timepoint vs ASV137
+2023-12-20 20:42:15.250126 INFO::Creating boxplot for categorical data, timepoint vs ASV301
+2023-12-20 20:42:15.310993 INFO::Creating boxplot for categorical data, timepoint vs ASV362
+2023-12-20 20:42:15.37397 INFO::Creating boxplot for categorical data, timepoint vs ASV81
+2023-12-20 20:42:15.437486 INFO::Creating boxplot for categorical data, timepoint vs ASV87
+2023-12-20 20:42:15.501247 INFO::Creating boxplot for categorical data, timepoint vs ASV383
+2023-12-20 20:42:15.569185 INFO::Creating boxplot for categorical data, timepoint vs ASV6
+2023-12-20 20:42:15.632147 INFO::Creating boxplot for categorical data, timepoint vs ASV226
+2023-12-20 20:42:15.695272 INFO::Creating boxplot for categorical data, timepoint vs ASV351
+2023-12-20 20:42:15.758066 INFO::Creating boxplot for categorical data, timepoint vs ASV210
+2023-12-20 20:42:15.821714 INFO::Creating boxplot for categorical data, timepoint vs ASV8
+2023-12-20 20:42:15.890901 INFO::Creating boxplot for categorical data, timepoint vs ASV251
+2023-12-20 20:42:15.954411 INFO::Creating boxplot for categorical data, timepoint vs ASV183
+2023-12-20 20:42:16.018549 INFO::Creating boxplot for categorical data, timepoint vs ASV36
+2023-12-20 20:42:16.084135 INFO::Creating boxplot for categorical data, timepoint vs ASV67
+2023-12-20 20:42:16.153905 INFO::Creating boxplot for categorical data, timepoint vs ASV267
+2023-12-20 20:42:16.215519 INFO::Creating boxplot for categorical data, timepoint vs ASV110
+2023-12-20 20:42:16.278345 INFO::Creating boxplot for categorical data, timepoint vs ASV129
+2023-12-20 20:42:16.340969 INFO::Creating boxplot for categorical data, timepoint vs ASV69
+2023-12-20 20:42:16.404893 INFO::Creating boxplot for categorical data, timepoint vs ASV23
+2023-12-20 20:42:16.474558 INFO::Creating boxplot for categorical data, timepoint vs ASV345
+2023-12-20 20:42:16.537843 INFO::Creating boxplot for categorical data, timepoint vs ASV185
+2023-12-20 20:42:16.601011 INFO::Creating boxplot for categorical data, timepoint vs ASV234
+2023-12-20 20:42:16.664339 INFO::Creating boxplot for categorical data, timepoint vs ASV391
+2023-12-20 20:42:16.728673 INFO::Creating boxplot for categorical data, timepoint vs ASV440
+2023-12-20 20:42:16.799364 INFO::Creating boxplot for categorical data, timepoint vs ASV353
+2023-12-20 20:42:16.864001 INFO::Creating boxplot for categorical data, timepoint vs ASV118
+2023-12-20 20:42:16.926763 INFO::Creating boxplot for categorical data, timepoint vs ASV10
+2023-12-20 20:42:16.989508 INFO::Creating boxplot for categorical data, timepoint vs ASV88
+2023-12-20 20:42:17.060663 INFO::Creating boxplot for categorical data, timepoint vs ASV268
+2023-12-20 20:42:17.124588 INFO::Creating boxplot for categorical data, timepoint vs ASV12
+2023-12-20 20:42:17.189948 INFO::Creating boxplot for categorical data, timepoint vs ASV231
+2023-12-20 20:42:17.254063 INFO::Creating boxplot for categorical data, timepoint vs ASV189
+2023-12-20 20:42:17.318331 INFO::Creating boxplot for categorical data, timepoint vs ASV277
+2023-12-20 20:42:17.391808 INFO::Creating boxplot for categorical data, timepoint vs ASV139
+2023-12-20 20:42:17.465028 INFO::Creating boxplot for categorical data, timepoint vs ASV98
+2023-12-20 20:42:17.532176 INFO::Creating boxplot for categorical data, timepoint vs ASV354
+2023-12-20 20:42:17.598278 INFO::Creating boxplot for categorical data, timepoint vs ASV283
+2023-12-20 20:42:17.673533 INFO::Creating boxplot for categorical data, timepoint vs ASV175
+2023-12-20 20:42:17.736703 INFO::Creating boxplot for categorical data, timepoint vs ASV258
+2023-12-20 20:42:17.801514 INFO::Creating boxplot for categorical data, timepoint vs ASV243
+2023-12-20 20:42:17.865599 INFO::Creating boxplot for categorical data, timepoint vs ASV101
+2023-12-20 20:42:17.929351 INFO::Creating boxplot for categorical data, timepoint vs ASV363
+2023-12-20 20:42:17.999413 INFO::Creating boxplot for categorical data, timepoint vs ASV113
+2023-12-20 20:42:18.062173 INFO::Creating boxplot for categorical data, timepoint vs ASV277
+2023-12-20 20:42:18.126931 INFO::Creating boxplot for categorical data, timepoint vs ASV227
+2023-12-20 20:42:18.194416 INFO::Creating boxplot for categorical data, timepoint vs ASV171
+2023-12-20 20:42:18.261917 INFO::Creating boxplot for categorical data, timepoint vs ASV112
+2023-12-20 20:42:18.355678 INFO::Creating boxplot for categorical data, timepoint vs ASV244
+2023-12-20 20:42:18.418791 INFO::Creating boxplot for categorical data, timepoint vs ASV133
+2023-12-20 20:42:18.483052 INFO::Creating boxplot for categorical data, timepoint vs ASV357
+2023-12-20 20:42:18.546853 INFO::Creating boxplot for categorical data, timepoint vs ASV365
+2023-12-20 20:42:18.618823 INFO::Creating boxplot for categorical data, timepoint vs ASV40
+2023-12-20 20:42:18.684867 INFO::Creating boxplot for categorical data, timepoint vs ASV72
+2023-12-20 20:42:18.749571 INFO::Creating boxplot for categorical data, timepoint vs ASV397
+2023-12-20 20:42:18.812835 INFO::Creating boxplot for categorical data, timepoint vs ASV43
+2023-12-20 20:42:18.875388 INFO::Creating boxplot for categorical data, timepoint vs ASV397
+2023-12-20 20:42:18.946378 INFO::Creating boxplot for categorical data, timepoint vs ASV429
+2023-12-20 20:42:19.012733 INFO::Creating boxplot for categorical data, timepoint vs ASV250
+2023-12-20 20:42:19.077492 INFO::Creating boxplot for categorical data, timepoint vs ASV5
+2023-12-20 20:42:19.139973 INFO::Creating boxplot for categorical data, timepoint vs ASV245
+2023-12-20 20:42:19.203151 INFO::Creating boxplot for categorical data, timepoint vs ASV374
+2023-12-20 20:42:19.277923 INFO::Creating boxplot for categorical data, timepoint vs ASV347
+2023-12-20 20:42:19.341652 INFO::Creating boxplot for categorical data, timepoint vs ASV70
+2023-12-20 20:42:19.406682 INFO::Creating boxplot for categorical data, timepoint vs ASV213
+2023-12-20 20:42:19.472245 INFO::Creating boxplot for categorical data, timepoint vs ASV102
+2023-12-20 20:42:19.536199 INFO::Creating boxplot for categorical data, timepoint vs ASV261
+2023-12-20 20:42:19.609931 INFO::Creating boxplot for categorical data, timepoint vs ASV250
+2023-12-20 20:42:19.67357 INFO::Creating boxplot for categorical data, timepoint vs ASV159
+2023-12-20 20:42:19.738902 INFO::Creating boxplot for categorical data, timepoint vs ASV28
+2023-12-20 20:42:19.80234 INFO::Creating boxplot for categorical data, timepoint vs ASV312
+2023-12-20 20:42:19.865592 INFO::Creating boxplot for categorical data, timepoint vs ASV177
+2023-12-20 20:42:19.94757 INFO::Creating boxplot for categorical data, timepoint vs ASV206
+2023-12-20 20:42:20.010888 INFO::Creating boxplot for categorical data, timepoint vs ASV52
+2023-12-20 20:42:20.075528 INFO::Creating boxplot for categorical data, timepoint vs ASV215
+2023-12-20 20:42:20.138752 INFO::Creating boxplot for categorical data, timepoint vs ASV295
+2023-12-20 20:42:20.202549 INFO::Creating boxplot for categorical data, timepoint vs ASV297
+2023-12-20 20:42:20.283619 INFO::Creating boxplot for categorical data, timepoint vs ASV209
+2023-12-20 20:42:20.346556 INFO::Creating boxplot for categorical data, timepoint vs ASV226
+2023-12-20 20:42:20.410722 INFO::Creating boxplot for categorical data, timepoint vs ASV399
+2023-12-20 20:42:20.473895 INFO::Creating boxplot for categorical data, timepoint vs ASV153
+2023-12-20 20:42:20.537449 INFO::Creating boxplot for categorical data, timepoint vs ASV496
+2023-12-20 20:42:20.612446 INFO::Creating boxplot for categorical data, timepoint vs ASV161
+2023-12-20 20:42:20.676062 INFO::Creating boxplot for categorical data, timepoint vs ASV144
+2023-12-20 20:42:20.74035 INFO::Creating boxplot for categorical data, timepoint vs ASV86
+2023-12-20 20:42:20.804105 INFO::Creating boxplot for categorical data, timepoint vs ASV146
+2023-12-20 20:42:20.868981 INFO::Creating boxplot for categorical data, timepoint vs ASV491
+2023-12-20 20:42:20.943486 INFO::Creating boxplot for categorical data, timepoint vs ASV101
+2023-12-20 20:42:21.007428 INFO::Creating boxplot for categorical data, timepoint vs ASV236
+2023-12-20 20:42:21.071402 INFO::Creating boxplot for categorical data, timepoint vs ASV105
+2023-12-20 20:42:21.13481 INFO::Creating boxplot for categorical data, timepoint vs ASV58
+2023-12-20 20:42:21.209672 INFO::Creating boxplot for categorical data, timepoint vs ASV305
+2023-12-20 20:42:21.273823 INFO::Creating boxplot for categorical data, timepoint vs ASV483
+2023-12-20 20:42:21.338644 INFO::Creating boxplot for categorical data, timepoint vs ASV82
+2023-12-20 20:42:21.402016 INFO::Creating boxplot for categorical data, timepoint vs ASV355
+2023-12-20 20:42:21.467773 INFO::Creating boxplot for categorical data, timepoint vs ASV420
+2023-12-20 20:42:21.543333 INFO::Creating boxplot for categorical data, timepoint vs ASV105
+2023-12-20 20:42:21.606661 INFO::Creating boxplot for categorical data, timepoint vs ASV440
+2023-12-20 20:42:21.671397 INFO::Creating boxplot for categorical data, timepoint vs ASV76
+2023-12-20 20:42:21.734755 INFO::Creating boxplot for categorical data, timepoint vs ASV48
+2023-12-20 20:42:21.79908 INFO::Creating boxplot for categorical data, timepoint vs ASV347
+2023-12-20 20:42:21.873424 INFO::Creating boxplot for categorical data, timepoint vs ASV251
+2023-12-20 20:42:21.936451 INFO::Creating boxplot for categorical data, timepoint vs ASV275
+2023-12-20 20:42:22.000511 INFO::Creating boxplot for categorical data, timepoint vs ASV262
+2023-12-20 20:42:22.06453 INFO::Creating boxplot for categorical data, timepoint vs ASV96
+2023-12-20 20:42:22.128654 INFO::Creating boxplot for categorical data, timepoint vs ASV483
+2023-12-20 20:42:22.203713 INFO::Creating boxplot for categorical data, timepoint vs ASV39
+2023-12-20 20:42:22.26831 INFO::Creating boxplot for categorical data, timepoint vs ASV34
+2023-12-20 20:42:22.338736 INFO::Creating boxplot for categorical data, timepoint vs ASV232
+2023-12-20 20:42:22.402411 INFO::Creating boxplot for categorical data, timepoint vs ASV540
+2023-12-20 20:42:22.478157 INFO::Creating boxplot for categorical data, timepoint vs ASV179
+2023-12-20 20:42:22.541811 INFO::Creating boxplot for categorical data, timepoint vs ASV259
+2023-12-20 20:42:22.605477 INFO::Creating boxplot for categorical data, timepoint vs ASV160
+2023-12-20 20:42:22.668865 INFO::Creating boxplot for categorical data, timepoint vs ASV145
+2023-12-20 20:42:22.733075 INFO::Creating boxplot for categorical data, timepoint vs ASV233
+2023-12-20 20:42:22.808457 INFO::Creating boxplot for categorical data, timepoint vs ASV122
+2023-12-20 20:42:22.871587 INFO::Creating boxplot for categorical data, timepoint vs ASV115
+2023-12-20 20:42:22.93606 INFO::Creating boxplot for categorical data, timepoint vs ASV200
+2023-12-20 20:42:22.99971 INFO::Creating boxplot for categorical data, timepoint vs ASV302
+2023-12-20 20:42:23.064079 INFO::Creating boxplot for categorical data, timepoint vs ASV189
+2023-12-20 20:42:23.138689 INFO::Creating boxplot for categorical data, timepoint vs ASV504
+2023-12-20 20:42:23.20337 INFO::Creating boxplot for categorical data, timepoint vs ASV23
+2023-12-20 20:42:23.267142 INFO::Creating boxplot for categorical data, timepoint vs ASV419
+2023-12-20 20:42:23.331597 INFO::Creating boxplot for categorical data, timepoint vs ASV190
+2023-12-20 20:42:23.410883 INFO::Creating boxplot for categorical data, timepoint vs ASV231
+2023-12-20 20:42:23.477733 INFO::Creating boxplot for categorical data, timepoint vs ASV407
+2023-12-20 20:42:23.540652 INFO::Creating boxplot for categorical data, timepoint vs ASV266
+2023-12-20 20:42:23.604056 INFO::Creating boxplot for categorical data, timepoint vs ASV51
+2023-12-20 20:42:23.668032 INFO::Creating boxplot for categorical data, timepoint vs ASV416
+2023-12-20 20:42:23.74288 INFO::Creating boxplot for categorical data, timepoint vs ASV100
+2023-12-20 20:42:23.804771 INFO::Creating boxplot for categorical data, timepoint vs ASV92
+2023-12-20 20:42:23.868061 INFO::Creating boxplot for categorical data, timepoint vs ASV126
+2023-12-20 20:42:23.93097 INFO::Creating boxplot for categorical data, timepoint vs ASV128
+2023-12-20 20:42:24.002973 INFO::Creating boxplot for categorical data, timepoint vs ASV224
+2023-12-20 20:42:24.06815 INFO::Creating boxplot for categorical data, timepoint vs ASV393
+2023-12-20 20:42:24.131782 INFO::Creating boxplot for categorical data, timepoint vs ASV90
+2023-12-20 20:42:24.194599 INFO::Creating boxplot for categorical data, timepoint vs ASV125
+2023-12-20 20:42:24.257554 INFO::Creating boxplot for categorical data, timepoint vs ASV441
+2023-12-20 20:42:24.332303 INFO::Creating boxplot for categorical data, timepoint vs ASV85
+2023-12-20 20:42:24.395055 INFO::Creating boxplot for categorical data, timepoint vs ASV113
+2023-12-20 20:42:24.458261 INFO::Creating boxplot for categorical data, timepoint vs ASV115
+2023-12-20 20:42:24.521198 INFO::Creating boxplot for categorical data, timepoint vs ASV45
+2023-12-20 20:42:24.58458 INFO::Creating boxplot for categorical data, timepoint vs ASV155
+2023-12-20 20:42:24.659121 INFO::Creating boxplot for categorical data, timepoint vs ASV210
+2023-12-20 20:42:24.725819 INFO::Creating boxplot for categorical data, timepoint vs ASV302
+2023-12-20 20:42:24.788874 INFO::Creating boxplot for categorical data, timepoint vs ASV37
+2023-12-20 20:42:24.852343 INFO::Creating boxplot for categorical data, timepoint vs ASV185
+2023-12-20 20:42:24.961614 INFO::Creating boxplot for categorical data, timepoint vs ASV227
+2023-12-20 20:42:25.025216 INFO::Creating boxplot for categorical data, timepoint vs ASV191
+2023-12-20 20:42:25.090255 INFO::Creating boxplot for categorical data, timepoint vs ASV295
+2023-12-20 20:42:25.157271 INFO::Creating boxplot for categorical data, timepoint vs ASV225
+2023-12-20 20:42:25.225438 INFO::Creating boxplot for categorical data, timepoint vs ASV131
+2023-12-20 20:42:25.301252 INFO::Creating boxplot for categorical data, timepoint vs ASV275
+2023-12-20 20:42:25.365497 INFO::Creating boxplot for categorical data, timepoint vs ASV258
+2023-12-20 20:42:25.42992 INFO::Creating boxplot for categorical data, timepoint vs ASV186
+2023-12-20 20:42:25.494567 INFO::Creating boxplot for categorical data, timepoint vs ASV320
+2023-12-20 20:42:25.557243 INFO::Creating boxplot for categorical data, timepoint vs ASV428
+2023-12-20 20:42:25.630499 INFO::Creating boxplot for categorical data, timepoint vs ASV303
+2023-12-20 20:42:25.693952 INFO::Creating boxplot for categorical data, timepoint vs ASV293
+2023-12-20 20:42:25.758183 INFO::Creating boxplot for categorical data, timepoint vs ASV94
+2023-12-20 20:42:25.821811 INFO::Creating boxplot for categorical data, timepoint vs ASV509
+2023-12-20 20:42:25.884531 INFO::Creating boxplot for categorical data, timepoint vs ASV8
+2023-12-20 20:42:25.957174 INFO::Creating boxplot for categorical data, timepoint vs ASV16
+2023-12-20 20:42:26.020788 INFO::Creating boxplot for categorical data, timepoint vs ASV289
+2023-12-20 20:42:26.085462 INFO::Creating boxplot for categorical data, timepoint vs ASV42
+2023-12-20 20:42:26.148214 INFO::Creating boxplot for categorical data, timepoint vs ASV313
+2023-12-20 20:42:26.211045 INFO::Creating boxplot for categorical data, timepoint vs ASV100
+2023-12-20 20:42:26.282686 INFO::Creating boxplot for categorical data, timepoint vs ASV341
+2023-12-20 20:42:26.347185 INFO::Creating boxplot for categorical data, timepoint vs ASV193
+2023-12-20 20:42:26.411323 INFO::Creating boxplot for categorical data, timepoint vs ASV260
+2023-12-20 20:42:26.474785 INFO::Creating boxplot for categorical data, timepoint vs ASV94
+2023-12-20 20:42:26.538655 INFO::Creating boxplot for categorical data, timepoint vs ASV158
+2023-12-20 20:42:26.611624 INFO::Creating boxplot for categorical data, timepoint vs ASV220
+2023-12-20 20:42:26.675766 INFO::Creating boxplot for categorical data, timepoint vs ASV57
+2023-12-20 20:42:26.73973 INFO::Creating boxplot for categorical data, timepoint vs ASV442
+2023-12-20 20:42:26.802694 INFO::Creating boxplot for categorical data, timepoint vs ASV135
+2023-12-20 20:42:26.874933 INFO::Creating boxplot for categorical data, timepoint vs ASV4
+2023-12-20 20:42:26.93842 INFO::Creating boxplot for categorical data, timepoint vs ASV190
+2023-12-20 20:42:27.002882 INFO::Creating boxplot for categorical data, timepoint vs ASV149
+2023-12-20 20:42:27.066167 INFO::Creating boxplot for categorical data, timepoint vs ASV270
+2023-12-20 20:42:27.128952 INFO::Creating boxplot for categorical data, timepoint vs ASV33
+2023-12-20 20:42:27.208964 INFO::Creating boxplot for categorical data, timepoint vs ASV293
+2023-12-20 20:42:27.272716 INFO::Creating boxplot for categorical data, timepoint vs ASV68
+2023-12-20 20:42:27.337413 INFO::Creating boxplot for categorical data, timepoint vs ASV24
+2023-12-20 20:42:27.400764 INFO::Creating boxplot for categorical data, timepoint vs ASV186
+2023-12-20 20:42:27.464529 INFO::Creating boxplot for categorical data, timepoint vs ASV207
+2023-12-20 20:42:27.538333 INFO::Creating boxplot for categorical data, timepoint vs ASV138
+2023-12-20 20:42:27.60644 INFO::Creating boxplot for categorical data, timepoint vs ASV56
+2023-12-20 20:42:27.670845 INFO::Creating boxplot for categorical data, timepoint vs ASV325
+2023-12-20 20:42:27.734068 INFO::Creating boxplot for categorical data, timepoint vs ASV491
+2023-12-20 20:42:27.797226 INFO::Creating boxplot for categorical data, timepoint vs ASV206
+2023-12-20 20:42:27.869926 INFO::Creating boxplot for categorical data, timepoint vs ASV460
+2023-12-20 20:42:27.934193 INFO::Creating boxplot for categorical data, timepoint vs ASV10
+2023-12-20 20:42:27.997938 INFO::Creating boxplot for categorical data, timepoint vs ASV235
+2023-12-20 20:42:28.06144 INFO::Creating boxplot for categorical data, timepoint vs ASV309
+2023-12-20 20:42:28.124955 INFO::Creating boxplot for categorical data, timepoint vs ASV166
+2023-12-20 20:42:28.198463 INFO::Creating boxplot for categorical data, timepoint vs ASV396
+2023-12-20 20:42:28.262502 INFO::Creating boxplot for categorical data, timepoint vs ASV416
+2023-12-20 20:42:28.326385 INFO::Creating boxplot for categorical data, timepoint vs ASV367
+2023-12-20 20:42:28.389459 INFO::Creating boxplot for categorical data, timepoint vs ASV261
+2023-12-20 20:42:28.464084 INFO::Creating boxplot for categorical data, timepoint vs ASV134
+2023-12-20 20:42:28.52798 INFO::Creating boxplot for categorical data, timepoint vs ASV449
+2023-12-20 20:42:28.592419 INFO::Creating boxplot for categorical data, timepoint vs ASV99
+2023-12-20 20:42:28.655754 INFO::Creating boxplot for categorical data, timepoint vs ASV165
+2023-12-20 20:42:28.719649 INFO::Creating boxplot for categorical data, timepoint vs ASV369
+2023-12-20 20:42:28.792748 INFO::Creating boxplot for categorical data, timepoint vs ASV476
+2023-12-20 20:42:28.856673 INFO::Creating boxplot for categorical data, timepoint vs ASV165
+2023-12-20 20:42:28.921143 INFO::Creating boxplot for categorical data, timepoint vs ASV217
+2023-12-20 20:42:28.98439 INFO::Creating boxplot for categorical data, timepoint vs ASV429
+2023-12-20 20:42:29.048045 INFO::Creating boxplot for categorical data, timepoint vs ASV240
+2023-12-20 20:42:29.121297 INFO::Creating boxplot for categorical data, timepoint vs ASV78
+2023-12-20 20:42:29.185847 INFO::Creating boxplot for categorical data, timepoint vs ASV230
+2023-12-20 20:42:29.24951 INFO::Creating boxplot for categorical data, timepoint vs ASV36
+2023-12-20 20:42:29.312893 INFO::Creating boxplot for categorical data, timepoint vs ASV103
+2023-12-20 20:42:29.385365 INFO::Creating boxplot for categorical data, timepoint vs ASV196
+2023-12-20 20:42:29.449655 INFO::Creating boxplot for categorical data, timepoint vs ASV158
+2023-12-20 20:42:29.514015 INFO::Creating boxplot for categorical data, timepoint vs ASV365
+2023-12-20 20:42:29.582962 INFO::Creating boxplot for categorical data, timepoint vs ASV493
+2023-12-20 20:42:29.647053 INFO::Creating boxplot for categorical data, timepoint vs ASV19
+2023-12-20 20:42:29.719664 INFO::Creating boxplot for categorical data, timepoint vs ASV315
+2023-12-20 20:42:29.78361 INFO::Creating boxplot for categorical data, timepoint vs ASV372
+2023-12-20 20:42:29.847548 INFO::Creating boxplot for categorical data, timepoint vs ASV215
+2023-12-20 20:42:29.910567 INFO::Creating boxplot for categorical data, timepoint vs ASV133
+2023-12-20 20:42:29.985064 INFO::Creating boxplot for categorical data, timepoint vs ASV208
+2023-12-20 20:42:30.051972 INFO::Creating boxplot for categorical data, timepoint vs ASV198
+2023-12-20 20:42:30.117528 INFO::Creating boxplot for categorical data, timepoint vs ASV304
+2023-12-20 20:42:30.18146 INFO::Creating boxplot for categorical data, timepoint vs ASV17
+2023-12-20 20:42:30.245303 INFO::Creating boxplot for categorical data, timepoint vs ASV137
+2023-12-20 20:42:30.318758 INFO::Creating boxplot for categorical data, timepoint vs ASV383
+2023-12-20 20:42:30.3819 INFO::Creating boxplot for categorical data, timepoint vs ASV75
+2023-12-20 20:42:30.446122 INFO::Creating boxplot for categorical data, timepoint vs ASV354
+2023-12-20 20:42:30.509497 INFO::Creating boxplot for categorical data, timepoint vs ASV13
+2023-12-20 20:42:30.576475 INFO::Creating boxplot for categorical data, timepoint vs ASV266
+2023-12-20 20:42:30.653877 INFO::Creating boxplot for categorical data, timepoint vs ASV201
+2023-12-20 20:42:30.721572 INFO::Creating boxplot for categorical data, timepoint vs ASV286
+2023-12-20 20:42:30.786157 INFO::Creating boxplot for categorical data, timepoint vs ASV221
+2023-12-20 20:42:30.849675 INFO::Creating boxplot for categorical data, timepoint vs ASV274
+2023-12-20 20:42:30.922928 INFO::Creating boxplot for categorical data, timepoint vs ASV199
+2023-12-20 20:42:30.986844 INFO::Creating boxplot for categorical data, timepoint vs ASV64
+2023-12-20 20:42:31.051372 INFO::Creating boxplot for categorical data, timepoint vs ASV269
+2023-12-20 20:42:31.115337 INFO::Creating boxplot for categorical data, timepoint vs ASV22
+2023-12-20 20:42:31.179226 INFO::Creating boxplot for categorical data, timepoint vs ASV299
+2023-12-20 20:42:31.25334 INFO::Creating boxplot for categorical data, timepoint vs ASV107
+2023-12-20 20:42:31.976711 INFO::Plotting data for metadata number 2, genotype
+2023-12-20 20:42:31.977934 INFO::Creating boxplot for categorical data, genotype vs ASV50
+2023-12-20 20:42:32.038443 INFO::Creating boxplot for categorical data, genotype vs ASV82
+2023-12-20 20:42:32.100279 INFO::Creating boxplot for categorical data, genotype vs ASV5
+2023-12-20 20:42:32.161184 INFO::Creating boxplot for categorical data, genotype vs ASV126
+2023-12-20 20:42:32.221075 INFO::Creating boxplot for categorical data, genotype vs ASV75
+2023-12-20 20:42:32.294827 INFO::Creating boxplot for categorical data, genotype vs ASV49
+2023-12-20 20:42:32.35522 INFO::Creating boxplot for categorical data, genotype vs ASV210
+2023-12-20 20:42:32.416438 INFO::Creating boxplot for categorical data, genotype vs ASV46
+2023-12-20 20:42:32.478054 INFO::Creating boxplot for categorical data, genotype vs ASV3
+2023-12-20 20:42:32.538276 INFO::Creating boxplot for categorical data, genotype vs ASV136
+2023-12-20 20:42:32.611625 INFO::Creating boxplot for categorical data, genotype vs ASV416
+2023-12-20 20:42:32.678575 INFO::Creating boxplot for categorical data, genotype vs ASV345
+2023-12-20 20:42:32.740304 INFO::Creating boxplot for categorical data, genotype vs ASV97
+2023-12-20 20:42:32.801359 INFO::Creating boxplot for categorical data, genotype vs ASV57
+2023-12-20 20:42:32.86217 INFO::Creating boxplot for categorical data, genotype vs ASV188
+2023-12-20 20:42:32.935501 INFO::Creating boxplot for categorical data, genotype vs ASV17
+2023-12-20 20:42:32.996545 INFO::Creating boxplot for categorical data, genotype vs ASV299
+2023-12-20 20:42:33.058015 INFO::Creating boxplot for categorical data, genotype vs ASV21
+2023-12-20 20:42:33.118709 INFO::Creating boxplot for categorical data, genotype vs ASV293
+2023-12-20 20:42:33.178783 INFO::Creating boxplot for categorical data, genotype vs ASV54
+2023-12-20 20:42:33.248157 INFO::Creating boxplot for categorical data, genotype vs ASV7
+2023-12-20 20:42:33.312251 INFO::Creating boxplot for categorical data, genotype vs ASV397
+2023-12-20 20:42:33.373083 INFO::Creating boxplot for categorical data, genotype vs ASV143
+2023-12-20 20:42:33.435973 INFO::Creating boxplot for categorical data, genotype vs ASV70
+2023-12-20 20:42:33.496671 INFO::Creating boxplot for categorical data, genotype vs ASV86
+2023-12-20 20:42:33.556616 INFO::Creating boxplot for categorical data, genotype vs ASV305
+2023-12-20 20:42:33.634199 INFO::Creating boxplot for categorical data, genotype vs ASV83
+2023-12-20 20:42:33.697449 INFO::Creating boxplot for categorical data, genotype vs ASV177
+2023-12-20 20:42:33.760247 INFO::Creating boxplot for categorical data, genotype vs ASV30
+2023-12-20 20:42:33.8229 INFO::Creating boxplot for categorical data, genotype vs ASV290
+2023-12-20 20:42:33.886291 INFO::Creating boxplot for categorical data, genotype vs ASV195
+2023-12-20 20:42:33.96221 INFO::Creating boxplot for categorical data, genotype vs ASV156
+2023-12-20 20:42:34.024865 INFO::Creating boxplot for categorical data, genotype vs ASV140
+2023-12-20 20:42:34.086584 INFO::Creating boxplot for categorical data, genotype vs ASV302
+2023-12-20 20:42:34.147679 INFO::Creating boxplot for categorical data, genotype vs ASV147
+2023-12-20 20:42:34.208365 INFO::Creating boxplot for categorical data, genotype vs ASV428
+2023-12-20 20:42:34.284454 INFO::Creating boxplot for categorical data, genotype vs ASV25
+2023-12-20 20:42:34.346923 INFO::Creating boxplot for categorical data, genotype vs ASV362
+2023-12-20 20:42:34.409721 INFO::Creating boxplot for categorical data, genotype vs ASV113
+2023-12-20 20:42:34.474993 INFO::Creating boxplot for categorical data, genotype vs ASV256
+2023-12-20 20:42:34.535776 INFO::Creating boxplot for categorical data, genotype vs ASV234

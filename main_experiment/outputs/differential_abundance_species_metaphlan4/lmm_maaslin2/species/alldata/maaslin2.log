@@ -1,0 +1,604 @@
+2023-12-20 21:13:39.640165 INFO::Writing function arguments to log file
+2023-12-20 21:13:39.644813 DEBUG::Function arguments
+2023-12-20 21:13:39.64811 DEBUG::Output folder: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata
+2023-12-20 21:13:39.648291 DEBUG::Min Abundance: 0.000000
+2023-12-20 21:13:39.648442 DEBUG::Min Prevalence: 0.200000
+2023-12-20 21:13:39.64858 DEBUG::Normalization: NONE
+2023-12-20 21:13:39.648716 DEBUG::Transform: NONE
+2023-12-20 21:13:39.648848 DEBUG::Analysis method: LM
+2023-12-20 21:13:39.648977 DEBUG::Max significance: 0.250000
+2023-12-20 21:13:39.649112 DEBUG::Random effects: mouse_id
+2023-12-20 21:13:39.649241 DEBUG::Fixed effects: trimester,genotype
+2023-12-20 21:13:39.649368 DEBUG::Correction method: BH
+2023-12-20 21:13:39.649493 DEBUG::Standardize: TRUE
+2023-12-20 21:13:39.649615 DEBUG::Cores: 1
+2023-12-20 21:13:39.649732 INFO::Verifying options selected are valid
+2023-12-20 21:13:39.690446 INFO::Determining format of input files
+2023-12-20 21:13:39.691223 INFO::Input format is data samples as rows and metadata samples as rows
+2023-12-20 21:13:39.692435 DEBUG::A total of 72 samples were found in both the data and metadata
+2023-12-20 21:13:39.692608 DEBUG::Reordering data/metadata to use same sample ordering
+2023-12-20 21:13:39.693717 INFO::Formula for random effects: expr ~ (1 | mouse_id)
+2023-12-20 21:13:39.694414 INFO::Formula for fixed effects: expr ~  trimester + genotype
+2023-12-20 21:13:39.695156 INFO::Filter data based on min abundance and min prevalence
+2023-12-20 21:13:39.695531 INFO::Total samples in data: 72
+2023-12-20 21:13:39.695873 INFO::Min samples required with min abundance for a feature not to be filtered: 14.400000
+2023-12-20 21:13:39.697396 INFO::Total filtered features: 14
+2023-12-20 21:13:39.697866 INFO::Filtered feature names from abundance and prevalence filtering: s__bacterium_1XD21_70, s__bacterium_1xD8_6, s__GGB28901_SGB41592, s__Staphylococcus_xylosus, s__GGB42579_SGB59774, s__GGB28430_SGB41013, s__GGB28632_SGB41253, s__GGB28946_SGB41652, s__GGB28828_SGB41484, s__Lachnospiraceae_unclassified_SGB41511, s__GGB30290_SGB43252, s__GGB30296_SGB43260, s__GGB30466_SGB43544, s__Escherichia_coli
+2023-12-20 21:13:39.700166 INFO::Total filtered features with variance filtering: 0
+2023-12-20 21:13:39.7006 INFO::Filtered feature names from variance filtering:
+2023-12-20 21:13:39.701152 INFO::Running selected normalization method: NONE
+2023-12-20 21:13:39.70159 INFO::Applying z-score to standardize continuous metadata
+2023-12-20 21:13:39.706344 INFO::Running selected transform method: NONE
+2023-12-20 21:13:39.707181 INFO::Running selected analysis method: LM
+2023-12-20 21:13:39.805436 INFO::Fitting model to feature number 1, s__GGB30286_SGB43248
+2023-12-20 21:13:39.873826 INFO::Fitting model to feature number 2, s__GGB30301_SGB43265
+2023-12-20 21:13:39.898228 INFO::Fitting model to feature number 3, s__GGB30302_SGB43266
+2023-12-20 21:13:39.918548 INFO::Fitting model to feature number 4, s__GGB30302_SGB43267
+2023-12-20 21:13:39.939573 INFO::Fitting model to feature number 5, s__GGB30303_SGB43268
+2023-12-20 21:13:39.95971 INFO::Fitting model to feature number 6, s__GGB30413_SGB43452
+2023-12-20 21:13:39.980728 INFO::Fitting model to feature number 7, s__Atopobiaceae_bacterium_FL090493
+2023-12-20 21:13:40.005817 INFO::Fitting model to feature number 8, s__Adlercreutzia_caecicola
+2023-12-20 21:13:40.027507 INFO::Fitting model to feature number 9, s__Adlercreutzia_caecimuris
+2023-12-20 21:13:40.048616 INFO::Fitting model to feature number 10, s__Adlercreutzia_mucosicola
+2023-12-20 21:13:40.069436 INFO::Fitting model to feature number 11, s__Adlercreutzia_muris
+2023-12-20 21:13:40.090754 INFO::Fitting model to feature number 12, s__Eggerthellaceae_bacterium
+2023-12-20 21:13:40.111562 INFO::Fitting model to feature number 13, s__Enterorhabdus_sp_P55
+2023-12-20 21:13:40.144675 INFO::Fitting model to feature number 14, s__GGB30048_SGB42949
+2023-12-20 21:13:40.166088 INFO::Fitting model to feature number 15, s__Bacteria_unclassified_SGB41586
+2023-12-20 21:13:40.186997 INFO::Fitting model to feature number 16, s__bacterium_0_1xD8_82
+2023-12-20 21:13:40.208119 INFO::Fitting model to feature number 17, s__bacterium_1XD42_1
+2023-12-20 21:13:40.228806 INFO::Fitting model to feature number 18, s__bacterium_1XD42_54
+2023-12-20 21:13:40.250343 INFO::Fitting model to feature number 19, s__bacterium_1XD42_76
+2023-12-20 21:13:40.271068 INFO::Fitting model to feature number 20, s__bacterium_1xD8_48
+2023-12-20 21:13:40.291692 INFO::Fitting model to feature number 21, s__bacterium_D16_29
+2023-12-20 21:13:40.311919 INFO::Fitting model to feature number 22, s__bacterium_D16_54
+2023-12-20 21:13:40.333362 INFO::Fitting model to feature number 23, s__bacterium_D16_63
+2023-12-20 21:13:40.353528 INFO::Fitting model to feature number 24, s__bacterium_D16_76
+2023-12-20 21:13:40.374866 INFO::Fitting model to feature number 25, s__GGB31171_SGB44462
+2023-12-20 21:13:40.395274 INFO::Fitting model to feature number 26, s__GGB28955_SGB41663
+2023-12-20 21:13:40.416226 INFO::Fitting model to feature number 27, s__GGB28887_SGB41568
+2023-12-20 21:13:40.438113 INFO::Fitting model to feature number 28, s__GGB28888_SGB41569
+2023-12-20 21:13:40.459788 INFO::Fitting model to feature number 29, s__GGB28904_SGB41597
+2023-12-20 21:13:40.481023 INFO::Fitting model to feature number 30, s__GGB28948_SGB41654
+2023-12-20 21:13:40.511139 INFO::Fitting model to feature number 31, s__Bacteroidaceae_bacterium
+2023-12-20 21:13:40.53241 INFO::Fitting model to feature number 32, s__Bacteroides_acidifaciens
+2023-12-20 21:13:40.557662 INFO::Fitting model to feature number 33, s__Bacteroides_caecimuris
+2023-12-20 21:13:40.582606 INFO::Fitting model to feature number 34, s__Bacteroides_uniformis
+2023-12-20 21:13:40.603881 INFO::Fitting model to feature number 35, s__GGB28265_SGB40817
+2023-12-20 21:13:40.625545 INFO::Fitting model to feature number 36, s__GGB24132_SGB35935
+2023-12-20 21:13:40.648872 INFO::Fitting model to feature number 37, s__GGB24146_SGB35950
+2023-12-20 21:13:40.670451 INFO::Fitting model to feature number 38, s__GGB24149_SGB35953
+2023-12-20 21:13:40.690573 INFO::Fitting model to feature number 39, s__GGB27872_SGB40306
+2023-12-20 21:13:40.711089 INFO::Fitting model to feature number 40, s__GGB27873_SGB40307
+2023-12-20 21:13:40.731818 INFO::Fitting model to feature number 41, s__GGB27885_SGB40319
+2023-12-20 21:13:40.752703 INFO::Fitting model to feature number 42, s__GGB27890_SGB40324
+2023-12-20 21:13:40.773252 INFO::Fitting model to feature number 43, s__GGB27892_SGB40326
+2023-12-20 21:13:40.793499 INFO::Fitting model to feature number 44, s__GGB27893_SGB40327
+2023-12-20 21:13:40.813941 INFO::Fitting model to feature number 45, s__Duncaniella_dubosii
+2023-12-20 21:13:40.834499 INFO::Fitting model to feature number 46, s__Duncaniella_freteri
+2023-12-20 21:13:40.855264 INFO::Fitting model to feature number 47, s__Duncaniella_muris
+2023-12-20 21:13:40.875602 INFO::Fitting model to feature number 48, s__GGB14013_SGB21440
+2023-12-20 21:13:40.903972 INFO::Fitting model to feature number 49, s__GGB14014_SGB21441
+2023-12-20 21:13:40.924793 INFO::Fitting model to feature number 50, s__GGB14022_SGB21449
+2023-12-20 21:13:40.944757 INFO::Fitting model to feature number 51, s__Muribaculaceae_bacterium
+2023-12-20 21:13:40.965582 INFO::Fitting model to feature number 52, s__Muribaculaceae_bacterium_Isolate_013_NCI
+2023-12-20 21:13:40.985885 INFO::Fitting model to feature number 53, s__Muribaculaceae_bacterium_Isolate_110_HZI
+2023-12-20 21:13:41.00692 INFO::Fitting model to feature number 54, s__Muribaculum_gordoncarteri
+2023-12-20 21:13:41.027447 INFO::Fitting model to feature number 55, s__Muribaculum_intestinale
+2023-12-20 21:13:41.04822 INFO::Fitting model to feature number 56, s__Paramuribaculum_intestinale
+2023-12-20 21:13:41.068339 INFO::Fitting model to feature number 57, s__GGB28248_SGB40791
+2023-12-20 21:13:41.089396 INFO::Fitting model to feature number 58, s__Odoribacter_sp_Z80
+2023-12-20 21:13:41.10937 INFO::Fitting model to feature number 59, s__Prevotella_sp_PCJ2
+2023-12-20 21:13:41.130148 INFO::Fitting model to feature number 60, s__Alistipes_sp
+2023-12-20 21:13:41.150402 INFO::Fitting model to feature number 61, s__GGB24102_SGB35895
+2023-12-20 21:13:41.171159 INFO::Fitting model to feature number 62, s__GGB24102_SGB40205
+2023-12-20 21:13:41.191045 INFO::Fitting model to feature number 63, s__GGB27776_SGB40190
+2023-12-20 21:13:41.211494 INFO::Fitting model to feature number 64, s__GGB27778_SGB40192
+2023-12-20 21:13:41.232092 INFO::Fitting model to feature number 65, s__GGB27791_SGB40207
+2023-12-20 21:13:41.252517 INFO::Fitting model to feature number 66, s__GGB27792_SGB40208
+2023-12-20 21:13:41.280474 INFO::Fitting model to feature number 67, s__Rikenellaceae_bacterium
+2023-12-20 21:13:41.301097 INFO::Fitting model to feature number 68, s__Parabacteroides_distasonis
+2023-12-20 21:13:41.323875 INFO::Fitting model to feature number 69, s__Parabacteroides_goldsteinii
+2023-12-20 21:13:41.34415 INFO::Fitting model to feature number 70, s__GGB31109_SGB44380
+2023-12-20 21:13:41.370758 INFO::Fitting model to feature number 71, s__GGB27898_SGB40333
+2023-12-20 21:13:41.392251 INFO::Fitting model to feature number 72, s__GGB14001_SGB21428
+2023-12-20 21:13:41.413313 INFO::Fitting model to feature number 73, s__GGB27851_SGB40285
+2023-12-20 21:13:41.432956 INFO::Fitting model to feature number 74, s__GGB23844_SGB35575
+2023-12-20 21:13:41.453838 INFO::Fitting model to feature number 75, s__GGB27861_SGB40295
+2023-12-20 21:13:41.473818 INFO::Fitting model to feature number 76, s__GGB27866_SGB40300
+2023-12-20 21:13:41.494415 INFO::Fitting model to feature number 77, s__GGB27929_SGB40368
+2023-12-20 21:13:41.514414 INFO::Fitting model to feature number 78, s__Mucispirillum_schaedleri
+2023-12-20 21:13:41.535245 INFO::Fitting model to feature number 79, s__Lactobacillus_intestinalis
+2023-12-20 21:13:41.555539 INFO::Fitting model to feature number 80, s__Lactobacillus_johnsonii
+2023-12-20 21:13:41.576676 INFO::Fitting model to feature number 81, s__Lactobacillus_taiwanensis
+2023-12-20 21:13:41.596942 INFO::Fitting model to feature number 82, s__Ligilactobacillus_murinus
+2023-12-20 21:13:41.618198 INFO::Fitting model to feature number 83, s__Limosilactobacillus_reuteri
+2023-12-20 21:13:41.648484 INFO::Fitting model to feature number 84, s__Streptococcus_danieliae
+2023-12-20 21:13:41.676959 INFO::Fitting model to feature number 85, s__GGB31438_SGB44768
+2023-12-20 21:13:41.696941 INFO::Fitting model to feature number 86, s__GGB31439_SGB44769
+2023-12-20 21:13:41.718262 INFO::Fitting model to feature number 87, s__GGB31701_SGB45057
+2023-12-20 21:13:41.73825 INFO::Fitting model to feature number 88, s__GGB31851_SGB45231
+2023-12-20 21:13:41.75997 INFO::Fitting model to feature number 89, s__GGB31853_SGB45233
+2023-12-20 21:13:41.780224 INFO::Fitting model to feature number 90, s__GGB42343_SGB59511
+2023-12-20 21:13:41.801457 INFO::Fitting model to feature number 91, s__GGB42344_SGB59512
+2023-12-20 21:13:41.822032 INFO::Fitting model to feature number 92, s__GGB28955_SGB41664
+2023-12-20 21:13:41.843252 INFO::Fitting model to feature number 93, s__GGB28956_SGB41665
+2023-12-20 21:13:41.863822 INFO::Fitting model to feature number 94, s__GGB28959_SGB41668
+2023-12-20 21:13:41.88495 INFO::Fitting model to feature number 95, s__GGB28893_SGB41574
+2023-12-20 21:13:41.905741 INFO::Fitting model to feature number 96, s__GGB28903_SGB41594
+2023-12-20 21:13:41.926338 INFO::Fitting model to feature number 97, s__GGB28330_SGB40904
+2023-12-20 21:13:41.947328 INFO::Fitting model to feature number 98, s__GGB28384_SGB40964
+2023-12-20 21:13:41.967465 INFO::Fitting model to feature number 99, s__GGB28386_SGB40966
+2023-12-20 21:13:41.988669 INFO::Fitting model to feature number 100, s__GGB28393_SGB40973
+2023-12-20 21:13:42.008869 INFO::Fitting model to feature number 101, s__GGB28394_SGB40974
+2023-12-20 21:13:42.029365 INFO::Fitting model to feature number 102, s__GGB28428_SGB41011
+2023-12-20 21:13:42.058093 INFO::Fitting model to feature number 103, s__GGB28431_SGB41014
+2023-12-20 21:13:42.078994 INFO::Fitting model to feature number 104, s__GGB28433_SGB41016
+2023-12-20 21:13:42.099782 INFO::Fitting model to feature number 105, s__GGB28437_SGB41020
+2023-12-20 21:13:42.120389 INFO::Fitting model to feature number 106, s__GGB28779_SGB41432
+2023-12-20 21:13:42.140884 INFO::Fitting model to feature number 107, s__GGB28881_SGB41561
+2023-12-20 21:13:42.167653 INFO::Fitting model to feature number 108, s__GGB28929_SGB41629
+2023-12-20 21:13:42.192089 INFO::Fitting model to feature number 109, s__GGB28934_SGB41635
+2023-12-20 21:13:42.211929 INFO::Fitting model to feature number 110, s__GGB28945_SGB41650
+2023-12-20 21:13:42.232783 INFO::Fitting model to feature number 111, s__GGB28949_SGB41655
+2023-12-20 21:13:42.252951 INFO::Fitting model to feature number 112, s__GGB28980_SGB41692
+2023-12-20 21:13:42.272688 INFO::Fitting model to feature number 113, s__GGB28996_SGB41712
+2023-12-20 21:13:42.292559 INFO::Fitting model to feature number 114, s__GGB29002_SGB41718
+2023-12-20 21:13:42.312167 INFO::Fitting model to feature number 115, s__GGB29003_SGB41719
+2023-12-20 21:13:42.332374 INFO::Fitting model to feature number 116, s__GGB29004_SGB41721
+2023-12-20 21:13:42.352993 INFO::Fitting model to feature number 117, s__GGB29531_SGB42317
+2023-12-20 21:13:42.373456 INFO::Fitting model to feature number 118, s__GGB29546_SGB42338
+2023-12-20 21:13:42.394476 INFO::Fitting model to feature number 119, s__GGB30142_SGB43067
+2023-12-20 21:13:42.414224 INFO::Fitting model to feature number 120, s__GGB30408_SGB43438
+2023-12-20 21:13:42.443182 INFO::Fitting model to feature number 121, s__GGB28402_SGB40984
+2023-12-20 21:13:42.463553 INFO::Fitting model to feature number 122, s__GGB28404_SGB40986
+2023-12-20 21:13:42.48344 INFO::Fitting model to feature number 123, s__GGB28416_SGB40998
+2023-12-20 21:13:42.504066 INFO::Fitting model to feature number 124, s__GGB28422_SGB41005
+2023-12-20 21:13:42.523875 INFO::Fitting model to feature number 125, s__Candidatus_Arthromitus_sp_SFB_mouse
+2023-12-20 21:13:42.544163 INFO::Fitting model to feature number 126, s__Clostridiaceae_bacterium
+2023-12-20 21:13:42.564361 INFO::Fitting model to feature number 127, s__Clostridiaceae_unclassified_SGB41645
+2023-12-20 21:13:42.584877 INFO::Fitting model to feature number 128, s__GGB28988_SGB41701
+2023-12-20 21:13:42.604787 INFO::Fitting model to feature number 129, s__GGB28989_SGB41702
+2023-12-20 21:13:42.625612 INFO::Fitting model to feature number 130, s__GGB30145_SGB43072
+2023-12-20 21:13:42.645778 INFO::Fitting model to feature number 131, s__GGB30147_SGB43074
+2023-12-20 21:13:42.665605 INFO::Fitting model to feature number 132, s__Emergencia_sp_1XD21_10
+2023-12-20 21:13:42.685966 INFO::Fitting model to feature number 133, s__Clostridiales_bacterium
+2023-12-20 21:13:42.705536 INFO::Fitting model to feature number 134, s__Acetatifactor_muris
+2023-12-20 21:13:42.725555 INFO::Fitting model to feature number 135, s__Dorea_sp_5_2
+2023-12-20 21:13:42.746535 INFO::Fitting model to feature number 136, s__GGB25041_SGB36960
+2023-12-20 21:13:42.766657 INFO::Fitting model to feature number 137, s__GGB28621_SGB41239
+2023-12-20 21:13:42.787391 INFO::Fitting model to feature number 138, s__GGB28763_SGB41411
+2023-12-20 21:13:42.847661 INFO::Fitting model to feature number 139, s__GGB28766_SGB41417
+2023-12-20 21:13:42.867649 INFO::Fitting model to feature number 140, s__GGB28769_SGB41421
+2023-12-20 21:13:42.888997 INFO::Fitting model to feature number 141, s__GGB28772_SGB41425
+2023-12-20 21:13:42.910273 INFO::Fitting model to feature number 142, s__GGB28790_SGB41443
+2023-12-20 21:13:42.930471 INFO::Fitting model to feature number 143, s__GGB28793_SGB41446
+2023-12-20 21:13:42.951519 INFO::Fitting model to feature number 144, s__GGB28798_SGB41451
+2023-12-20 21:13:42.9793 INFO::Fitting model to feature number 145, s__GGB28803_SGB41457
+2023-12-20 21:13:43.001192 INFO::Fitting model to feature number 146, s__GGB28807_SGB41461
+2023-12-20 21:13:43.021261 INFO::Fitting model to feature number 147, s__GGB28836_SGB41496
+2023-12-20 21:13:43.04149 INFO::Fitting model to feature number 148, s__GGB28841_SGB41505
+2023-12-20 21:13:43.062474 INFO::Fitting model to feature number 149, s__GGB28846_SGB41513
+2023-12-20 21:13:43.082647 INFO::Fitting model to feature number 150, s__GGB28849_SGB41516
+2023-12-20 21:13:43.103691 INFO::Fitting model to feature number 151, s__GGB28851_SGB41518
+2023-12-20 21:13:43.123838 INFO::Fitting model to feature number 152, s__GGB28861_SGB41531
+2023-12-20 21:13:43.144595 INFO::Fitting model to feature number 153, s__GGB28868_SGB41542
+2023-12-20 21:13:43.164776 INFO::Fitting model to feature number 154, s__GGB28869_SGB41543
+2023-12-20 21:13:43.185198 INFO::Fitting model to feature number 155, s__GGB28870_SGB41546
+2023-12-20 21:13:43.20755 INFO::Fitting model to feature number 156, s__GGB28870_SGB41549
+2023-12-20 21:13:43.242907 INFO::Fitting model to feature number 157, s__GGB28873_SGB41553
+2023-12-20 21:13:43.265764 INFO::Fitting model to feature number 158, s__GGB28875_SGB41555
+2023-12-20 21:13:43.292671 INFO::Fitting model to feature number 159, s__GGB28879_SGB41559
+2023-12-20 21:13:43.323287 INFO::Fitting model to feature number 160, s__GGB28916_SGB41612
+2023-12-20 21:13:43.358548 INFO::Fitting model to feature number 161, s__GGB28926_SGB41623
+2023-12-20 21:13:43.3885 INFO::Fitting model to feature number 162, s__GGB28927_SGB41625
+2023-12-20 21:13:43.426516 INFO::Fitting model to feature number 163, s__GGB28963_SGB41672
+2023-12-20 21:13:43.454479 INFO::Fitting model to feature number 164, s__GGB28968_SGB41679
+2023-12-20 21:13:43.478014 INFO::Fitting model to feature number 165, s__GGB29005_SGB41723
+2023-12-20 21:13:43.503251 INFO::Fitting model to feature number 166, s__GGB29006_SGB41724
+2023-12-20 21:13:43.527601 INFO::Fitting model to feature number 167, s__GGB29006_SGB41725
+2023-12-20 21:13:43.553702 INFO::Fitting model to feature number 168, s__Lachnospiraceae_bacterium
+2023-12-20 21:13:43.574103 INFO::Fitting model to feature number 169, s__Lachnospiraceae_bacterium_28_4
+2023-12-20 21:13:43.594327 INFO::Fitting model to feature number 170, s__Lachnospiraceae_bacterium_A2
+2023-12-20 21:13:43.615318 INFO::Fitting model to feature number 171, s__Lachnospiraceae_bacterium_A4
+2023-12-20 21:13:43.638167 INFO::Fitting model to feature number 172, s__Lachnospiraceae_bacterium_MD308
+2023-12-20 21:13:43.664149 INFO::Fitting model to feature number 173, s__Lachnospiraceae_bacterium_MD335
+2023-12-20 21:13:43.684379 INFO::Fitting model to feature number 174, s__Lachnospiraceae_bacterium_WCA_9_b2
+2023-12-20 21:13:43.713699 INFO::Fitting model to feature number 175, s__Lachnospiraceae_unclassified_SGB41498
+2023-12-20 21:13:43.734373 INFO::Fitting model to feature number 176, s__Roseburia_sp_1XD42_69
+2023-12-20 21:13:43.754906 INFO::Fitting model to feature number 177, s__Schaedlerella_arabinosiphila
+2023-12-20 21:13:43.775842 INFO::Fitting model to feature number 178, s__Oscillibacter_sp_1_3
+2023-12-20 21:13:43.796252 INFO::Fitting model to feature number 179, s__Romboutsia_ilealis
+2023-12-20 21:13:43.81725 INFO::Fitting model to feature number 180, s__Acutalibacter_muris
+2023-12-20 21:13:43.837359 INFO::Fitting model to feature number 181, s__Anaerotruncus_colihominis
+2023-12-20 21:13:43.858339 INFO::Fitting model to feature number 182, s__GGB29550_SGB42344
+2023-12-20 21:13:43.878435 INFO::Fitting model to feature number 183, s__GGB30091_SGB43003
+2023-12-20 21:13:43.899258 INFO::Fitting model to feature number 184, s__GGB30093_SGB43006
+2023-12-20 21:13:43.919815 INFO::Fitting model to feature number 185, s__GGB30295_SGB43259
+2023-12-20 21:13:43.945862 INFO::Fitting model to feature number 186, s__GGB30297_SGB43261
+2023-12-20 21:13:43.967738 INFO::Fitting model to feature number 187, s__GGB30444_SGB43493
+2023-12-20 21:13:43.987146 INFO::Fitting model to feature number 188, s__GGB30445_SGB43494
+2023-12-20 21:13:44.007604 INFO::Fitting model to feature number 189, s__GGB30448_SGB43502
+2023-12-20 21:13:44.028749 INFO::Fitting model to feature number 190, s__GGB30448_SGB43504
+2023-12-20 21:13:44.048394 INFO::Fitting model to feature number 191, s__GGB30451_SGB43508
+2023-12-20 21:13:44.069295 INFO::Fitting model to feature number 192, s__GGB30454_SGB43514
+2023-12-20 21:13:44.098889 INFO::Fitting model to feature number 193, s__GGB30454_SGB43516
+2023-12-20 21:13:44.118588 INFO::Fitting model to feature number 194, s__GGB30457_SGB43521
+2023-12-20 21:13:44.138989 INFO::Fitting model to feature number 195, s__GGB30457_SGB43523
+2023-12-20 21:13:44.160172 INFO::Fitting model to feature number 196, s__GGB30461_SGB43530
+2023-12-20 21:13:44.18034 INFO::Fitting model to feature number 197, s__GGB30461_SGB43533
+2023-12-20 21:13:44.201302 INFO::Fitting model to feature number 198, s__GGB30461_SGB63209
+2023-12-20 21:13:44.221675 INFO::Fitting model to feature number 199, s__GGB30466_SGB43541
+2023-12-20 21:13:44.242941 INFO::Fitting model to feature number 200, s__GGB30466_SGB43546
+2023-12-20 21:13:44.263339 INFO::Fitting model to feature number 201, s__GGB30473_SGB43557
+2023-12-20 21:13:44.284595 INFO::Fitting model to feature number 202, s__GGB30475_SGB63182
+2023-12-20 21:13:44.305783 INFO::Fitting model to feature number 203, s__GGB3171_SGB4185
+2023-12-20 21:13:44.326335 INFO::Fitting model to feature number 204, s__Neglecta_sp_X4
+2023-12-20 21:13:44.347387 INFO::Fitting model to feature number 205, s__Pseudoflavonifractor_sp_60
+2023-12-20 21:13:44.367367 INFO::Fitting model to feature number 206, s__Faecalibaculum_rodentium
+2023-12-20 21:13:44.388718 INFO::Fitting model to feature number 207, s__GGB31184_SGB44478
+2023-12-20 21:13:44.408878 INFO::Fitting model to feature number 208, s__Turicibacter_sp_TS3
+2023-12-20 21:13:44.4293 INFO::Fitting model to feature number 209, s__Firmicutes_bacterium_ASF500
+2023-12-20 21:13:44.449303 INFO::Fitting model to feature number 210, s__GGB30667_SGB43809
+2023-12-20 21:13:44.47974 INFO::Fitting model to feature number 211, s__Parasutterella_excrementihominis
+2023-12-20 21:13:44.499958 INFO::Fitting model to feature number 212, s__Turicimonas_muris
+2023-12-20 21:13:44.520567 INFO::Fitting model to feature number 213, s__GGB28308_SGB40878
+2023-12-20 21:13:44.54075 INFO::Fitting model to feature number 214, s__GGB28310_SGB40880
+2023-12-20 21:13:44.561463 INFO::Fitting model to feature number 215, s__GGB28317_SGB40889
+2023-12-20 21:13:44.581815 INFO::Fitting model to feature number 216, s__Helicobacter_hepaticus
+2023-12-20 21:13:44.620437 INFO::Counting total values for each feature
+2023-12-20 21:13:44.63155 INFO::Writing filtered data to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/features/filtered_data.tsv
+2023-12-20 21:13:44.641229 INFO::Writing filtered, normalized data to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/features/filtered_data_norm.tsv
+2023-12-20 21:13:44.650217 INFO::Writing filtered, normalized, transformed data to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/features/filtered_data_norm_transformed.tsv
+2023-12-20 21:13:44.659 WARNING::Deleting existing residuals file: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/residuals.rds
+2023-12-20 21:13:44.659754 INFO::Writing residuals to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/residuals.rds
+2023-12-20 21:13:44.664181 WARNING::Deleting existing fitted file: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/fitted.rds
+2023-12-20 21:13:44.66514 INFO::Writing fitted values to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/fitted.rds
+2023-12-20 21:13:44.668863 WARNING::Deleting existing ranef file: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/ranef.rds
+2023-12-20 21:13:44.669633 INFO::Writing extracted random effects to file outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/fits/ranef.rds
+2023-12-20 21:13:44.671432 INFO::Writing all results to file (ordered by increasing q-values): outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/all_results.tsv
+2023-12-20 21:13:44.675304 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/significant_results.tsv
+2023-12-20 21:13:44.677979 INFO::Writing heatmap of significant results to file: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata/heatmap.pdf
+2023-12-20 21:13:44.718263 INFO::Writing association plots (one for each significant association) to output folder: outputs/differential_abundance_species_metaphlan4/lmm_maaslin2/species/alldata
+2023-12-20 21:13:44.721287 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-12-20 21:13:44.721959 INFO::Plotting data for metadata number 1, trimester
+2023-12-20 21:13:44.723979 INFO::Creating boxplot for categorical data, trimester vs s__Enterorhabdus_sp_P55
+2023-12-20 21:13:44.846094 INFO::Creating boxplot for categorical data, trimester vs s__Adlercreutzia_mucosicola
+2023-12-20 21:13:44.927148 INFO::Creating boxplot for categorical data, trimester vs s__GGB14013_SGB21440
+2023-12-20 21:13:44.991844 INFO::Creating boxplot for categorical data, trimester vs s__GGB27872_SGB40306
+2023-12-20 21:13:45.055482 INFO::Creating boxplot for categorical data, trimester vs s__GGB24146_SGB35950
+2023-12-20 21:13:45.120333 INFO::Creating boxplot for categorical data, trimester vs s__Adlercreutzia_caecicola
+2023-12-20 21:13:45.18435 INFO::Creating boxplot for categorical data, trimester vs s__Adlercreutzia_caecimuris
+2023-12-20 21:13:45.258809 INFO::Creating boxplot for categorical data, trimester vs s__GGB27872_SGB40306
+2023-12-20 21:13:45.322227 INFO::Creating boxplot for categorical data, trimester vs s__Parabacteroides_distasonis
+2023-12-20 21:13:45.386076 INFO::Creating boxplot for categorical data, trimester vs s__GGB24146_SGB35950
+2023-12-20 21:13:45.449222 INFO::Creating boxplot for categorical data, trimester vs s__GGB27898_SGB40333
+2023-12-20 21:13:45.511021 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculaceae_bacterium_Isolate_013_NCI
+2023-12-20 21:13:45.582557 INFO::Creating boxplot for categorical data, trimester vs s__GGB14013_SGB21440
+2023-12-20 21:13:45.646709 INFO::Creating boxplot for categorical data, trimester vs s__GGB14001_SGB21428
+2023-12-20 21:13:45.71061 INFO::Creating boxplot for categorical data, trimester vs s__Eggerthellaceae_bacterium
+2023-12-20 21:13:45.774051 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculaceae_bacterium_Isolate_013_NCI
+2023-12-20 21:13:45.845663 INFO::Creating boxplot for categorical data, trimester vs s__Ligilactobacillus_murinus
+2023-12-20 21:13:45.908731 INFO::Creating boxplot for categorical data, trimester vs s__GGB27776_SGB40190
+2023-12-20 21:13:45.97135 INFO::Creating boxplot for categorical data, trimester vs s__GGB14014_SGB21441
+2023-12-20 21:13:46.033717 INFO::Creating boxplot for categorical data, trimester vs s__GGB14001_SGB21428
+2023-12-20 21:13:46.095639 INFO::Creating boxplot for categorical data, trimester vs s__GGB14014_SGB21441
+2023-12-20 21:13:46.166376 INFO::Creating boxplot for categorical data, trimester vs s__GGB27892_SGB40326
+2023-12-20 21:13:46.228431 INFO::Creating boxplot for categorical data, trimester vs s__Limosilactobacillus_reuteri
+2023-12-20 21:13:46.291555 INFO::Creating boxplot for categorical data, trimester vs s__Streptococcus_danieliae
+2023-12-20 21:13:46.353444 INFO::Creating boxplot for categorical data, trimester vs s__GGB27892_SGB40326
+2023-12-20 21:13:46.41531 INFO::Creating boxplot for categorical data, trimester vs s__GGB24149_SGB35953
+2023-12-20 21:13:46.486432 INFO::Creating boxplot for categorical data, trimester vs s__GGB27776_SGB40190
+2023-12-20 21:13:46.549464 INFO::Creating boxplot for categorical data, trimester vs s__GGB27898_SGB40333
+2023-12-20 21:13:46.61169 INFO::Creating boxplot for categorical data, trimester vs s__Helicobacter_hepaticus
+2023-12-20 21:13:46.674863 INFO::Creating boxplot for categorical data, trimester vs s__GGB24132_SGB35935
+2023-12-20 21:13:46.746772 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1XD42_54
+2023-12-20 21:13:46.809205 INFO::Creating boxplot for categorical data, trimester vs s__Adlercreutzia_muris
+2023-12-20 21:13:46.872564 INFO::Creating boxplot for categorical data, trimester vs s__GGB28888_SGB41569
+2023-12-20 21:13:46.93498 INFO::Creating boxplot for categorical data, trimester vs s__GGB28956_SGB41665
+2023-12-20 21:13:46.997415 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculum_gordoncarteri
+2023-12-20 21:13:47.068418 INFO::Creating boxplot for categorical data, trimester vs s__GGB27890_SGB40324
+2023-12-20 21:13:47.130932 INFO::Creating boxplot for categorical data, trimester vs s__Turicimonas_muris
+2023-12-20 21:13:47.193115 INFO::Creating boxplot for categorical data, trimester vs s__Parabacteroides_distasonis
+2023-12-20 21:13:47.255456 INFO::Creating boxplot for categorical data, trimester vs s__GGB27791_SGB40207
+2023-12-20 21:13:47.326469 INFO::Creating boxplot for categorical data, trimester vs s__Bacteroides_uniformis
+2023-12-20 21:13:47.389073 INFO::Creating boxplot for categorical data, trimester vs s__GGB30448_SGB43504
+2023-12-20 21:13:47.451809 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium
+2023-12-20 21:13:47.520286 INFO::Creating boxplot for categorical data, trimester vs s__GGB28904_SGB41597
+2023-12-20 21:13:47.583302 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculaceae_bacterium_Isolate_110_HZI
+2023-12-20 21:13:47.65459 INFO::Creating boxplot for categorical data, trimester vs s__GGB28836_SGB41496
+2023-12-20 21:13:47.717093 INFO::Creating boxplot for categorical data, trimester vs s__GGB28265_SGB40817
+2023-12-20 21:13:47.779865 INFO::Creating boxplot for categorical data, trimester vs s__GGB28980_SGB41692
+2023-12-20 21:13:47.841806 INFO::Creating boxplot for categorical data, trimester vs s__GGB27851_SGB40285
+2023-12-20 21:13:47.913132 INFO::Creating boxplot for categorical data, trimester vs s__Dorea_sp_5_2
+2023-12-20 21:13:47.975914 INFO::Creating boxplot for categorical data, trimester vs s__Turicimonas_muris
+2023-12-20 21:13:48.03856 INFO::Creating boxplot for categorical data, trimester vs s__GGB28929_SGB41629
+2023-12-20 21:13:48.101732 INFO::Creating boxplot for categorical data, trimester vs s__GGB28929_SGB41629
+2023-12-20 21:13:48.164731 INFO::Creating boxplot for categorical data, trimester vs s__GGB24102_SGB40205
+2023-12-20 21:13:48.235624 INFO::Creating boxplot for categorical data, trimester vs s__GGB28870_SGB41549
+2023-12-20 21:13:48.298152 INFO::Creating boxplot for categorical data, trimester vs s__GGB28766_SGB41417
+2023-12-20 21:13:48.360457 INFO::Creating boxplot for categorical data, trimester vs s__GGB24149_SGB35953
+2023-12-20 21:13:48.423202 INFO::Creating boxplot for categorical data, trimester vs s__GGB24102_SGB35895
+2023-12-20 21:13:48.494606 INFO::Creating boxplot for categorical data, trimester vs s__GGB27861_SGB40295
+2023-12-20 21:13:48.556362 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculum_gordoncarteri
+2023-12-20 21:13:48.619691 INFO::Creating boxplot for categorical data, trimester vs s__GGB30303_SGB43268
+2023-12-20 21:13:48.6829 INFO::Creating boxplot for categorical data, trimester vs s__GGB30048_SGB42949
+2023-12-20 21:13:48.745901 INFO::Creating boxplot for categorical data, trimester vs s__GGB28955_SGB41663
+2023-12-20 21:13:48.817171 INFO::Creating boxplot for categorical data, trimester vs s__GGB27851_SGB40285
+2023-12-20 21:13:48.880556 INFO::Creating boxplot for categorical data, trimester vs s__Schaedlerella_arabinosiphila
+2023-12-20 21:13:48.943752 INFO::Creating boxplot for categorical data, trimester vs s__GGB24132_SGB35935
+2023-12-20 21:13:49.006165 INFO::Creating boxplot for categorical data, trimester vs s__Lactobacillus_johnsonii
+2023-12-20 21:13:49.077546 INFO::Creating boxplot for categorical data, trimester vs s__Emergencia_sp_1XD21_10
+2023-12-20 21:13:49.139367 INFO::Creating boxplot for categorical data, trimester vs s__GGB28870_SGB41546
+2023-12-20 21:13:49.202124 INFO::Creating boxplot for categorical data, trimester vs s__GGB28851_SGB41518
+2023-12-20 21:13:49.268212 INFO::Creating boxplot for categorical data, trimester vs s__Lactobacillus_taiwanensis
+2023-12-20 21:13:49.331795 INFO::Creating boxplot for categorical data, trimester vs s__GGB28903_SGB41594
+2023-12-20 21:13:49.402715 INFO::Creating boxplot for categorical data, trimester vs s__GGB28948_SGB41654
+2023-12-20 21:13:49.465764 INFO::Creating boxplot for categorical data, trimester vs s__Lactobacillus_intestinalis
+2023-12-20 21:13:49.527731 INFO::Creating boxplot for categorical data, trimester vs s__GGB28956_SGB41665
+2023-12-20 21:13:49.590058 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1XD42_76
+2023-12-20 21:13:49.95363 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_0_1xD8_82
+2023-12-20 21:13:50.014524 INFO::Creating boxplot for categorical data, trimester vs s__GGB31184_SGB44478
+2023-12-20 21:13:50.076627 INFO::Creating boxplot for categorical data, trimester vs s__GGB28772_SGB41425
+2023-12-20 21:13:50.141603 INFO::Creating boxplot for categorical data, trimester vs s__GGB28927_SGB41625
+2023-12-20 21:13:50.206272 INFO::Creating boxplot for categorical data, trimester vs s__GGB29002_SGB41718
+2023-12-20 21:13:50.276485 INFO::Creating boxplot for categorical data, trimester vs s__Clostridiaceae_bacterium
+2023-12-20 21:13:50.339125 INFO::Creating boxplot for categorical data, trimester vs s__GGB31851_SGB45231
+2023-12-20 21:13:50.406632 INFO::Creating boxplot for categorical data, trimester vs s__GGB28790_SGB41443
+2023-12-20 21:13:50.469113 INFO::Creating boxplot for categorical data, trimester vs s__GGB28807_SGB41461
+2023-12-20 21:13:50.531055 INFO::Creating boxplot for categorical data, trimester vs s__Bacteroides_uniformis
+2023-12-20 21:13:50.600074 INFO::Creating boxplot for categorical data, trimester vs s__GGB28949_SGB41655
+2023-12-20 21:13:50.662513 INFO::Creating boxplot for categorical data, trimester vs s__Acetatifactor_muris
+2023-12-20 21:13:50.72586 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_D16_63
+2023-12-20 21:13:50.788485 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculum_intestinale
+2023-12-20 21:13:50.857438 INFO::Creating boxplot for categorical data, trimester vs s__GGB28989_SGB41702
+2023-12-20 21:13:50.918745 INFO::Creating boxplot for categorical data, trimester vs s__Parabacteroides_goldsteinii
+2023-12-20 21:13:50.981178 INFO::Creating boxplot for categorical data, trimester vs s__GGB28849_SGB41516
+2023-12-20 21:13:51.04353 INFO::Creating boxplot for categorical data, trimester vs s__GGB28416_SGB40998
+2023-12-20 21:13:51.10578 INFO::Creating boxplot for categorical data, trimester vs s__GGB29005_SGB41723
+2023-12-20 21:13:51.174242 INFO::Creating boxplot for categorical data, trimester vs s__GGB29550_SGB42344
+2023-12-20 21:13:51.236339 INFO::Creating boxplot for categorical data, trimester vs s__Bacteroides_acidifaciens
+2023-12-20 21:13:51.29872 INFO::Creating boxplot for categorical data, trimester vs s__GGB29003_SGB41719
+2023-12-20 21:13:51.360151 INFO::Creating boxplot for categorical data, trimester vs s__GGB30145_SGB43072
+2023-12-20 21:13:51.422895 INFO::Creating boxplot for categorical data, trimester vs s__Rikenellaceae_bacterium
+2023-12-20 21:13:51.493487 INFO::Creating boxplot for categorical data, trimester vs s__GGB28875_SGB41555
+2023-12-20 21:13:51.556006 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_MD308
+2023-12-20 21:13:51.618268 INFO::Creating boxplot for categorical data, trimester vs s__GGB30408_SGB43438
+2023-12-20 21:13:51.681739 INFO::Creating boxplot for categorical data, trimester vs s__GGB28893_SGB41574
+2023-12-20 21:13:51.744373 INFO::Creating boxplot for categorical data, trimester vs s__GGB28934_SGB41635
+2023-12-20 21:13:51.813407 INFO::Creating boxplot for categorical data, trimester vs s__GGB27890_SGB40324
+2023-12-20 21:13:51.875354 INFO::Creating boxplot for categorical data, trimester vs s__GGB28881_SGB41561
+2023-12-20 21:13:51.936552 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1XD42_76
+2023-12-20 21:13:51.9988 INFO::Creating boxplot for categorical data, trimester vs s__GGB29550_SGB42344
+2023-12-20 21:13:52.067414 INFO::Creating boxplot for categorical data, trimester vs s__GGB30466_SGB43546
+2023-12-20 21:13:52.130535 INFO::Creating boxplot for categorical data, trimester vs s__GGB28431_SGB41014
+2023-12-20 21:13:52.192255 INFO::Creating boxplot for categorical data, trimester vs s__GGB28769_SGB41421
+2023-12-20 21:13:52.255238 INFO::Creating boxplot for categorical data, trimester vs s__Mucispirillum_schaedleri
+2023-12-20 21:13:52.31773 INFO::Creating boxplot for categorical data, trimester vs s__GGB28888_SGB41569
+2023-12-20 21:13:52.386116 INFO::Creating boxplot for categorical data, trimester vs s__GGB28428_SGB41011
+2023-12-20 21:13:52.448173 INFO::Creating boxplot for categorical data, trimester vs s__GGB29531_SGB42317
+2023-12-20 21:13:52.510135 INFO::Creating boxplot for categorical data, trimester vs s__GGB27893_SGB40327
+2023-12-20 21:13:52.572452 INFO::Creating boxplot for categorical data, trimester vs s__GGB30301_SGB43265
+2023-12-20 21:13:52.635484 INFO::Creating boxplot for categorical data, trimester vs s__GGB28963_SGB41672
+2023-12-20 21:13:52.705833 INFO::Creating boxplot for categorical data, trimester vs s__GGB30142_SGB43067
+2023-12-20 21:13:52.767758 INFO::Creating boxplot for categorical data, trimester vs s__GGB28330_SGB40904
+2023-12-20 21:13:52.829881 INFO::Creating boxplot for categorical data, trimester vs s__GGB28394_SGB40974
+2023-12-20 21:13:52.89303 INFO::Creating boxplot for categorical data, trimester vs s__GGB28926_SGB41623
+2023-12-20 21:13:52.963591 INFO::Creating boxplot for categorical data, trimester vs s__GGB29003_SGB41719
+2023-12-20 21:13:53.035136 INFO::Creating boxplot for categorical data, trimester vs s__GGB30475_SGB63182
+2023-12-20 21:13:53.096703 INFO::Creating boxplot for categorical data, trimester vs s__GGB27791_SGB40207
+2023-12-20 21:13:53.15938 INFO::Creating boxplot for categorical data, trimester vs s__GGB23844_SGB35575
+2023-12-20 21:13:53.221952 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_D16_76
+2023-12-20 21:13:53.296931 INFO::Creating boxplot for categorical data, trimester vs s__GGB28793_SGB41446
+2023-12-20 21:13:53.360331 INFO::Creating boxplot for categorical data, trimester vs s__GGB28386_SGB40966
+2023-12-20 21:13:53.422909 INFO::Creating boxplot for categorical data, trimester vs s__Bacteria_unclassified_SGB41586
+2023-12-20 21:13:53.485162 INFO::Creating boxplot for categorical data, trimester vs s__GGB28945_SGB41650
+2023-12-20 21:13:53.547669 INFO::Creating boxplot for categorical data, trimester vs s__GGB28945_SGB41650
+2023-12-20 21:13:53.616975 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_A2
+2023-12-20 21:13:53.679392 INFO::Creating boxplot for categorical data, trimester vs s__Duncaniella_muris
+2023-12-20 21:13:53.74183 INFO::Creating boxplot for categorical data, trimester vs s__GGB28879_SGB41559
+2023-12-20 21:13:53.805111 INFO::Creating boxplot for categorical data, trimester vs s__GGB28968_SGB41679
+2023-12-20 21:13:53.874948 INFO::Creating boxplot for categorical data, trimester vs s__GGB14022_SGB21449
+2023-12-20 21:13:53.93651 INFO::Creating boxplot for categorical data, trimester vs s__GGB30457_SGB43523
+2023-12-20 21:13:53.99905 INFO::Creating boxplot for categorical data, trimester vs s__GGB28428_SGB41011
+2023-12-20 21:13:54.06117 INFO::Creating boxplot for categorical data, trimester vs s__GGB28869_SGB41543
+2023-12-20 21:13:54.12398 INFO::Creating boxplot for categorical data, trimester vs s__GGB30667_SGB43809
+2023-12-20 21:13:54.193588 INFO::Creating boxplot for categorical data, trimester vs s__GGB28948_SGB41654
+2023-12-20 21:13:54.255983 INFO::Creating boxplot for categorical data, trimester vs s__GGB28887_SGB41568
+2023-12-20 21:13:54.31877 INFO::Creating boxplot for categorical data, trimester vs s__GGB28422_SGB41005
+2023-12-20 21:13:54.381158 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_MD335
+2023-12-20 21:13:54.451278 INFO::Creating boxplot for categorical data, trimester vs s__GGB28404_SGB40986
+2023-12-20 21:13:54.513157 INFO::Creating boxplot for categorical data, trimester vs s__GGB31853_SGB45233
+2023-12-20 21:13:54.575458 INFO::Creating boxplot for categorical data, trimester vs s__Turicibacter_sp_TS3
+2023-12-20 21:13:54.638426 INFO::Creating boxplot for categorical data, trimester vs s__GGB31171_SGB44462
+2023-12-20 21:13:54.701255 INFO::Creating boxplot for categorical data, trimester vs s__GGB28881_SGB41561
+2023-12-20 21:13:54.769475 INFO::Creating boxplot for categorical data, trimester vs s__Clostridiales_bacterium
+2023-12-20 21:13:54.831411 INFO::Creating boxplot for categorical data, trimester vs s__Bacteria_unclassified_SGB41586
+2023-12-20 21:13:54.893247 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_D16_54
+2023-12-20 21:13:54.956228 INFO::Creating boxplot for categorical data, trimester vs s__Firmicutes_bacterium_ASF500
+2023-12-20 21:13:55.026868 INFO::Creating boxplot for categorical data, trimester vs s__GGB28904_SGB41597
+2023-12-20 21:13:55.088996 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculaceae_bacterium
+2023-12-20 21:13:55.150683 INFO::Creating boxplot for categorical data, trimester vs s__Duncaniella_dubosii
+2023-12-20 21:13:55.213544 INFO::Creating boxplot for categorical data, trimester vs s__GGB27885_SGB40319
+2023-12-20 21:13:55.276673 INFO::Creating boxplot for categorical data, trimester vs s__GGB28416_SGB40998
+2023-12-20 21:13:55.345831 INFO::Creating boxplot for categorical data, trimester vs s__Clostridiaceae_unclassified_SGB41645
+2023-12-20 21:13:55.407561 INFO::Creating boxplot for categorical data, trimester vs s__Anaerotruncus_colihominis
+2023-12-20 21:13:55.469709 INFO::Creating boxplot for categorical data, trimester vs s__Atopobiaceae_bacterium_FL090493
+2023-12-20 21:13:55.532803 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_unclassified_SGB41498
+2023-12-20 21:13:55.60338 INFO::Creating boxplot for categorical data, trimester vs s__GGB28308_SGB40878
+2023-12-20 21:13:55.673931 INFO::Creating boxplot for categorical data, trimester vs s__Clostridiaceae_unclassified_SGB41645
+2023-12-20 21:13:55.73641 INFO::Creating boxplot for categorical data, trimester vs s__Duncaniella_freteri
+2023-12-20 21:13:55.798839 INFO::Creating boxplot for categorical data, trimester vs s__Schaedlerella_arabinosiphila
+2023-12-20 21:13:55.863077 INFO::Creating boxplot for categorical data, trimester vs s__Candidatus_Arthromitus_sp_SFB_mouse
+2023-12-20 21:13:55.932671 INFO::Creating boxplot for categorical data, trimester vs s__GGB42343_SGB59511
+2023-12-20 21:13:55.994234 INFO::Creating boxplot for categorical data, trimester vs s__Emergencia_sp_1XD21_10
+2023-12-20 21:13:56.055454 INFO::Creating boxplot for categorical data, trimester vs s__GGB3171_SGB4185
+2023-12-20 21:13:56.118118 INFO::Creating boxplot for categorical data, trimester vs s__Alistipes_sp
+2023-12-20 21:13:56.211355 INFO::Creating boxplot for categorical data, trimester vs s__GGB28916_SGB41612
+2023-12-20 21:13:56.274926 INFO::Creating boxplot for categorical data, trimester vs s__GGB31701_SGB45057
+2023-12-20 21:13:56.338443 INFO::Creating boxplot for categorical data, trimester vs s__GGB30297_SGB43261
+2023-12-20 21:13:56.400751 INFO::Creating boxplot for categorical data, trimester vs s__GGB28846_SGB41513
+2023-12-20 21:13:56.463259 INFO::Creating boxplot for categorical data, trimester vs s__GGB30297_SGB43261
+2023-12-20 21:13:56.536756 INFO::Creating boxplot for categorical data, trimester vs s__GGB28968_SGB41679
+2023-12-20 21:13:56.599171 INFO::Creating boxplot for categorical data, trimester vs s__GGB28903_SGB41594
+2023-12-20 21:13:56.662486 INFO::Creating boxplot for categorical data, trimester vs s__GGB28807_SGB41461
+2023-12-20 21:13:56.724951 INFO::Creating boxplot for categorical data, trimester vs s__GGB28934_SGB41635
+2023-12-20 21:13:56.787422 INFO::Creating boxplot for categorical data, trimester vs s__GGB27778_SGB40192
+2023-12-20 21:13:56.861395 INFO::Creating boxplot for categorical data, trimester vs s__GGB30093_SGB43006
+2023-12-20 21:13:56.924186 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1xD8_48
+2023-12-20 21:13:56.986642 INFO::Creating boxplot for categorical data, trimester vs s__Odoribacter_sp_Z80
+2023-12-20 21:13:57.047853 INFO::Creating boxplot for categorical data, trimester vs s__GGB27893_SGB40327
+2023-12-20 21:13:57.109968 INFO::Creating boxplot for categorical data, trimester vs s__Alistipes_sp
+2023-12-20 21:13:57.18399 INFO::Creating boxplot for categorical data, trimester vs s__Paramuribaculum_intestinale
+2023-12-20 21:13:57.246883 INFO::Creating boxplot for categorical data, trimester vs s__GGB42343_SGB59511
+2023-12-20 21:13:57.309818 INFO::Creating boxplot for categorical data, trimester vs s__GGB28836_SGB41496
+2023-12-20 21:13:57.371987 INFO::Creating boxplot for categorical data, trimester vs s__Dorea_sp_5_2
+2023-12-20 21:13:57.442441 INFO::Creating boxplot for categorical data, trimester vs s__GGB27873_SGB40307
+2023-12-20 21:13:57.509654 INFO::Creating boxplot for categorical data, trimester vs s__GGB29006_SGB41725
+2023-12-20 21:13:57.573095 INFO::Creating boxplot for categorical data, trimester vs s__GGB28841_SGB41505
+2023-12-20 21:13:57.636438 INFO::Creating boxplot for categorical data, trimester vs s__GGB30295_SGB43259
+2023-12-20 21:13:57.699811 INFO::Creating boxplot for categorical data, trimester vs s__Bacteroides_caecimuris
+2023-12-20 21:13:57.77423 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1XD42_1
+2023-12-20 21:13:57.838123 INFO::Creating boxplot for categorical data, trimester vs s__GGB28870_SGB41546
+2023-12-20 21:13:57.901009 INFO::Creating boxplot for categorical data, trimester vs s__GGB42344_SGB59512
+2023-12-20 21:13:57.963558 INFO::Creating boxplot for categorical data, trimester vs s__GGB30286_SGB43248
+2023-12-20 21:13:58.025903 INFO::Creating boxplot for categorical data, trimester vs s__GGB28779_SGB41432
+2023-12-20 21:13:58.099057 INFO::Creating boxplot for categorical data, trimester vs s__GGB27792_SGB40208
+2023-12-20 21:13:58.162231 INFO::Creating boxplot for categorical data, trimester vs s__GGB30466_SGB43541
+2023-12-20 21:13:58.224758 INFO::Creating boxplot for categorical data, trimester vs s__GGB28437_SGB41020
+2023-12-20 21:13:58.287754 INFO::Creating boxplot for categorical data, trimester vs s__Pseudoflavonifractor_sp_60
+2023-12-20 21:13:58.358135 INFO::Creating boxplot for categorical data, trimester vs s__GGB30667_SGB43809
+2023-12-20 21:13:58.432356 INFO::Creating boxplot for categorical data, trimester vs s__GGB27778_SGB40192
+2023-12-20 21:13:58.495344 INFO::Creating boxplot for categorical data, trimester vs s__GGB31438_SGB44768
+2023-12-20 21:13:58.558036 INFO::Creating boxplot for categorical data, trimester vs s__GGB30457_SGB43523
+2023-12-20 21:13:58.620822 INFO::Creating boxplot for categorical data, trimester vs s__GGB27866_SGB40300
+2023-12-20 21:13:58.69508 INFO::Creating boxplot for categorical data, trimester vs s__GGB30408_SGB43438
+2023-12-20 21:13:58.758855 INFO::Creating boxplot for categorical data, trimester vs s__GGB28766_SGB41417
+2023-12-20 21:13:58.821534 INFO::Creating boxplot for categorical data, trimester vs s__GGB28963_SGB41672
+2023-12-20 21:13:58.884911 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_A4
+2023-12-20 21:13:58.947414 INFO::Creating boxplot for categorical data, trimester vs s__Parasutterella_excrementihominis
+2023-12-20 21:13:59.02191 INFO::Creating boxplot for categorical data, trimester vs s__Bacteroidaceae_bacterium
+2023-12-20 21:13:59.085244 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_WCA_9_b2
+2023-12-20 21:13:59.148024 INFO::Creating boxplot for categorical data, trimester vs s__Prevotella_sp_PCJ2
+2023-12-20 21:13:59.210298 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_1xD8_48
+2023-12-20 21:13:59.273305 INFO::Creating boxplot for categorical data, trimester vs s__Acutalibacter_muris
+2023-12-20 21:13:59.347909 INFO::Creating boxplot for categorical data, trimester vs s__GGB29006_SGB41724
+2023-12-20 21:13:59.411111 INFO::Creating boxplot for categorical data, trimester vs s__GGB30091_SGB43003
+2023-12-20 21:13:59.473824 INFO::Creating boxplot for categorical data, trimester vs s__GGB31438_SGB44768
+2023-12-20 21:13:59.536544 INFO::Creating boxplot for categorical data, trimester vs s__GGB30461_SGB43530
+2023-12-20 21:13:59.610859 INFO::Creating boxplot for categorical data, trimester vs s__GGB28422_SGB41005
+2023-12-20 21:13:59.674714 INFO::Creating boxplot for categorical data, trimester vs s__GGB28798_SGB41451
+2023-12-20 21:13:59.73755 INFO::Creating boxplot for categorical data, trimester vs s__GGB28317_SGB40889
+2023-12-20 21:13:59.800268 INFO::Creating boxplot for categorical data, trimester vs s__bacterium_D16_54
+2023-12-20 21:13:59.864518 INFO::Creating boxplot for categorical data, trimester vs s__GGB28803_SGB41457
+2023-12-20 21:13:59.94014 INFO::Creating boxplot for categorical data, trimester vs s__GGB14022_SGB21449
+2023-12-20 21:14:00.002377 INFO::Creating boxplot for categorical data, trimester vs s__Clostridiaceae_bacterium
+2023-12-20 21:14:00.065639 INFO::Creating boxplot for categorical data, trimester vs s__GGB30454_SGB43516
+2023-12-20 21:14:00.128897 INFO::Creating boxplot for categorical data, trimester vs s__GGB30091_SGB43003
+2023-12-20 21:14:00.203324 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium
+2023-12-20 21:14:00.267383 INFO::Creating boxplot for categorical data, trimester vs s__GGB28310_SGB40880
+2023-12-20 21:14:00.33002 INFO::Creating boxplot for categorical data, trimester vs s__GGB31851_SGB45231
+2023-12-20 21:14:00.392675 INFO::Creating boxplot for categorical data, trimester vs s__Romboutsia_ilealis
+2023-12-20 21:14:00.455863 INFO::Creating boxplot for categorical data, trimester vs s__GGB28248_SGB40791
+2023-12-20 21:14:00.530882 INFO::Creating boxplot for categorical data, trimester vs s__GGB28955_SGB41664
+2023-12-20 21:14:00.594158 INFO::Creating boxplot for categorical data, trimester vs s__GGB31701_SGB45057
+2023-12-20 21:14:00.656755 INFO::Creating boxplot for categorical data, trimester vs s__GGB28386_SGB40966
+2023-12-20 21:14:00.719525 INFO::Creating boxplot for categorical data, trimester vs s__GGB28790_SGB41443
+2023-12-20 21:14:00.794049 INFO::Creating boxplot for categorical data, trimester vs s__GGB28887_SGB41568
+2023-12-20 21:14:00.85924 INFO::Creating boxplot for categorical data, trimester vs s__GGB30302_SGB43266
+2023-12-20 21:14:00.922058 INFO::Creating boxplot for categorical data, trimester vs s__Neglecta_sp_X4
+2023-12-20 21:14:00.984393 INFO::Creating boxplot for categorical data, trimester vs s__GGB28394_SGB40974
+2023-12-20 21:14:01.055363 INFO::Creating boxplot for categorical data, trimester vs s__Duncaniella_dubosii
+2023-12-20 21:14:01.130263 INFO::Creating boxplot for categorical data, trimester vs s__GGB30142_SGB43067
+2023-12-20 21:14:01.194041 INFO::Creating boxplot for categorical data, trimester vs s__GGB28846_SGB41513
+2023-12-20 21:14:01.256626 INFO::Creating boxplot for categorical data, trimester vs s__GGB28772_SGB41425
+2023-12-20 21:14:01.319164 INFO::Creating boxplot for categorical data, trimester vs s__GGB30451_SGB43508
+2023-12-20 21:14:01.394031 INFO::Creating boxplot for categorical data, trimester vs s__Acutalibacter_muris
+2023-12-20 21:14:01.457765 INFO::Creating boxplot for categorical data, trimester vs s__GGB28959_SGB41668
+2023-12-20 21:14:01.519411 INFO::Creating boxplot for categorical data, trimester vs s__GGB28875_SGB41555
+2023-12-20 21:14:01.581978 INFO::Creating boxplot for categorical data, trimester vs s__GGB30461_SGB63209
+2023-12-20 21:14:01.645363 INFO::Creating boxplot for categorical data, trimester vs s__GGB29546_SGB42338
+2023-12-20 21:14:01.723094 INFO::Creating boxplot for categorical data, trimester vs s__GGB28926_SGB41623
+2023-12-20 21:14:01.786571 INFO::Creating boxplot for categorical data, trimester vs s__GGB30466_SGB43541
+2023-12-20 21:14:01.8496 INFO::Creating boxplot for categorical data, trimester vs s__GGB28959_SGB41668
+2023-12-20 21:14:01.912075 INFO::Creating boxplot for categorical data, trimester vs s__Muribaculum_intestinale
+2023-12-20 21:14:01.986753 INFO::Creating boxplot for categorical data, trimester vs s__GGB29006_SGB41724
+2023-12-20 21:14:02.050517 INFO::Creating boxplot for categorical data, trimester vs s__GGB28384_SGB40964
+2023-12-20 21:14:02.112605 INFO::Creating boxplot for categorical data, trimester vs s__GGB28393_SGB40973
+2023-12-20 21:14:02.175523 INFO::Creating boxplot for categorical data, trimester vs s__GGB28949_SGB41655
+2023-12-20 21:14:02.239441 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_MD335
+2023-12-20 21:14:02.315444 INFO::Creating boxplot for categorical data, trimester vs s__GGB30461_SGB43530
+2023-12-20 21:14:02.378254 INFO::Creating boxplot for categorical data, trimester vs s__Lachnospiraceae_bacterium_A4
+2023-12-20 21:14:02.440773 INFO::Creating boxplot for categorical data, trimester vs s__GGB24102_SGB40205
+2023-12-20 21:14:02.503716 INFO::Creating boxplot for categorical data, trimester vs s__GGB30451_SGB43508
+2023-12-20 21:14:02.613498 INFO::Creating boxplot for categorical data, trimester vs s__GGB30413_SGB43452
+2023-12-20 21:14:02.67725 INFO::Creating boxplot for categorical data, trimester vs s__GGB28868_SGB41542
+2023-12-20 21:14:02.742476 INFO::Creating boxplot for categorical data, trimester vs s__GGB28988_SGB41701
+2023-12-20 21:14:02.807764 INFO::Creating boxplot for categorical data, trimester vs s__GGB28384_SGB40964
+2023-12-20 21:14:02.876007 INFO::Creating boxplot for categorical data, trimester vs s__GGB30444_SGB43493
+2023-12-20 21:14:02.951722 INFO::Creating boxplot for categorical data, trimester vs s__Duncaniella_muris
+2023-12-20 21:14:03.625783 INFO::Plotting data for metadata number 2, genotype
+2023-12-20 21:14:03.627144 INFO::Creating boxplot for categorical data, genotype vs s__Bacteroides_acidifaciens
+2023-12-20 21:14:03.686769 INFO::Creating boxplot for categorical data, genotype vs s__GGB28934_SGB41635
+2023-12-20 21:14:03.746605 INFO::Creating boxplot for categorical data, genotype vs s__bacterium_1XD42_76
+2023-12-20 21:14:03.804855 INFO::Creating boxplot for categorical data, genotype vs s__GGB3171_SGB4185
+2023-12-20 21:14:03.864587 INFO::Creating boxplot for categorical data, genotype vs s__GGB24102_SGB40205
+2023-12-20 21:14:03.934689 INFO::Creating boxplot for categorical data, genotype vs s__Rikenellaceae_bacterium
+2023-12-20 21:14:03.994914 INFO::Creating boxplot for categorical data, genotype vs s__bacterium_1XD42_54
+2023-12-20 21:14:04.055692 INFO::Creating boxplot for categorical data, genotype vs s__GGB28849_SGB41516
+2023-12-20 21:14:04.115308 INFO::Creating boxplot for categorical data, genotype vs s__Alistipes_sp
+2023-12-20 21:14:04.174461 INFO::Creating boxplot for categorical data, genotype vs s__Turicibacter_sp_TS3
+2023-12-20 21:14:04.245152 INFO::Creating boxplot for categorical data, genotype vs s__Parabacteroides_distasonis
+2023-12-20 21:14:04.305539 INFO::Creating boxplot for categorical data, genotype vs s__GGB27776_SGB40190
+2023-12-20 21:14:04.373822 INFO::Creating boxplot for categorical data, genotype vs s__GGB30302_SGB43266
+2023-12-20 21:14:04.433779 INFO::Creating boxplot for categorical data, genotype vs s__Lachnospiraceae_bacterium
+2023-12-20 21:14:04.493948 INFO::Creating boxplot for categorical data, genotype vs s__Muribaculum_intestinale
+2023-12-20 21:14:04.562479 INFO::Creating boxplot for categorical data, genotype vs s__GGB28904_SGB41597
+2023-12-20 21:14:04.622344 INFO::Creating boxplot for categorical data, genotype vs s__GGB29006_SGB41725
+2023-12-20 21:14:04.683845 INFO::Creating boxplot for categorical data, genotype vs s__Adlercreutzia_caecicola
+2023-12-20 21:14:04.743227 INFO::Creating boxplot for categorical data, genotype vs s__GGB27898_SGB40333
+2023-12-20 21:14:04.801301 INFO::Creating boxplot for categorical data, genotype vs s__Ligilactobacillus_murinus
+2023-12-20 21:14:04.872133 INFO::Creating boxplot for categorical data, genotype vs s__GGB27791_SGB40207
+2023-12-20 21:14:04.93307 INFO::Creating boxplot for categorical data, genotype vs s__GGB28927_SGB41625
+2023-12-20 21:14:04.993283 INFO::Creating boxplot for categorical data, genotype vs s__Lachnospiraceae_bacterium_A4
+2023-12-20 21:14:05.053209 INFO::Creating boxplot for categorical data, genotype vs s__GGB28836_SGB41496
+2023-12-20 21:14:05.111865 INFO::Creating boxplot for categorical data, genotype vs s__GGB24149_SGB35953
+2023-12-20 21:14:05.180832 INFO::Creating boxplot for categorical data, genotype vs s__Schaedlerella_arabinosiphila
+2023-12-20 21:14:05.241755 INFO::Creating boxplot for categorical data, genotype vs s__GGB29003_SGB41719
+2023-12-20 21:14:05.302099 INFO::Creating boxplot for categorical data, genotype vs s__GGB28870_SGB41546
+2023-12-20 21:14:05.362098 INFO::Creating boxplot for categorical data, genotype vs s__Lachnospiraceae_bacterium_MD308
+2023-12-20 21:14:05.421179 INFO::Creating boxplot for categorical data, genotype vs s__GGB28851_SGB41518
+2023-12-20 21:14:05.491444 INFO::Creating boxplot for categorical data, genotype vs s__GGB27893_SGB40327
+2023-12-20 21:14:05.551745 INFO::Creating boxplot for categorical data, genotype vs s__GGB28265_SGB40817
+2023-12-20 21:14:05.612106 INFO::Creating boxplot for categorical data, genotype vs s__GGB28310_SGB40880
+2023-12-20 21:14:05.671496 INFO::Creating boxplot for categorical data, genotype vs s__GGB31439_SGB44769
+2023-12-20 21:14:05.731044 INFO::Creating boxplot for categorical data, genotype vs s__Lachnospiraceae_bacterium_28_4
+2023-12-20 21:14:05.800787 INFO::Creating boxplot for categorical data, genotype vs s__GGB28393_SGB40973
+2023-12-20 21:14:05.861667 INFO::Creating boxplot for categorical data, genotype vs s__GGB29004_SGB41721
+2023-12-20 21:14:05.922453 INFO::Creating boxplot for categorical data, genotype vs s__GGB28807_SGB41461
+2023-12-20 21:14:05.981922 INFO::Creating boxplot for categorical data, genotype vs s__GGB30461_SGB43530
+2023-12-20 21:14:06.040953 INFO::Creating boxplot for categorical data, genotype vs s__GGB28384_SGB40964
+2023-12-20 21:14:06.110274 INFO::Creating boxplot for categorical data, genotype vs s__GGB24132_SGB35935
+2023-12-20 21:14:06.170305 INFO::Creating boxplot for categorical data, genotype vs s__GGB30445_SGB43494
+2023-12-20 21:14:06.230256 INFO::Creating boxplot for categorical data, genotype vs s__GGB28793_SGB41446
+2023-12-20 21:14:06.289879 INFO::Creating boxplot for categorical data, genotype vs s__GGB28963_SGB41672
+2023-12-20 21:14:06.349315 INFO::Creating boxplot for categorical data, genotype vs s__GGB30295_SGB43259
+2023-12-20 21:14:06.41993 INFO::Creating boxplot for categorical data, genotype vs s__Clostridiaceae_unclassified_SGB41645
+2023-12-20 21:14:06.480598 INFO::Creating boxplot for categorical data, genotype vs s__GGB28869_SGB41543
+2023-12-20 21:14:06.541205 INFO::Creating boxplot for categorical data, genotype vs s__GGB28790_SGB41443
+2023-12-20 21:14:06.601073 INFO::Creating boxplot for categorical data, genotype vs s__GGB31184_SGB44478
+2023-12-20 21:14:06.661397 INFO::Creating boxplot for categorical data, genotype vs s__Firmicutes_bacterium_ASF500
+2023-12-20 21:14:06.732085 INFO::Creating boxplot for categorical data, genotype vs s__GGB28949_SGB41655
+2023-12-20 21:14:06.792518 INFO::Creating boxplot for categorical data, genotype vs s__Romboutsia_ilealis
+2023-12-20 21:14:06.854397 INFO::Creating boxplot for categorical data, genotype vs s__GGB14013_SGB21440
+2023-12-20 21:14:06.91898 INFO::Creating boxplot for categorical data, genotype vs s__Parabacteroides_goldsteinii
+2023-12-20 21:14:06.97873 INFO::Creating boxplot for categorical data, genotype vs s__Emergencia_sp_1XD21_10
+2023-12-20 21:14:07.049014 INFO::Creating boxplot for categorical data, genotype vs s__Muribaculaceae_bacterium_Isolate_110_HZI
+2023-12-20 21:14:07.109222 INFO::Creating boxplot for categorical data, genotype vs s__Streptococcus_danieliae
+2023-12-20 21:14:07.169404 INFO::Creating boxplot for categorical data, genotype vs s__GGB28945_SGB41650
+2023-12-20 21:14:07.229025 INFO::Creating boxplot for categorical data, genotype vs s__GGB23844_SGB35575
+2023-12-20 21:14:07.299133 INFO::Creating boxplot for categorical data, genotype vs s__GGB28846_SGB41513
+2023-12-20 21:14:07.359869 INFO::Creating boxplot for categorical data, genotype vs s__Bacteroides_uniformis
+2023-12-20 21:14:07.420375 INFO::Creating boxplot for categorical data, genotype vs s__Clostridiales_bacterium
+2023-12-20 21:14:07.480526 INFO::Creating boxplot for categorical data, genotype vs s__Faecalibaculum_rodentium
+2023-12-20 21:14:07.539817 INFO::Creating boxplot for categorical data, genotype vs s__Prevotella_sp_PCJ2

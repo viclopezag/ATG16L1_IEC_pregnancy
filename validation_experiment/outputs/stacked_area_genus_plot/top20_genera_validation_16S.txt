@@ -1,0 +1,21 @@
+"Genus"	"mean_ab"
+"A2"	74.5510204081633
+"Alistipes"	262.65306122449
+"Alloprevotella"	104.836734693878
+"Bacteroides"	117.938775510204
+"Colidextribacter"	42.1836734693878
+"Enterorhabdus"	25.2040816326531
+"GCA-900066575"	38.6326530612245
+"HT002"	193.265306122449
+"Lachnoclostridium"	99.6734693877551
+"Lachnospiraceae FCS020 group"	33.9183673469388
+"Lachnospiraceae NK4A136 group"	739.69387755102
+"Lachnospiraceae UCG-001"	81.1428571428572
+"Lachnospiraceae UCG-006"	27.7142857142857
+"Lactobacillus"	364.959183673469
+"Ligilactobacillus"	116.938775510204
+"Marvinbryantia"	22.4897959183673
+"Muribaculum"	24.469387755102
+"Odoribacter"	93.4081632653061
+"Oscillibacter"	23.0408163265306
+"Roseburia"	150.795918367347

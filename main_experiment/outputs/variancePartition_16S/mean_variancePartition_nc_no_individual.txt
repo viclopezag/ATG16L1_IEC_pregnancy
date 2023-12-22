@@ -1,0 +1,141 @@
+varMean	Parameter	level	time	parameter_clean_name
+0.82104829471481	Residuals	ASVs	All Timepoints	Residuals
+0.129378615256648	timepoint	ASVs	All Timepoints	Time
+0.0205027019222972	genotype	ASVs	All Timepoints	Maternal genotype
+0.0160787605711735	number_of_pups_scaled	ASVs	All Timepoints	Number of pups
+0.012991627535071	lipocalin2_pg_ml_scaled	ASVs	All Timepoints	Lipocalin (pg/ml)
+0.718999706485882	Residuals	Species	All Timepoints	Residuals
+0.221322532676188	timepoint	Species	All Timepoints	Time
+0.0307445422731224	genotype	Species	All Timepoints	Maternal genotype
+0.0169718961179474	number_of_pups_scaled	Species	All Timepoints	Number of pups
+0.0119613224468604	lipocalin2_pg_ml_scaled	Species	All Timepoints	Lipocalin (pg/ml)
+0.712478197793788	Residuals	Genus	All Timepoints	Residuals
+0.22537747994017	timepoint	Genus	All Timepoints	Time
+0.0328425240603911	genotype	Genus	All Timepoints	Maternal genotype
+0.0166629408617277	number_of_pups_scaled	Genus	All Timepoints	Number of pups
+0.0126388573439233	lipocalin2_pg_ml_scaled	Genus	All Timepoints	Lipocalin (pg/ml)
+0.672558294528324	Residuals	Family	All Timepoints	Residuals
+0.262187666918497	timepoint	Family	All Timepoints	Time
+0.03425921252015	genotype	Family	All Timepoints	Maternal genotype
+0.0194862660337021	number_of_pups_scaled	Family	All Timepoints	Number of pups
+0.011508559999327	lipocalin2_pg_ml_scaled	Family	All Timepoints	Lipocalin (pg/ml)
+0.655165248758665	Residuals	Order	All Timepoints	Residuals
+0.284808804656635	timepoint	Order	All Timepoints	Time
+0.0248222740514401	genotype	Order	All Timepoints	Maternal genotype
+0.0217099602321137	number_of_pups_scaled	Order	All Timepoints	Number of pups
+0.013493712301146	lipocalin2_pg_ml_scaled	Order	All Timepoints	Lipocalin (pg/ml)
+0.599411948597111	Residuals	Class	All Timepoints	Residuals
+0.357337257514385	timepoint	Class	All Timepoints	Time
+0.0220331079416052	number_of_pups_scaled	Class	All Timepoints	Number of pups
+0.0125360815536319	genotype	Class	All Timepoints	Maternal genotype
+0.00868160439326688	lipocalin2_pg_ml_scaled	Class	All Timepoints	Lipocalin (pg/ml)
+0.624564408217606	Residuals	Phylum	All Timepoints	Residuals
+0.332373807423192	timepoint	Phylum	All Timepoints	Time
+0.0217239505925332	number_of_pups_scaled	Phylum	All Timepoints	Number of pups
+0.011781987134273	genotype	Phylum	All Timepoints	Maternal genotype
+0.00955584663239606	lipocalin2_pg_ml_scaled	Phylum	All Timepoints	Lipocalin (pg/ml)
+0.851972644983751	Residuals	ASVs	BL	Residuals
+0.069840261056187	weight_grams_scaled	ASVs	BL	Maternal weight (g)
+0.032210406435062	lipocalin2_pg_ml_scaled	ASVs	BL	Lipocalin (pg/ml)
+0.0302581479624405	number_of_pups_scaled	ASVs	BL	Number of pups
+0.0157185395625592	genotype	ASVs	BL	Maternal genotype
+0.819999524206425	Residuals	Species	BL	Residuals
+0.10875271902306	weight_grams_scaled	Species	BL	Maternal weight (g)
+0.0363604164771135	lipocalin2_pg_ml_scaled	Species	BL	Lipocalin (pg/ml)
+0.0216460277969711	number_of_pups_scaled	Species	BL	Number of pups
+0.0132413124964304	genotype	Species	BL	Maternal genotype
+0.8099981281334	Residuals	Genus	BL	Residuals
+0.116826798928976	weight_grams_scaled	Genus	BL	Maternal weight (g)
+0.0369765885672461	lipocalin2_pg_ml_scaled	Genus	BL	Lipocalin (pg/ml)
+0.0217089150513685	number_of_pups_scaled	Genus	BL	Number of pups
+0.014489569319009	genotype	Genus	BL	Maternal genotype
+0.83769100165898	Residuals	Family	BL	Residuals
+0.105737620058742	weight_grams_scaled	Family	BL	Maternal weight (g)
+0.0298351662291908	lipocalin2_pg_ml_scaled	Family	BL	Lipocalin (pg/ml)
+0.0245803163011918	number_of_pups_scaled	Family	BL	Number of pups
+0.00215589575189554	genotype	Family	BL	Maternal genotype
+0.801505706837845	Residuals	Order	BL	Residuals
+0.121608019484366	weight_grams_scaled	Order	BL	Maternal weight (g)
+0.0408029827330184	lipocalin2_pg_ml_scaled	Order	BL	Lipocalin (pg/ml)
+0.0193210646651299	number_of_pups_scaled	Order	BL	Number of pups
+0.0167622262796409	genotype	Order	BL	Maternal genotype
+0.837184550704	Residuals	Class	BL	Residuals
+0.108837902725614	weight_grams_scaled	Class	BL	Maternal weight (g)
+0.0365597273709551	lipocalin2_pg_ml_scaled	Class	BL	Lipocalin (pg/ml)
+0.0174178191994307	number_of_pups_scaled	Class	BL	Number of pups
+0	genotype	Class	BL	Maternal genotype
+0.811334287795926	Residuals	Phylum	BL	Residuals
+0.170621319066134	weight_grams_scaled	Phylum	BL	Maternal weight (g)
+0.0135919013569117	lipocalin2_pg_ml_scaled	Phylum	BL	Lipocalin (pg/ml)
+0.00445249178102886	number_of_pups_scaled	Phylum	BL	Number of pups
+0	genotype	Phylum	BL	Maternal genotype
+0.783134796445306	Residuals	ASVs	w3	Residuals
+0.0927295444275357	genotype	ASVs	w3	Maternal genotype
+0.0500723587785523	number_of_pups_scaled	ASVs	w3	Number of pups
+0.0374494431938543	lipocalin2_pg_ml_scaled	ASVs	w3	Lipocalin (pg/ml)
+0.0366138571547516	weight_grams_scaled	ASVs	w3	Maternal weight (g)
+0.693133171037628	Residuals	Species	w3	Residuals
+0.191803018555802	genotype	Species	w3	Maternal genotype
+0.0508531328959347	number_of_pups_scaled	Species	w3	Number of pups
+0.0356646560697016	weight_grams_scaled	Species	w3	Maternal weight (g)
+0.0285460214409337	lipocalin2_pg_ml_scaled	Species	w3	Lipocalin (pg/ml)
+0.678626425446001	Residuals	Genus	w3	Residuals
+0.204954300756419	genotype	Genus	w3	Maternal genotype
+0.0529218047679433	number_of_pups_scaled	Genus	w3	Number of pups
+0.0348418543169522	weight_grams_scaled	Genus	w3	Maternal weight (g)
+0.0286556147126843	lipocalin2_pg_ml_scaled	Genus	w3	Lipocalin (pg/ml)
+0.706689206676554	Residuals	Family	w3	Residuals
+0.169158940074793	genotype	Family	w3	Maternal genotype
+0.0636920939455064	number_of_pups_scaled	Family	w3	Number of pups
+0.033525198450962	weight_grams_scaled	Family	w3	Maternal weight (g)
+0.0269345608521851	lipocalin2_pg_ml_scaled	Family	w3	Lipocalin (pg/ml)
+0.703556800607198	Residuals	Order	w3	Residuals
+0.174238371769132	genotype	Order	w3	Maternal genotype
+0.0681497081413042	number_of_pups_scaled	Order	w3	Number of pups
+0.037454170952116	lipocalin2_pg_ml_scaled	Order	w3	Lipocalin (pg/ml)
+0.0166009485302502	weight_grams_scaled	Order	w3	Maternal weight (g)
+0.73262954751917	Residuals	Class	w3	Residuals
+0.134875986797031	genotype	Class	w3	Maternal genotype
+0.0594503337883152	number_of_pups_scaled	Class	w3	Number of pups
+0.0464894222636231	lipocalin2_pg_ml_scaled	Class	w3	Lipocalin (pg/ml)
+0.0265547096318612	weight_grams_scaled	Class	w3	Maternal weight (g)
+0.836693847716095	Residuals	Phylum	w3	Residuals
+0.0539339978419983	number_of_pups_scaled	Phylum	w3	Number of pups
+0.0484676615390583	lipocalin2_pg_ml_scaled	Phylum	w3	Lipocalin (pg/ml)
+0.0321167199635407	weight_grams_scaled	Phylum	w3	Maternal weight (g)
+0.0287877729393078	genotype	Phylum	w3	Maternal genotype
+0.838721839476658	Residuals	ASVs	w6	Residuals
+0.0569770542554179	weight_grams_scaled	ASVs	w6	Maternal weight (g)
+0.0464415389667923	number_of_pups_scaled	ASVs	w6	Number of pups
+0.0432947261956867	lipocalin2_pg_ml_scaled	ASVs	w6	Lipocalin (pg/ml)
+0.0145648411054451	genotype	ASVs	w6	Maternal genotype
+0.82083659791005	Residuals	Species	w6	Residuals
+0.0746843701674094	weight_grams_scaled	Species	w6	Maternal weight (g)
+0.0491537425626604	number_of_pups_scaled	Species	w6	Number of pups
+0.0451054313812001	lipocalin2_pg_ml_scaled	Species	w6	Lipocalin (pg/ml)
+0.0102198579786803	genotype	Species	w6	Maternal genotype
+0.824054491775315	Residuals	Genus	w6	Residuals
+0.0710330449421039	weight_grams_scaled	Genus	w6	Maternal weight (g)
+0.0481292806092439	number_of_pups_scaled	Genus	w6	Number of pups
+0.0466083460682645	lipocalin2_pg_ml_scaled	Genus	w6	Lipocalin (pg/ml)
+0.0101748366050727	genotype	Genus	w6	Maternal genotype
+0.804559756503061	Residuals	Family	w6	Residuals
+0.0731146139403766	number_of_pups_scaled	Family	w6	Number of pups
+0.0589551809439064	lipocalin2_pg_ml_scaled	Family	w6	Lipocalin (pg/ml)
+0.0466889001132763	weight_grams_scaled	Family	w6	Maternal weight (g)
+0.01668154849938	genotype	Family	w6	Maternal genotype
+0.819461748866322	Residuals	Order	w6	Residuals
+0.0645428204169443	number_of_pups_scaled	Order	w6	Number of pups
+0.0638022097798202	lipocalin2_pg_ml_scaled	Order	w6	Lipocalin (pg/ml)
+0.0507676888999165	weight_grams_scaled	Order	w6	Maternal weight (g)
+0.00142553203699672	genotype	Order	w6	Maternal genotype
+0.865895299962589	Residuals	Class	w6	Residuals
+0.0457700889521747	number_of_pups_scaled	Class	w6	Number of pups
+0.042802599471035	weight_grams_scaled	Class	w6	Maternal weight (g)
+0.0375299282436829	lipocalin2_pg_ml_scaled	Class	w6	Lipocalin (pg/ml)
+0.00800208337051877	genotype	Class	w6	Maternal genotype
+0.821633452229865	Residuals	Phylum	w6	Residuals
+0.0775842206012076	weight_grams_scaled	Phylum	w6	Maternal weight (g)
+0.062524763630582	number_of_pups_scaled	Phylum	w6	Number of pups
+0.0331628879434306	lipocalin2_pg_ml_scaled	Phylum	w6	Lipocalin (pg/ml)
+0.00509467559491444	genotype	Phylum	w6	Maternal genotype

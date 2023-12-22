@@ -1,0 +1,6 @@
+varMean	Parameter
+0.84822053375562	Residuals
+0.0524946367389848	number_of_pups_scaled
+0.0352189159012424	lipocalin2_pg_ml_scaled
+0.0336278787716851	genotype
+0.0304380348324687	weight_grams_scaled

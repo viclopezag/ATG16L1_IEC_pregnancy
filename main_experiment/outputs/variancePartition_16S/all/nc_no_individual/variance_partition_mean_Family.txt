@@ -1,0 +1,6 @@
+varMean	Parameter
+0.672558294528324	Residuals
+0.262187666918497	timepoint
+0.03425921252015	genotype
+0.0194862660337021	number_of_pups_scaled
+0.011508559999327	lipocalin2_pg_ml_scaled

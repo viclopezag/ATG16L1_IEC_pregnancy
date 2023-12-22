@@ -1,0 +1,101 @@
+varMean	Parameter	level	time	parameter_clean_name
+0.698025504209415	Residuals	EC	All Timepoints	Residuals
+0.272983425142475	timepoint	EC	All Timepoints	Time
+0.0120861972623115	number_of_pups_scaled	EC	All Timepoints	Number of pups
+0.00941269188868691	genotype	EC	All Timepoints	Maternal genotype
+0.00749218149711189	lipocalin2_pg_ml_scaled	EC	All Timepoints	Lipocalin (pg/ml)
+0.709543478714615	Residuals	GO	All Timepoints	Residuals
+0.268568394773174	timepoint	GO	All Timepoints	Time
+0.0115998486502544	number_of_pups_scaled	GO	All Timepoints	Number of pups
+0.0059694233189522	genotype	GO	All Timepoints	Maternal genotype
+0.00431885454300331	lipocalin2_pg_ml_scaled	GO	All Timepoints	Lipocalin (pg/ml)
+0.72762264685524	Residuals	KO	All Timepoints	Residuals
+0.248004923826655	timepoint	KO	All Timepoints	Time
+0.0148972197896262	number_of_pups_scaled	KO	All Timepoints	Number of pups
+0.00556506940080908	lipocalin2_pg_ml_scaled	KO	All Timepoints	Lipocalin (pg/ml)
+0.00391014012767017	genotype	KO	All Timepoints	Maternal genotype
+0.706439215278449	Residuals	RXN	All Timepoints	Residuals
+0.266879963217169	timepoint	RXN	All Timepoints	Time
+0.0110148436665299	number_of_pups_scaled	RXN	All Timepoints	Number of pups
+0.0087685862780523	genotype	RXN	All Timepoints	Maternal genotype
+0.00689739155980228	lipocalin2_pg_ml_scaled	RXN	All Timepoints	Lipocalin (pg/ml)
+0.686719594457354	Residuals	MCyc	All Timepoints	Residuals
+0.282403297827289	timepoint	MCyc	All Timepoints	Time
+0.0119381835401984	number_of_pups_scaled	MCyc	All Timepoints	Number of pups
+0.0101922483879234	genotype	MCyc	All Timepoints	Maternal genotype
+0.00874667578723498	lipocalin2_pg_ml_scaled	MCyc	All Timepoints	Lipocalin (pg/ml)
+0.84102683833087	Residuals	EC	BL	Residuals
+0.0855882245735394	NA	EC	BL	Maternal weight (g)
+0.0347287245160042	lipocalin2_pg_ml_scaled	EC	BL	Lipocalin (pg/ml)
+0.0257896966658069	number_of_pups_scaled	EC	BL	Number of pups
+0.0128665159137798	genotype	EC	BL	Maternal genotype
+0.865610082791647	Residuals	GO	BL	Residuals
+0.0620400976203317	NA	GO	BL	Maternal weight (g)
+0.0314693072797422	number_of_pups_scaled	GO	BL	Number of pups
+0.0309109279439398	lipocalin2_pg_ml_scaled	GO	BL	Lipocalin (pg/ml)
+0.00996958436433846	genotype	GO	BL	Maternal genotype
+0.863754018902981	Residuals	KO	BL	Residuals
+0.0398386473297787	number_of_pups_scaled	KO	BL	Number of pups
+0.0361874298168429	lipocalin2_pg_ml_scaled	KO	BL	Lipocalin (pg/ml)
+0.0351242017537829	NA	KO	BL	Maternal weight (g)
+0.0250957021966127	genotype	KO	BL	Maternal genotype
+0.842853150112503	Residuals	RXN	BL	Residuals
+0.0888087775310102	NA	RXN	BL	Maternal weight (g)
+0.0309332136784092	lipocalin2_pg_ml_scaled	RXN	BL	Lipocalin (pg/ml)
+0.02440657209522	number_of_pups_scaled	RXN	BL	Number of pups
+0.0129982865828512	genotype	RXN	BL	Maternal genotype
+0.818723712903718	Residuals	MCyc	BL	Residuals
+0.0872350754457044	NA	MCyc	BL	Maternal weight (g)
+0.0406546486321672	lipocalin2_pg_ml_scaled	MCyc	BL	Lipocalin (pg/ml)
+0.0306841624221286	number_of_pups_scaled	MCyc	BL	Number of pups
+0.0227024005962824	genotype	MCyc	BL	Maternal genotype
+0.828777519075879	Residuals	EC	w3	Residuals
+0.0580695483981607	number_of_pups_scaled	EC	w3	Number of pups
+0.0460204163064454	genotype	EC	w3	Maternal genotype
+0.0353324100695601	NA	EC	w3	Maternal weight (g)
+0.0318001061499556	lipocalin2_pg_ml_scaled	EC	w3	Lipocalin (pg/ml)
+0.839409917065773	Residuals	GO	w3	Residuals
+0.0693380744754703	number_of_pups_scaled	GO	w3	Number of pups
+0.0370047728413177	NA	GO	w3	Maternal weight (g)
+0.0296947751116061	genotype	GO	w3	Maternal genotype
+0.0245524605058313	lipocalin2_pg_ml_scaled	GO	w3	Lipocalin (pg/ml)
+0.85809112749622	Residuals	KO	w3	Residuals
+0.0488937938418299	number_of_pups_scaled	KO	w3	Number of pups
+0.0368974383416003	NA	KO	w3	Maternal weight (g)
+0.0305400565985771	genotype	KO	w3	Maternal genotype
+0.0255775837217728	lipocalin2_pg_ml_scaled	KO	w3	Lipocalin (pg/ml)
+0.832698806099109	Residuals	RXN	w3	Residuals
+0.0596323143993325	number_of_pups_scaled	RXN	w3	Number of pups
+0.0406527016208139	genotype	RXN	w3	Maternal genotype
+0.0356159333907587	NA	RXN	w3	Maternal weight (g)
+0.0314002444899873	lipocalin2_pg_ml_scaled	RXN	w3	Lipocalin (pg/ml)
+0.84822053375562	Residuals	MCyc	w3	Residuals
+0.0524946367389848	number_of_pups_scaled	MCyc	w3	Number of pups
+0.0352189159012424	lipocalin2_pg_ml_scaled	MCyc	w3	Lipocalin (pg/ml)
+0.0336278787716851	genotype	MCyc	w3	Maternal genotype
+0.0304380348324687	NA	MCyc	w3	Maternal weight (g)
+0.834631886387049	Residuals	EC	w6	Residuals
+0.0607256118333476	NA	EC	w6	Maternal weight (g)
+0.0470196848620973	number_of_pups_scaled	EC	w6	Number of pups
+0.0410603094196723	lipocalin2_pg_ml_scaled	EC	w6	Lipocalin (pg/ml)
+0.016562507497836	genotype	EC	w6	Maternal genotype
+0.829360563823396	Residuals	GO	w6	Residuals
+0.0633562415298144	lipocalin2_pg_ml_scaled	GO	w6	Lipocalin (pg/ml)
+0.0519619515145216	number_of_pups_scaled	GO	w6	Number of pups
+0.0317801084143071	NA	GO	w6	Maternal weight (g)
+0.0235411347179613	genotype	GO	w6	Maternal genotype
+0.84114356162018	Residuals	KO	w6	Residuals
+0.053373002492992	number_of_pups_scaled	KO	w6	Number of pups
+0.0393238622953898	lipocalin2_pg_ml_scaled	KO	w6	Lipocalin (pg/ml)
+0.0363897834392512	NA	KO	w6	Maternal weight (g)
+0.0297697901521879	genotype	KO	w6	Maternal genotype
+0.835511385229038	Residuals	RXN	w6	Residuals
+0.0633763227735082	NA	RXN	w6	Maternal weight (g)
+0.0442521466962091	number_of_pups_scaled	RXN	w6	Number of pups
+0.0342443863005793	lipocalin2_pg_ml_scaled	RXN	w6	Lipocalin (pg/ml)
+0.022615759000665	genotype	RXN	w6	Maternal genotype
+0.832653712292079	Residuals	MCyc	w6	Residuals
+0.0611146860771117	NA	MCyc	w6	Maternal weight (g)
+0.0569418314878954	number_of_pups_scaled	MCyc	w6	Number of pups
+0.0343889617882685	lipocalin2_pg_ml_scaled	MCyc	w6	Lipocalin (pg/ml)
+0.0149008083546459	genotype	MCyc	w6	Maternal genotype

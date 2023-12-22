@@ -1,0 +1,4 @@
+varMean	Parameter
+0.654382205318985	Residuals
+0.271426726094771	timepoint
+0.0741910685862434	mouse_id

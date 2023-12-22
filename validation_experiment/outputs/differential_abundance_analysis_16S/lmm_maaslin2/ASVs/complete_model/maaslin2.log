@@ -1,0 +1,481 @@
+2023-12-21 03:12:20.195739 INFO::Writing function arguments to log file
+2023-12-21 03:12:20.202677 DEBUG::Function arguments
+2023-12-21 03:12:20.205834 DEBUG::Output folder: outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model
+2023-12-21 03:12:20.206007 DEBUG::Min Abundance: 0.000000
+2023-12-21 03:12:20.206149 DEBUG::Min Prevalence: 0.120000
+2023-12-21 03:12:20.206286 DEBUG::Normalization: CLR
+2023-12-21 03:12:20.20642 DEBUG::Transform: NONE
+2023-12-21 03:12:20.206549 DEBUG::Analysis method: LM
+2023-12-21 03:12:20.206851 DEBUG::Max significance: 0.050000
+2023-12-21 03:12:20.207094 DEBUG::Random effects: mouse_id
+2023-12-21 03:12:20.207266 DEBUG::Fixed effects: genotype,timepoint
+2023-12-21 03:12:20.207422 DEBUG::Correction method: BH
+2023-12-21 03:12:20.207565 DEBUG::Standardize: TRUE
+2023-12-21 03:12:20.207701 DEBUG::Cores: 1
+2023-12-21 03:12:20.207826 INFO::Verifying options selected are valid
+2023-12-21 03:12:20.230683 INFO::Determining format of input files
+2023-12-21 03:12:20.231419 INFO::Input format is data samples as rows and metadata samples as rows
+2023-12-21 03:12:20.232778 DEBUG::A total of 49 samples were found in both the data and metadata
+2023-12-21 03:12:20.232978 DEBUG::Reordering data/metadata to use same sample ordering
+2023-12-21 03:12:20.23719 WARNING::Feature name not found in metadata so not applied to formula as random effect: mouse_id
+2023-12-21 03:12:20.237958 INFO::Formula for fixed effects: expr ~  genotype + timepoint
+2023-12-21 03:12:20.238648 INFO::Filter data based on min abundance and min prevalence
+2023-12-21 03:12:20.238991 INFO::Total samples in data: 49
+2023-12-21 03:12:20.239307 INFO::Min samples required with min abundance for a feature not to be filtered: 5.880000
+2023-12-21 03:12:20.244835 INFO::Total filtered features: 540
+2023-12-21 03:12:20.245673 INFO::Filtered feature names from abundance and prevalence filtering: ASV84, ASV134, ASV138, ASV194, ASV198, ASV205, ASV217, ASV227, ASV237, ASV248, ASV249, ASV272, ASV273, ASV297, ASV313, ASV316, ASV317, ASV319, ASV330, ASV332, ASV339, ASV347, ASV355, ASV357, ASV358, ASV359, ASV362, ASV374, ASV380, ASV384, ASV386, ASV387, ASV390, ASV391, ASV396, ASV398, ASV401, ASV403, ASV404, ASV406, ASV407, ASV408, ASV414, ASV415, ASV417, ASV419, ASV422, ASV427, ASV428, ASV429, ASV432, ASV433, ASV434, ASV436, ASV437, ASV440, ASV441, ASV442, ASV445, ASV446, ASV447, ASV448, ASV449, ASV450, ASV452, ASV453, ASV456, ASV457, ASV459, ASV460, ASV461, ASV462, ASV463, ASV464, ASV465, ASV466, ASV467, ASV468, ASV469, ASV471, ASV472, ASV473, ASV476, ASV477, ASV479, ASV480, ASV484, ASV485, ASV489, ASV490, ASV491, ASV492, ASV493, ASV494, ASV496, ASV497, ASV498, ASV499, ASV500, ASV501, ASV502, ASV503, ASV504, ASV505, ASV506, ASV507, ASV509, ASV510, ASV511, ASV513, ASV514, ASV515, ASV516, ASV517, ASV519, ASV520, ASV521, ASV522, ASV523, ASV524, ASV525, ASV526, ASV527, ASV528, ASV530, ASV531, ASV532, ASV533, ASV536, ASV537, ASV538, ASV539, ASV540, ASV541, ASV542, ASV543, ASV544, ASV545, ASV546, ASV547, ASV548, ASV549, ASV550, ASV551, ASV553, ASV554, ASV555, ASV556, ASV557, ASV558, ASV559, ASV560, ASV561, ASV562, ASV563, ASV564, ASV565, ASV567, ASV568, ASV569, ASV570, ASV571, ASV572, ASV573, ASV574, ASV575, ASV576, ASV577, ASV578, ASV579, ASV580, ASV581, ASV582, ASV583, ASV584, ASV585, ASV586, ASV587, ASV588, ASV589, ASV590, ASV591, ASV592, ASV593, ASV595, ASV596, ASV597, ASV598, ASV599, ASV600, ASV601, ASV602, ASV603, ASV604, ASV605, ASV606, ASV607, ASV608, ASV609, ASV610, ASV611, ASV612, ASV613, ASV614, ASV615, ASV616, ASV617, ASV618, ASV619, ASV620, ASV621, ASV622, ASV624, ASV625, ASV626, ASV627, ASV628, ASV629, ASV630, ASV631, ASV633, ASV634, ASV635, ASV636, ASV637, ASV638, ASV640, ASV641, ASV642, ASV643, ASV644, ASV645, ASV646, ASV647, ASV648, ASV649, ASV651, ASV652, ASV653, ASV654, ASV655, ASV656, ASV658, ASV659, ASV660, ASV661, ASV662, ASV663, ASV664, ASV665, ASV666, ASV667, ASV668, ASV669, ASV670, ASV671, ASV672, ASV673, ASV674, ASV675, ASV676, ASV677, ASV678, ASV679, ASV680, ASV681, ASV682, ASV683, ASV684, ASV685, ASV686, ASV687, ASV688, ASV689, ASV690, ASV691, ASV693, ASV695, ASV696, ASV697, ASV698, ASV699, ASV700, ASV701, ASV702, ASV703, ASV704, ASV705, ASV706, ASV707, ASV708, ASV709, ASV710, ASV711, ASV712, ASV713, ASV714, ASV715, ASV716, ASV717, ASV718, ASV719, ASV720, ASV721, ASV722, ASV723, ASV724, ASV725, ASV726, ASV727, ASV728, ASV729, ASV730, ASV731, ASV732, ASV733, ASV734, ASV735, ASV736, ASV737, ASV738, ASV739, ASV740, ASV741, ASV742, ASV743, ASV744, ASV745, ASV746, ASV747, ASV748, ASV749, ASV750, ASV751, ASV752, ASV753, ASV754, ASV755, ASV756, ASV757, ASV758, ASV759, ASV760, ASV761, ASV762, ASV763, ASV764, ASV765, ASV768, ASV769, ASV770, ASV771, ASV772, ASV773, ASV774, ASV775, ASV776, ASV777, ASV778, ASV779, ASV780, ASV781, ASV782, ASV783, ASV784, ASV785, ASV786, ASV787, ASV789, ASV790, ASV791, ASV792, ASV793, ASV794, ASV795, ASV796, ASV797, ASV798, ASV799, ASV800, ASV801, ASV802, ASV803, ASV804, ASV805, ASV806, ASV807, ASV808, ASV809, ASV810, ASV811, ASV812, ASV813, ASV814, ASV815, ASV816, ASV817, ASV818, ASV819, ASV820, ASV821, ASV822, ASV823, ASV824, ASV825, ASV826, ASV827, ASV828, ASV829, ASV830, ASV831, ASV832, ASV833, ASV835, ASV836, ASV837, ASV838, ASV839, ASV840, ASV841, ASV842, ASV843, ASV844, ASV845, ASV846, ASV847, ASV848, ASV849, ASV850, ASV851, ASV852, ASV853, ASV854, ASV855, ASV856, ASV857, ASV858, ASV859, ASV860, ASV861, ASV862, ASV863, ASV864, ASV865, ASV866, ASV867, ASV868, ASV869, ASV870, ASV871, ASV872, ASV873, ASV874, ASV875, ASV876, ASV877, ASV878, ASV879, ASV880, ASV881, ASV882, ASV883, ASV884, ASV885, ASV886, ASV887, ASV888, ASV889, ASV890, ASV891, ASV892, ASV893, ASV894, ASV895, ASV896, ASV897, ASV898, ASV899, ASV900, ASV901, ASV902, ASV903, ASV904, ASV905, ASV906, ASV907, ASV908, ASV909, ASV910, ASV911, ASV912, ASV913, ASV914, ASV915, ASV916, ASV917, ASV918, ASV922, ASV923, ASV924, ASV925, ASV926, ASV927, ASV928, ASV929, ASV930, ASV931, ASV932, ASV933, ASV934, ASV935, ASV936, ASV937, ASV938, ASV939, ASV940, ASV941, ASV942, ASV943, ASV944, ASV945, ASV946, ASV947, ASV948, ASV949, ASV950, ASV951, ASV952, ASV953, ASV954, ASV955, ASV956, ASV957, ASV959, ASV960, ASV961, ASV962, ASV963, ASV964, ASV965
+2023-12-21 03:12:20.250228 INFO::Total filtered features with variance filtering: 0
+2023-12-21 03:12:20.250855 INFO::Filtered feature names from variance filtering:
+2023-12-21 03:12:20.251211 INFO::Running selected normalization method: CLR
+2023-12-21 03:12:20.638207 INFO::Applying z-score to standardize continuous metadata
+2023-12-21 03:12:20.646385 INFO::Running selected transform method: NONE
+2023-12-21 03:12:20.647155 INFO::Running selected analysis method: LM
+2023-12-21 03:12:20.653401 INFO::Fitting model to feature number 1, ASV1
+2023-12-21 03:12:20.659454 INFO::Fitting model to feature number 2, ASV2
+2023-12-21 03:12:20.660995 INFO::Fitting model to feature number 3, ASV3
+2023-12-21 03:12:20.662347 INFO::Fitting model to feature number 4, ASV4
+2023-12-21 03:12:20.663727 INFO::Fitting model to feature number 5, ASV5
+2023-12-21 03:12:20.665326 INFO::Fitting model to feature number 6, ASV6
+2023-12-21 03:12:20.666765 INFO::Fitting model to feature number 7, ASV7
+2023-12-21 03:12:20.668429 INFO::Fitting model to feature number 8, ASV8
+2023-12-21 03:12:20.669868 INFO::Fitting model to feature number 9, ASV9
+2023-12-21 03:12:20.6711 INFO::Fitting model to feature number 10, ASV10
+2023-12-21 03:12:20.672545 INFO::Fitting model to feature number 11, ASV11
+2023-12-21 03:12:20.67433 INFO::Fitting model to feature number 12, ASV12
+2023-12-21 03:12:20.675938 INFO::Fitting model to feature number 13, ASV13
+2023-12-21 03:12:20.677202 INFO::Fitting model to feature number 14, ASV14
+2023-12-21 03:12:20.678414 INFO::Fitting model to feature number 15, ASV15
+2023-12-21 03:12:20.679691 INFO::Fitting model to feature number 16, ASV16
+2023-12-21 03:12:20.680914 INFO::Fitting model to feature number 17, ASV17
+2023-12-21 03:12:20.68216 INFO::Fitting model to feature number 18, ASV18
+2023-12-21 03:12:20.683617 INFO::Fitting model to feature number 19, ASV19
+2023-12-21 03:12:20.685254 INFO::Fitting model to feature number 20, ASV20
+2023-12-21 03:12:20.686749 INFO::Fitting model to feature number 21, ASV21
+2023-12-21 03:12:20.688268 INFO::Fitting model to feature number 22, ASV22
+2023-12-21 03:12:20.690135 INFO::Fitting model to feature number 23, ASV23
+2023-12-21 03:12:20.6918 INFO::Fitting model to feature number 24, ASV24
+2023-12-21 03:12:20.693274 INFO::Fitting model to feature number 25, ASV25
+2023-12-21 03:12:20.695419 INFO::Fitting model to feature number 26, ASV26
+2023-12-21 03:12:20.697145 INFO::Fitting model to feature number 27, ASV27
+2023-12-21 03:12:20.698491 INFO::Fitting model to feature number 28, ASV28
+2023-12-21 03:12:20.699937 INFO::Fitting model to feature number 29, ASV29
+2023-12-21 03:12:20.701249 INFO::Fitting model to feature number 30, ASV30
+2023-12-21 03:12:20.702635 INFO::Fitting model to feature number 31, ASV31
+2023-12-21 03:12:20.703927 INFO::Fitting model to feature number 32, ASV32
+2023-12-21 03:12:20.705194 INFO::Fitting model to feature number 33, ASV33
+2023-12-21 03:12:20.706788 INFO::Fitting model to feature number 34, ASV34
+2023-12-21 03:12:20.708228 INFO::Fitting model to feature number 35, ASV35
+2023-12-21 03:12:20.709977 INFO::Fitting model to feature number 36, ASV36
+2023-12-21 03:12:20.711699 INFO::Fitting model to feature number 37, ASV37
+2023-12-21 03:12:20.713033 INFO::Fitting model to feature number 38, ASV38
+2023-12-21 03:12:20.714525 INFO::Fitting model to feature number 39, ASV39
+2023-12-21 03:12:20.716589 INFO::Fitting model to feature number 40, ASV40
+2023-12-21 03:12:20.718626 INFO::Fitting model to feature number 41, ASV41
+2023-12-21 03:12:20.720045 INFO::Fitting model to feature number 42, ASV42
+2023-12-21 03:12:20.72144 INFO::Fitting model to feature number 43, ASV43
+2023-12-21 03:12:20.722834 INFO::Fitting model to feature number 44, ASV44
+2023-12-21 03:12:20.724119 INFO::Fitting model to feature number 45, ASV45
+2023-12-21 03:12:20.725453 INFO::Fitting model to feature number 46, ASV46
+2023-12-21 03:12:20.726742 INFO::Fitting model to feature number 47, ASV47
+2023-12-21 03:12:20.73967 INFO::Fitting model to feature number 48, ASV48
+2023-12-21 03:12:20.741365 INFO::Fitting model to feature number 49, ASV49
+2023-12-21 03:12:20.742885 INFO::Fitting model to feature number 50, ASV50
+2023-12-21 03:12:20.744769 INFO::Fitting model to feature number 51, ASV51
+2023-12-21 03:12:20.746325 INFO::Fitting model to feature number 52, ASV52
+2023-12-21 03:12:20.747627 INFO::Fitting model to feature number 53, ASV53
+2023-12-21 03:12:20.74892 INFO::Fitting model to feature number 54, ASV54
+2023-12-21 03:12:20.750199 INFO::Fitting model to feature number 55, ASV55
+2023-12-21 03:12:20.752514 INFO::Fitting model to feature number 56, ASV56
+2023-12-21 03:12:20.754397 INFO::Fitting model to feature number 57, ASV57
+2023-12-21 03:12:20.755934 INFO::Fitting model to feature number 58, ASV58
+2023-12-21 03:12:20.757941 INFO::Fitting model to feature number 59, ASV59
+2023-12-21 03:12:20.759767 INFO::Fitting model to feature number 60, ASV60
+2023-12-21 03:12:20.761183 INFO::Fitting model to feature number 61, ASV61
+2023-12-21 03:12:20.762485 INFO::Fitting model to feature number 62, ASV62
+2023-12-21 03:12:20.763751 INFO::Fitting model to feature number 63, ASV63
+2023-12-21 03:12:20.764952 INFO::Fitting model to feature number 64, ASV64
+2023-12-21 03:12:20.766386 INFO::Fitting model to feature number 65, ASV65
+2023-12-21 03:12:20.767888 INFO::Fitting model to feature number 66, ASV66
+2023-12-21 03:12:20.769252 INFO::Fitting model to feature number 67, ASV67
+2023-12-21 03:12:20.770711 INFO::Fitting model to feature number 68, ASV68
+2023-12-21 03:12:20.772368 INFO::Fitting model to feature number 69, ASV69
+2023-12-21 03:12:20.774214 INFO::Fitting model to feature number 70, ASV70
+2023-12-21 03:12:20.775755 INFO::Fitting model to feature number 71, ASV71
+2023-12-21 03:12:20.777167 INFO::Fitting model to feature number 72, ASV72
+2023-12-21 03:12:20.779157 INFO::Fitting model to feature number 73, ASV73
+2023-12-21 03:12:20.780536 INFO::Fitting model to feature number 74, ASV74
+2023-12-21 03:12:20.781937 INFO::Fitting model to feature number 75, ASV75
+2023-12-21 03:12:20.783331 INFO::Fitting model to feature number 76, ASV76
+2023-12-21 03:12:20.784643 INFO::Fitting model to feature number 77, ASV77
+2023-12-21 03:12:20.785901 INFO::Fitting model to feature number 78, ASV78
+2023-12-21 03:12:20.787149 INFO::Fitting model to feature number 79, ASV79
+2023-12-21 03:12:20.788544 INFO::Fitting model to feature number 80, ASV80
+2023-12-21 03:12:20.790191 INFO::Fitting model to feature number 81, ASV81
+2023-12-21 03:12:20.79181 INFO::Fitting model to feature number 82, ASV82
+2023-12-21 03:12:20.793706 INFO::Fitting model to feature number 83, ASV83
+2023-12-21 03:12:20.79512 INFO::Fitting model to feature number 84, ASV85
+2023-12-21 03:12:20.796363 INFO::Fitting model to feature number 85, ASV86
+2023-12-21 03:12:20.798013 INFO::Fitting model to feature number 86, ASV87
+2023-12-21 03:12:20.800064 INFO::Fitting model to feature number 87, ASV88
+2023-12-21 03:12:20.801412 INFO::Fitting model to feature number 88, ASV89
+2023-12-21 03:12:20.802666 INFO::Fitting model to feature number 89, ASV90
+2023-12-21 03:12:20.804137 INFO::Fitting model to feature number 90, ASV91
+2023-12-21 03:12:20.805517 INFO::Fitting model to feature number 91, ASV92
+2023-12-21 03:12:20.806763 INFO::Fitting model to feature number 92, ASV93
+2023-12-21 03:12:20.808005 INFO::Fitting model to feature number 93, ASV94
+2023-12-21 03:12:20.809269 INFO::Fitting model to feature number 94, ASV95
+2023-12-21 03:12:20.810889 INFO::Fitting model to feature number 95, ASV96
+2023-12-21 03:12:20.812919 INFO::Fitting model to feature number 96, ASV97
+2023-12-21 03:12:20.814405 INFO::Fitting model to feature number 97, ASV98
+2023-12-21 03:12:20.815661 INFO::Fitting model to feature number 98, ASV99
+2023-12-21 03:12:20.816863 INFO::Fitting model to feature number 99, ASV100
+2023-12-21 03:12:20.818342 INFO::Fitting model to feature number 100, ASV101
+2023-12-21 03:12:20.820282 INFO::Fitting model to feature number 101, ASV102
+2023-12-21 03:12:20.821685 INFO::Fitting model to feature number 102, ASV103
+2023-12-21 03:12:20.822882 INFO::Fitting model to feature number 103, ASV104
+2023-12-21 03:12:20.824066 INFO::Fitting model to feature number 104, ASV105
+2023-12-21 03:12:20.825408 INFO::Fitting model to feature number 105, ASV106
+2023-12-21 03:12:20.82707 INFO::Fitting model to feature number 106, ASV107
+2023-12-21 03:12:20.828416 INFO::Fitting model to feature number 107, ASV108
+2023-12-21 03:12:20.829879 INFO::Fitting model to feature number 108, ASV109
+2023-12-21 03:12:20.831358 INFO::Fitting model to feature number 109, ASV110
+2023-12-21 03:12:20.833103 INFO::Fitting model to feature number 110, ASV111
+2023-12-21 03:12:20.834685 INFO::Fitting model to feature number 111, ASV112
+2023-12-21 03:12:20.836003 INFO::Fitting model to feature number 112, ASV113
+2023-12-21 03:12:20.837274 INFO::Fitting model to feature number 113, ASV114
+2023-12-21 03:12:20.838536 INFO::Fitting model to feature number 114, ASV115
+2023-12-21 03:12:20.839791 INFO::Fitting model to feature number 115, ASV116
+2023-12-21 03:12:20.841751 INFO::Fitting model to feature number 116, ASV117
+2023-12-21 03:12:20.843142 INFO::Fitting model to feature number 117, ASV118
+2023-12-21 03:12:20.844373 INFO::Fitting model to feature number 118, ASV119
+2023-12-21 03:12:20.845619 INFO::Fitting model to feature number 119, ASV120
+2023-12-21 03:12:20.846818 INFO::Fitting model to feature number 120, ASV121
+2023-12-21 03:12:20.848183 INFO::Fitting model to feature number 121, ASV122
+2023-12-21 03:12:20.849766 INFO::Fitting model to feature number 122, ASV123
+2023-12-21 03:12:20.851108 INFO::Fitting model to feature number 123, ASV124
+2023-12-21 03:12:20.852524 INFO::Fitting model to feature number 124, ASV125
+2023-12-21 03:12:20.854042 INFO::Fitting model to feature number 125, ASV126
+2023-12-21 03:12:20.855867 INFO::Fitting model to feature number 126, ASV127
+2023-12-21 03:12:20.857185 INFO::Fitting model to feature number 127, ASV128
+2023-12-21 03:12:20.858404 INFO::Fitting model to feature number 128, ASV129
+2023-12-21 03:12:20.859818 INFO::Fitting model to feature number 129, ASV130
+2023-12-21 03:12:20.861521 INFO::Fitting model to feature number 130, ASV131
+2023-12-21 03:12:20.863007 INFO::Fitting model to feature number 131, ASV132
+2023-12-21 03:12:20.864255 INFO::Fitting model to feature number 132, ASV133
+2023-12-21 03:12:20.865421 INFO::Fitting model to feature number 133, ASV135
+2023-12-21 03:12:20.866716 INFO::Fitting model to feature number 134, ASV136
+2023-12-21 03:12:20.867989 INFO::Fitting model to feature number 135, ASV137
+2023-12-21 03:12:20.869386 INFO::Fitting model to feature number 136, ASV139
+2023-12-21 03:12:20.871036 INFO::Fitting model to feature number 137, ASV140
+2023-12-21 03:12:20.872427 INFO::Fitting model to feature number 138, ASV141
+2023-12-21 03:12:20.873767 INFO::Fitting model to feature number 139, ASV142
+2023-12-21 03:12:20.875519 INFO::Fitting model to feature number 140, ASV143
+2023-12-21 03:12:20.877104 INFO::Fitting model to feature number 141, ASV144
+2023-12-21 03:12:20.878456 INFO::Fitting model to feature number 142, ASV145
+2023-12-21 03:12:20.879905 INFO::Fitting model to feature number 143, ASV146
+2023-12-21 03:12:20.881305 INFO::Fitting model to feature number 144, ASV147
+2023-12-21 03:12:20.882967 INFO::Fitting model to feature number 145, ASV148
+2023-12-21 03:12:20.884441 INFO::Fitting model to feature number 146, ASV149
+2023-12-21 03:12:20.885836 INFO::Fitting model to feature number 147, ASV150
+2023-12-21 03:12:20.887213 INFO::Fitting model to feature number 148, ASV151
+2023-12-21 03:12:20.888464 INFO::Fitting model to feature number 149, ASV152
+2023-12-21 03:12:20.889681 INFO::Fitting model to feature number 150, ASV153
+2023-12-21 03:12:20.890988 INFO::Fitting model to feature number 151, ASV154
+2023-12-21 03:12:20.892494 INFO::Fitting model to feature number 152, ASV155
+2023-12-21 03:12:20.894082 INFO::Fitting model to feature number 153, ASV156
+2023-12-21 03:12:20.895638 INFO::Fitting model to feature number 154, ASV157
+2023-12-21 03:12:20.897304 INFO::Fitting model to feature number 155, ASV158
+2023-12-21 03:12:20.89934 INFO::Fitting model to feature number 156, ASV159
+2023-12-21 03:12:20.901825 INFO::Fitting model to feature number 157, ASV160
+2023-12-21 03:12:20.90428 INFO::Fitting model to feature number 158, ASV161
+2023-12-21 03:12:20.905944 INFO::Fitting model to feature number 159, ASV162
+2023-12-21 03:12:20.907531 INFO::Fitting model to feature number 160, ASV163
+2023-12-21 03:12:20.910599 INFO::Fitting model to feature number 161, ASV164
+2023-12-21 03:12:20.912429 INFO::Fitting model to feature number 162, ASV165
+2023-12-21 03:12:20.913939 INFO::Fitting model to feature number 163, ASV166
+2023-12-21 03:12:20.917176 INFO::Fitting model to feature number 164, ASV167
+2023-12-21 03:12:20.91862 INFO::Fitting model to feature number 165, ASV168
+2023-12-21 03:12:20.919929 INFO::Fitting model to feature number 166, ASV169
+2023-12-21 03:12:20.921171 INFO::Fitting model to feature number 167, ASV170
+2023-12-21 03:12:20.922434 INFO::Fitting model to feature number 168, ASV171
+2023-12-21 03:12:20.923827 INFO::Fitting model to feature number 169, ASV172
+2023-12-21 03:12:20.92539 INFO::Fitting model to feature number 170, ASV173
+2023-12-21 03:12:20.927193 INFO::Fitting model to feature number 171, ASV174
+2023-12-21 03:12:20.929281 INFO::Fitting model to feature number 172, ASV175
+2023-12-21 03:12:20.931785 INFO::Fitting model to feature number 173, ASV176
+2023-12-21 03:12:20.936339 INFO::Fitting model to feature number 174, ASV177
+2023-12-21 03:12:20.937886 INFO::Fitting model to feature number 175, ASV178
+2023-12-21 03:12:20.939568 INFO::Fitting model to feature number 176, ASV179
+2023-12-21 03:12:20.941085 INFO::Fitting model to feature number 177, ASV180
+2023-12-21 03:12:20.942391 INFO::Fitting model to feature number 178, ASV181
+2023-12-21 03:12:20.943652 INFO::Fitting model to feature number 179, ASV182
+2023-12-21 03:12:20.944947 INFO::Fitting model to feature number 180, ASV183
+2023-12-21 03:12:20.946363 INFO::Fitting model to feature number 181, ASV184
+2023-12-21 03:12:20.955827 INFO::Fitting model to feature number 182, ASV185
+2023-12-21 03:12:20.957565 INFO::Fitting model to feature number 183, ASV186
+2023-12-21 03:12:20.959282 INFO::Fitting model to feature number 184, ASV187
+2023-12-21 03:12:20.961553 INFO::Fitting model to feature number 185, ASV188
+2023-12-21 03:12:20.963166 INFO::Fitting model to feature number 186, ASV189
+2023-12-21 03:12:20.964424 INFO::Fitting model to feature number 187, ASV190
+2023-12-21 03:12:20.966607 INFO::Fitting model to feature number 188, ASV191
+2023-12-21 03:12:20.96799 INFO::Fitting model to feature number 189, ASV192
+2023-12-21 03:12:20.969164 INFO::Fitting model to feature number 190, ASV193
+2023-12-21 03:12:20.97043 INFO::Fitting model to feature number 191, ASV195
+2023-12-21 03:12:20.971914 INFO::Fitting model to feature number 192, ASV196
+2023-12-21 03:12:20.973218 INFO::Fitting model to feature number 193, ASV197
+2023-12-21 03:12:20.974524 INFO::Fitting model to feature number 194, ASV199
+2023-12-21 03:12:20.975827 INFO::Fitting model to feature number 195, ASV200
+2023-12-21 03:12:20.977182 INFO::Fitting model to feature number 196, ASV201
+2023-12-21 03:12:20.978646 INFO::Fitting model to feature number 197, ASV202
+2023-12-21 03:12:20.980652 INFO::Fitting model to feature number 198, ASV203
+2023-12-21 03:12:20.982081 INFO::Fitting model to feature number 199, ASV204
+2023-12-21 03:12:20.983318 INFO::Fitting model to feature number 200, ASV206
+2023-12-21 03:12:20.984614 INFO::Fitting model to feature number 201, ASV207
+2023-12-21 03:12:20.985821 INFO::Fitting model to feature number 202, ASV208
+2023-12-21 03:12:20.987034 INFO::Fitting model to feature number 203, ASV209
+2023-12-21 03:12:20.988275 INFO::Fitting model to feature number 204, ASV210
+2023-12-21 03:12:20.989525 INFO::Fitting model to feature number 205, ASV211
+2023-12-21 03:12:20.991155 INFO::Fitting model to feature number 206, ASV212
+2023-12-21 03:12:20.992616 INFO::Fitting model to feature number 207, ASV213
+2023-12-21 03:12:20.99452 INFO::Fitting model to feature number 208, ASV214
+2023-12-21 03:12:20.996078 INFO::Fitting model to feature number 209, ASV215
+2023-12-21 03:12:20.997582 INFO::Fitting model to feature number 210, ASV216
+2023-12-21 03:12:20.99969 INFO::Fitting model to feature number 211, ASV218
+2023-12-21 03:12:21.00163 INFO::Fitting model to feature number 212, ASV219
+2023-12-21 03:12:21.002934 INFO::Fitting model to feature number 213, ASV220
+2023-12-21 03:12:21.004119 INFO::Fitting model to feature number 214, ASV221
+2023-12-21 03:12:21.005439 INFO::Fitting model to feature number 215, ASV222
+2023-12-21 03:12:21.007026 INFO::Fitting model to feature number 216, ASV223
+2023-12-21 03:12:21.008321 INFO::Fitting model to feature number 217, ASV224
+2023-12-21 03:12:21.009534 INFO::Fitting model to feature number 218, ASV225
+2023-12-21 03:12:21.010792 INFO::Fitting model to feature number 219, ASV226
+2023-12-21 03:12:21.012227 INFO::Fitting model to feature number 220, ASV228
+2023-12-21 03:12:21.013776 INFO::Fitting model to feature number 221, ASV229
+2023-12-21 03:12:21.015565 INFO::Fitting model to feature number 222, ASV230
+2023-12-21 03:12:21.017069 INFO::Fitting model to feature number 223, ASV231
+2023-12-21 03:12:21.018335 INFO::Fitting model to feature number 224, ASV232
+2023-12-21 03:12:21.019675 INFO::Fitting model to feature number 225, ASV233
+2023-12-21 03:12:21.021869 INFO::Fitting model to feature number 226, ASV234
+2023-12-21 03:12:21.023281 INFO::Fitting model to feature number 227, ASV235
+2023-12-21 03:12:21.024463 INFO::Fitting model to feature number 228, ASV236
+2023-12-21 03:12:21.025642 INFO::Fitting model to feature number 229, ASV238
+2023-12-21 03:12:21.026824 INFO::Fitting model to feature number 230, ASV239
+2023-12-21 03:12:21.028227 INFO::Fitting model to feature number 231, ASV240
+2023-12-21 03:12:21.029627 INFO::Fitting model to feature number 232, ASV241
+2023-12-21 03:12:21.030859 INFO::Fitting model to feature number 233, ASV242
+2023-12-21 03:12:21.03226 INFO::Fitting model to feature number 234, ASV243
+2023-12-21 03:12:21.033665 INFO::Fitting model to feature number 235, ASV244
+2023-12-21 03:12:21.035404 INFO::Fitting model to feature number 236, ASV245
+2023-12-21 03:12:21.03686 INFO::Fitting model to feature number 237, ASV246
+2023-12-21 03:12:21.038097 INFO::Fitting model to feature number 238, ASV247
+2023-12-21 03:12:21.039281 INFO::Fitting model to feature number 239, ASV250
+2023-12-21 03:12:21.040807 INFO::Fitting model to feature number 240, ASV251
+2023-12-21 03:12:21.042581 INFO::Fitting model to feature number 241, ASV252
+2023-12-21 03:12:21.043911 INFO::Fitting model to feature number 242, ASV253
+2023-12-21 03:12:21.045083 INFO::Fitting model to feature number 243, ASV254
+2023-12-21 03:12:21.046225 INFO::Fitting model to feature number 244, ASV255
+2023-12-21 03:12:21.047563 INFO::Fitting model to feature number 245, ASV256
+2023-12-21 03:12:21.048902 INFO::Fitting model to feature number 246, ASV257
+2023-12-21 03:12:21.050152 INFO::Fitting model to feature number 247, ASV258
+2023-12-21 03:12:21.051486 INFO::Fitting model to feature number 248, ASV259
+2023-12-21 03:12:21.052936 INFO::Fitting model to feature number 249, ASV260
+2023-12-21 03:12:21.054271 INFO::Fitting model to feature number 250, ASV261
+2023-12-21 03:12:21.05586 INFO::Fitting model to feature number 251, ASV262
+2023-12-21 03:12:21.057374 INFO::Fitting model to feature number 252, ASV263
+2023-12-21 03:12:21.059266 INFO::Fitting model to feature number 253, ASV264
+2023-12-21 03:12:21.060908 INFO::Fitting model to feature number 254, ASV265
+2023-12-21 03:12:21.062737 INFO::Fitting model to feature number 255, ASV266
+2023-12-21 03:12:21.064293 INFO::Fitting model to feature number 256, ASV267
+2023-12-21 03:12:21.06562 INFO::Fitting model to feature number 257, ASV268
+2023-12-21 03:12:21.066978 INFO::Fitting model to feature number 258, ASV269
+2023-12-21 03:12:21.068273 INFO::Fitting model to feature number 259, ASV270
+2023-12-21 03:12:21.069809 INFO::Fitting model to feature number 260, ASV271
+2023-12-21 03:12:21.071663 INFO::Fitting model to feature number 261, ASV274
+2023-12-21 03:12:21.073162 INFO::Fitting model to feature number 262, ASV275
+2023-12-21 03:12:21.074851 INFO::Fitting model to feature number 263, ASV276
+2023-12-21 03:12:21.076475 INFO::Fitting model to feature number 264, ASV277
+2023-12-21 03:12:21.078166 INFO::Fitting model to feature number 265, ASV278
+2023-12-21 03:12:21.079527 INFO::Fitting model to feature number 266, ASV279
+2023-12-21 03:12:21.080829 INFO::Fitting model to feature number 267, ASV280
+2023-12-21 03:12:21.082477 INFO::Fitting model to feature number 268, ASV281
+2023-12-21 03:12:21.084294 INFO::Fitting model to feature number 269, ASV282
+2023-12-21 03:12:21.085646 INFO::Fitting model to feature number 270, ASV283
+2023-12-21 03:12:21.086919 INFO::Fitting model to feature number 271, ASV284
+2023-12-21 03:12:21.088335 INFO::Fitting model to feature number 272, ASV285
+2023-12-21 03:12:21.089688 INFO::Fitting model to feature number 273, ASV286
+2023-12-21 03:12:21.090894 INFO::Fitting model to feature number 274, ASV287
+2023-12-21 03:12:21.092089 INFO::Fitting model to feature number 275, ASV288
+2023-12-21 03:12:21.093382 INFO::Fitting model to feature number 276, ASV289
+2023-12-21 03:12:21.094892 INFO::Fitting model to feature number 277, ASV290
+2023-12-21 03:12:21.096474 INFO::Fitting model to feature number 278, ASV291
+2023-12-21 03:12:21.098126 INFO::Fitting model to feature number 279, ASV292
+2023-12-21 03:12:21.099352 INFO::Fitting model to feature number 280, ASV293
+2023-12-21 03:12:21.10066 INFO::Fitting model to feature number 281, ASV294
+2023-12-21 03:12:21.101968 INFO::Fitting model to feature number 282, ASV295
+2023-12-21 03:12:21.103166 INFO::Fitting model to feature number 283, ASV296
+2023-12-21 03:12:21.104732 INFO::Fitting model to feature number 284, ASV298
+2023-12-21 03:12:21.106154 INFO::Fitting model to feature number 285, ASV299
+2023-12-21 03:12:21.107431 INFO::Fitting model to feature number 286, ASV300
+2023-12-21 03:12:21.108635 INFO::Fitting model to feature number 287, ASV301
+2023-12-21 03:12:21.109851 INFO::Fitting model to feature number 288, ASV302
+2023-12-21 03:12:21.111264 INFO::Fitting model to feature number 289, ASV303
+2023-12-21 03:12:21.112854 INFO::Fitting model to feature number 290, ASV304
+2023-12-21 03:12:21.114316 INFO::Fitting model to feature number 291, ASV305
+2023-12-21 03:12:21.115628 INFO::Fitting model to feature number 292, ASV306
+2023-12-21 03:12:21.116932 INFO::Fitting model to feature number 293, ASV307
+2023-12-21 03:12:21.118239 INFO::Fitting model to feature number 294, ASV308
+2023-12-21 03:12:21.11992 INFO::Fitting model to feature number 295, ASV309
+2023-12-21 03:12:21.121399 INFO::Fitting model to feature number 296, ASV310
+2023-12-21 03:12:21.122619 INFO::Fitting model to feature number 297, ASV311
+2023-12-21 03:12:21.123886 INFO::Fitting model to feature number 298, ASV312
+2023-12-21 03:12:21.128337 INFO::Fitting model to feature number 299, ASV314
+2023-12-21 03:12:21.131052 INFO::Fitting model to feature number 300, ASV315
+2023-12-21 03:12:21.133365 INFO::Fitting model to feature number 301, ASV318
+2023-12-21 03:12:21.135674 INFO::Fitting model to feature number 302, ASV320
+2023-12-21 03:12:21.137203 INFO::Fitting model to feature number 303, ASV321
+2023-12-21 03:12:21.138856 INFO::Fitting model to feature number 304, ASV322
+2023-12-21 03:12:21.140415 INFO::Fitting model to feature number 305, ASV323
+2023-12-21 03:12:21.142455 INFO::Fitting model to feature number 306, ASV324
+2023-12-21 03:12:21.144071 INFO::Fitting model to feature number 307, ASV325
+2023-12-21 03:12:21.145471 INFO::Fitting model to feature number 308, ASV326
+2023-12-21 03:12:21.146912 INFO::Fitting model to feature number 309, ASV327
+2023-12-21 03:12:21.148771 INFO::Fitting model to feature number 310, ASV328
+2023-12-21 03:12:21.150356 INFO::Fitting model to feature number 311, ASV329
+2023-12-21 03:12:21.153391 INFO::Fitting model to feature number 312, ASV331
+2023-12-21 03:12:21.155709 INFO::Fitting model to feature number 313, ASV333
+2023-12-21 03:12:21.157683 INFO::Fitting model to feature number 314, ASV334
+2023-12-21 03:12:21.159277 INFO::Fitting model to feature number 315, ASV335
+2023-12-21 03:12:21.169658 INFO::Fitting model to feature number 316, ASV336
+2023-12-21 03:12:21.171408 INFO::Fitting model to feature number 317, ASV337
+2023-12-21 03:12:21.173109 INFO::Fitting model to feature number 318, ASV338
+2023-12-21 03:12:21.174833 INFO::Fitting model to feature number 319, ASV340
+2023-12-21 03:12:21.17682 INFO::Fitting model to feature number 320, ASV341
+2023-12-21 03:12:21.178337 INFO::Fitting model to feature number 321, ASV342
+2023-12-21 03:12:21.179789 INFO::Fitting model to feature number 322, ASV343
+2023-12-21 03:12:21.181572 INFO::Fitting model to feature number 323, ASV344
+2023-12-21 03:12:21.183035 INFO::Fitting model to feature number 324, ASV345
+2023-12-21 03:12:21.184243 INFO::Fitting model to feature number 325, ASV346
+2023-12-21 03:12:21.185635 INFO::Fitting model to feature number 326, ASV348
+2023-12-21 03:12:21.186978 INFO::Fitting model to feature number 327, ASV349
+2023-12-21 03:12:21.188182 INFO::Fitting model to feature number 328, ASV350
+2023-12-21 03:12:21.189385 INFO::Fitting model to feature number 329, ASV351
+2023-12-21 03:12:21.190592 INFO::Fitting model to feature number 330, ASV352
+2023-12-21 03:12:21.191926 INFO::Fitting model to feature number 331, ASV353
+2023-12-21 03:12:21.193541 INFO::Fitting model to feature number 332, ASV354
+2023-12-21 03:12:21.195208 INFO::Fitting model to feature number 333, ASV356
+2023-12-21 03:12:21.196951 INFO::Fitting model to feature number 334, ASV360
+2023-12-21 03:12:21.198224 INFO::Fitting model to feature number 335, ASV361
+2023-12-21 03:12:21.199561 INFO::Fitting model to feature number 336, ASV363
+2023-12-21 03:12:21.201312 INFO::Fitting model to feature number 337, ASV364
+2023-12-21 03:12:21.203305 INFO::Fitting model to feature number 338, ASV365
+2023-12-21 03:12:21.204684 INFO::Fitting model to feature number 339, ASV366
+2023-12-21 03:12:21.205915 INFO::Fitting model to feature number 340, ASV367
+2023-12-21 03:12:21.207363 INFO::Fitting model to feature number 341, ASV368
+2023-12-21 03:12:21.208701 INFO::Fitting model to feature number 342, ASV369
+2023-12-21 03:12:21.21012 INFO::Fitting model to feature number 343, ASV370
+2023-12-21 03:12:21.211355 INFO::Fitting model to feature number 344, ASV371
+2023-12-21 03:12:21.212621 INFO::Fitting model to feature number 345, ASV372
+2023-12-21 03:12:21.214171 INFO::Fitting model to feature number 346, ASV373
+2023-12-21 03:12:21.215716 INFO::Fitting model to feature number 347, ASV375
+2023-12-21 03:12:21.217511 INFO::Fitting model to feature number 348, ASV376
+2023-12-21 03:12:21.218777 INFO::Fitting model to feature number 349, ASV377
+2023-12-21 03:12:21.219966 INFO::Fitting model to feature number 350, ASV378
+2023-12-21 03:12:21.221376 INFO::Fitting model to feature number 351, ASV379
+2023-12-21 03:12:21.223383 INFO::Fitting model to feature number 352, ASV381
+2023-12-21 03:12:21.224901 INFO::Fitting model to feature number 353, ASV382
+2023-12-21 03:12:21.226149 INFO::Fitting model to feature number 354, ASV383
+2023-12-21 03:12:21.227393 INFO::Fitting model to feature number 355, ASV385
+2023-12-21 03:12:21.228701 INFO::Fitting model to feature number 356, ASV388
+2023-12-21 03:12:21.229879 INFO::Fitting model to feature number 357, ASV389
+2023-12-21 03:12:21.231162 INFO::Fitting model to feature number 358, ASV392
+2023-12-21 03:12:21.232521 INFO::Fitting model to feature number 359, ASV393
+2023-12-21 03:12:21.2339 INFO::Fitting model to feature number 360, ASV394
+2023-12-21 03:12:21.235519 INFO::Fitting model to feature number 361, ASV395
+2023-12-21 03:12:21.237168 INFO::Fitting model to feature number 362, ASV397
+2023-12-21 03:12:21.238512 INFO::Fitting model to feature number 363, ASV399
+2023-12-21 03:12:21.239709 INFO::Fitting model to feature number 364, ASV400
+2023-12-21 03:12:21.240889 INFO::Fitting model to feature number 365, ASV402
+2023-12-21 03:12:21.242452 INFO::Fitting model to feature number 366, ASV405
+2023-12-21 03:12:21.24423 INFO::Fitting model to feature number 367, ASV409
+2023-12-21 03:12:21.245579 INFO::Fitting model to feature number 368, ASV410
+2023-12-21 03:12:21.246823 INFO::Fitting model to feature number 369, ASV411
+2023-12-21 03:12:21.248082 INFO::Fitting model to feature number 370, ASV412
+2023-12-21 03:12:21.249455 INFO::Fitting model to feature number 371, ASV413
+2023-12-21 03:12:21.250673 INFO::Fitting model to feature number 372, ASV416
+2023-12-21 03:12:21.251882 INFO::Fitting model to feature number 373, ASV418
+2023-12-21 03:12:21.253206 INFO::Fitting model to feature number 374, ASV420
+2023-12-21 03:12:21.25477 INFO::Fitting model to feature number 375, ASV421
+2023-12-21 03:12:21.256284 INFO::Fitting model to feature number 376, ASV423
+2023-12-21 03:12:21.257953 INFO::Fitting model to feature number 377, ASV424
+2023-12-21 03:12:21.259423 INFO::Fitting model to feature number 378, ASV425
+2023-12-21 03:12:21.260778 INFO::Fitting model to feature number 379, ASV426
+2023-12-21 03:12:21.262063 INFO::Fitting model to feature number 380, ASV430
+2023-12-21 03:12:21.263634 INFO::Fitting model to feature number 381, ASV431
+2023-12-21 03:12:21.265413 INFO::Fitting model to feature number 382, ASV435
+2023-12-21 03:12:21.266706 INFO::Fitting model to feature number 383, ASV438
+2023-12-21 03:12:21.267925 INFO::Fitting model to feature number 384, ASV439
+2023-12-21 03:12:21.26944 INFO::Fitting model to feature number 385, ASV443
+2023-12-21 03:12:21.270806 INFO::Fitting model to feature number 386, ASV451
+2023-12-21 03:12:21.272023 INFO::Fitting model to feature number 387, ASV454
+2023-12-21 03:12:21.273239 INFO::Fitting model to feature number 388, ASV455
+2023-12-21 03:12:21.274409 INFO::Fitting model to feature number 389, ASV458
+2023-12-21 03:12:21.27605 INFO::Fitting model to feature number 390, ASV470
+2023-12-21 03:12:21.277806 INFO::Fitting model to feature number 391, ASV474
+2023-12-21 03:12:21.279613 INFO::Fitting model to feature number 392, ASV475
+2023-12-21 03:12:21.280967 INFO::Fitting model to feature number 393, ASV478
+2023-12-21 03:12:21.282149 INFO::Fitting model to feature number 394, ASV481
+2023-12-21 03:12:21.283508 INFO::Fitting model to feature number 395, ASV482
+2023-12-21 03:12:21.285623 INFO::Fitting model to feature number 396, ASV483
+2023-12-21 03:12:21.287141 INFO::Fitting model to feature number 397, ASV486
+2023-12-21 03:12:21.288342 INFO::Fitting model to feature number 398, ASV487
+2023-12-21 03:12:21.28952 INFO::Fitting model to feature number 399, ASV495
+2023-12-21 03:12:21.290955 INFO::Fitting model to feature number 400, ASV508
+2023-12-21 03:12:21.292309 INFO::Fitting model to feature number 401, ASV512
+2023-12-21 03:12:21.293505 INFO::Fitting model to feature number 402, ASV518
+2023-12-21 03:12:21.294676 INFO::Fitting model to feature number 403, ASV529
+2023-12-21 03:12:21.295889 INFO::Fitting model to feature number 404, ASV534
+2023-12-21 03:12:21.297385 INFO::Fitting model to feature number 405, ASV535
+2023-12-21 03:12:21.299365 INFO::Fitting model to feature number 406, ASV552
+2023-12-21 03:12:21.300984 INFO::Fitting model to feature number 407, ASV566
+2023-12-21 03:12:21.302211 INFO::Fitting model to feature number 408, ASV594
+2023-12-21 03:12:21.303405 INFO::Fitting model to feature number 409, ASV639
+2023-12-21 03:12:21.304754 INFO::Fitting model to feature number 410, ASV650
+2023-12-21 03:12:21.309538 INFO::Fitting model to feature number 411, ASV657
+2023-12-21 03:12:21.311547 INFO::Fitting model to feature number 412, ASV692
+2023-12-21 03:12:21.313228 INFO::Fitting model to feature number 413, ASV694
+2023-12-21 03:12:21.366251 INFO::Counting total values for each feature
+2023-12-21 03:12:21.390443 INFO::Writing filtered data to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/features/filtered_data.tsv
+2023-12-21 03:12:21.39525 INFO::Writing filtered, normalized data to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/features/filtered_data_norm.tsv
+2023-12-21 03:12:21.407687 INFO::Writing filtered, normalized, transformed data to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/features/filtered_data_norm_transformed.tsv
+2023-12-21 03:12:21.420218 INFO::Writing residuals to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/fits/residuals.rds
+2023-12-21 03:12:21.426345 INFO::Writing fitted values to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/fits/fitted.rds
+2023-12-21 03:12:21.4291 INFO::Writing extracted random effects to file outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/fits/ranef.rds
+2023-12-21 03:12:21.429614 INFO::Writing all results to file (ordered by increasing q-values): outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/all_results.tsv
+2023-12-21 03:12:21.435582 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/significant_results.tsv
+2023-12-21 03:12:21.436407 INFO::Writing heatmap of significant results to file: outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model/heatmap.pdf
+2023-12-21 03:12:21.438051 INFO::Writing association plots (one for each significant association) to output folder: outputs/differential_abundance_analysis_16S/lmm_maaslin2/ASVs/complete_model
+2023-12-21 03:12:21.440914 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-12-21 03:12:21.441437 INFO::Plotting data for metadata number 1, genotype
+2023-12-21 03:12:21.44217 INFO::Creating boxplot for categorical data, genotype vs ASV32
+2023-12-21 03:12:21.512198 INFO::Creating boxplot for categorical data, genotype vs ASV93
+2023-12-21 03:12:21.582443 INFO::Creating boxplot for categorical data, genotype vs ASV87
+2023-12-21 03:12:21.641457 INFO::Creating boxplot for categorical data, genotype vs ASV352
+2023-12-21 03:12:21.711572 INFO::Creating boxplot for categorical data, genotype vs ASV65
+2023-12-21 03:12:21.771775 INFO::Creating boxplot for categorical data, genotype vs ASV139
+2023-12-21 03:12:21.83258 INFO::Creating boxplot for categorical data, genotype vs ASV239
+2023-12-21 03:12:21.905823 INFO::Creating boxplot for categorical data, genotype vs ASV411
+2023-12-21 03:12:21.971867 INFO::Creating boxplot for categorical data, genotype vs ASV169
+2023-12-21 03:12:22.084871 INFO::Creating boxplot for categorical data, genotype vs ASV368
+2023-12-21 03:12:22.146883 INFO::Creating boxplot for categorical data, genotype vs ASV188
+2023-12-21 03:12:22.215677 INFO::Creating boxplot for categorical data, genotype vs ASV179
+2023-12-21 03:12:22.290312 INFO::Creating boxplot for categorical data, genotype vs ASV38
+2023-12-21 03:12:22.353622 INFO::Creating boxplot for categorical data, genotype vs ASV91
+2023-12-21 03:12:22.428609 INFO::Creating boxplot for categorical data, genotype vs ASV171
+2023-12-21 03:12:22.489621 INFO::Creating boxplot for categorical data, genotype vs ASV121
+2023-12-21 03:12:22.551656 INFO::Creating boxplot for categorical data, genotype vs ASV108
+2023-12-21 03:12:22.623197 INFO::Creating boxplot for categorical data, genotype vs ASV78
+2023-12-21 03:12:22.684438 INFO::Creating boxplot for categorical data, genotype vs ASV152
+2023-12-21 03:12:22.745118 INFO::Creating boxplot for categorical data, genotype vs ASV326
+2023-12-21 03:12:22.817419 INFO::Creating boxplot for categorical data, genotype vs ASV6
+2023-12-21 03:12:22.878824 INFO::Creating boxplot for categorical data, genotype vs ASV35
+2023-12-21 03:12:22.9494 INFO::Creating boxplot for categorical data, genotype vs ASV207
