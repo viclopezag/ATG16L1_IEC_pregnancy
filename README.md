@@ -3,11 +3,11 @@ Gut microbiota during pregnancy and lactation in mice.
 
 R-based codes for reproduce: 
 
-**Intestinal epithelial Atg16l1 influences pregnancy-induced fecal microbiota shifts in mice**
+**Defective Atg16l1 in intestinal epithelial cells links to altered fecal microbiota and metabolic shifts during pregnancy in mice**
 
-Víctor A. López-Agudelo§, Maren Falk-Paulsen, Ateequr Rehman, Richa Bharti, Felix Sommer, Eike Matthias Wacker, David Ellinghaus, Anne Luzius, Laura Sievers, Arthur Kaser, Philip Rosenstiel**
+Víctor A. López-Agudelo, Maren Falk-Paulsen, Richa Bharti, Ateequr Rehman, Felix Sommer, Eike Matthias Wackera, David Ellinghaus, Anne Luzius, Laura Katharina Sievers, Manuel Liebeke, Arthur Kaser, and Philip Rosenstiel**
 
-https://doi.org/10.1101/2023.12.10.570427 
+https://doi.org/10.1080/19490976.2024.2429267
 
 ** Lead Contact Philip Rosenstiel, p.rosenstiel@mucosa.de
 
